@@ -1,0 +1,440 @@
+transaction_id,customer_id,product_id,quantity,transaction_date,payment_method,name,email,registration_date,country,age,product_name,category,price,stock,total_amount,discount,final_amount,transaction_month,transaction_day_of_week,customer_age_at_purchase,customer_segment,age_group,is_weekend
+T001,C178,P002,1.0,2024-01-01,Credit Card,Michael Wilson,isabella.taylor177@email.com,2024-11-20,United Kingdom,50,Science Book,Books,34.88,500,34.88,0.0,34.88,January,Monday,50,Medium,46-60,False
+T003,C124,P011,1.0,2024-01-02,Credit Card,Ava Rodriguez,sophia.rodriguez123@email.com,2024-08-13,Canada,50,Smartphone,Electronics,273.17,100,273.17,0.0,273.17,January,Tuesday,50,Low,46-60,False
+T005,C161,P026,1.0,2024-01-03,Credit Card,Amelia Jones,lucas.white160@email.com,2024-10-20,Spain,75,Cookbook,Books,226.75,95,226.75,0.0,226.75,January,Wednesday,75,Medium,61+,False
+T006,C189,P045,4.0,2024-01-04,Bank Transfer,John Anderson,logan.jones188@email.com,2024-12-10,Spain,67,Fantasy Book,Books,256.54,500,1026.16,102.61600000000001,923.5440000000001,January,Thursday,67,High,61+,False
+T007,C179,P044,3.0,2024-01-05,Credit Card,Abigail Jackson,liam.moore178@email.com,2024-11-22,United Kingdom,26,Camera,Electronics,17.5,18,52.5,0.0,52.5,January,Friday,26,High,18-30,False
+T008,C171,P005,2.0,2024-01-06,Credit Card,Olivia Williams,michael.martinez170@email.com,2024-11-07,Germany,19,Running Shoes,Sports,339.29,50,678.58,0.0,678.58,January,Saturday,19,Medium,18-30,True
+T009,C101,P006,1.0,2024-01-06,Credit Card,William Jones,william.rodriguez100@email.com,2024-07-02,United Kingdom,50,Travel Guide,Books,116.11,62,116.11,0.0,116.11,January,Saturday,50,High,46-60,True
+T010,C012,P026,5.0,2024-01-07,Credit Card,James White,mia.lopez11@email.com,2024-01-21,Australia,53,Cookbook,Books,226.75,95,1133.75,113.375,1020.375,January,Sunday,53,High,46-60,True
+T011,C067,P004,2.0,2024-01-08,Bank Transfer,Ava Jones,mason.lee66@email.com,2024-05-01,France,28,Smartphone,Electronics,56.05,86,112.1,0.0,112.1,January,Monday,28,Low,18-30,False
+T012,C065,P019,2.0,2024-01-09,Bank Transfer,Charlotte Jackson,lucas.jackson64@email.com,2024-04-27,United Kingdom,41,Tablet,Electronics,30.12,62,60.24,0.0,60.24,January,Tuesday,41,High,31-45,False
+T013,C161,P020,1.0,2024-01-09,Paypal,Amelia Jones,lucas.white160@email.com,2024-10-20,Spain,75,Yoga Mat,Sports,222.43,57,222.43,0.0,222.43,January,Tuesday,75,Medium,61+,False
+T014,C168,P033,2.0,2024-01-10,Bank Transfer,Lucas Taylor,emily.miller167@email.com,2024-11-02,France,64,Shoes,Clothing,87.74,85,175.48,0.0,175.48,January,Wednesday,64,High,61+,False
+T015,C074,P020,5.0,2024-01-11,Credit Card,Noah Gonzalez,emma.jones73@email.com,2024-05-13,Italy,52,Yoga Mat,Sports,222.43,57,1112.15,111.21500000000002,1000.9350000000001,January,Thursday,52,High,46-60,False
+T016,C043,P049,2.0,2024-01-11,Paypal,Abigail Lee,mason.martin42@email.com,2024-03-18,Netherlands,69,Scarf,Clothing,297.03,90,594.06,0.0,594.06,January,Thursday,69,High,61+,False
+T017,C044,P012,5.0,2024-01-12,Paypal,Michael Martin,evelyn.lee43@email.com,2024-03-19,Japan,66,Picture Frame,Home,265.9,52,1329.5,132.95000000000002,1196.55,January,Friday,66,High,61+,False
+T018,C029,P047,1.0,2024-01-13,Paypal,Harper Martinez,william.garcia28@email.com,2024-02-21,Canada,45,Fiction Novel,Books,311.77,79,311.77,0.0,311.77,January,Saturday,45,High,31-45,True
+T019,C141,P001,3.0,2024-01-14,Credit Card,James Miller,logan.williams140@email.com,2024-09-13,Netherlands,54,Speaker,Electronics,353.96,15,1061.8799999999999,0.0,1061.8799999999999,January,Sunday,54,High,46-60,True
+T020,C012,P026,2.0,2024-01-14,Bank Transfer,James White,mia.lopez11@email.com,2024-01-21,Australia,53,Cookbook,Books,226.75,95,453.5,0.0,453.5,January,Sunday,53,High,46-60,True
+T021,C095,P014,3.0,2024-01-15,Credit Card,Sophia Lopez,alexander.williams94@email.com,2024-06-21,Canada,37,Biography,Books,234.06,5,702.1800000000001,0.0,702.1800000000001,January,Monday,37,High,31-45,False
+T022,C046,P038,5.0,2024-01-16,Paypal,Harper Davis,abigail.white45@email.com,2024-03-23,Italy,18,Dress,Clothing,18.41,89,92.05,9.205,82.845,January,Tuesday,18,High,18-30,False
+T023,C130,P037,2.0,2024-01-17,Credit Card,Charlotte Miller,isabella.anderson129@email.com,2024-08-24,Canada,66,Mouse,Electronics,56.05,75,112.1,0.0,112.1,January,Wednesday,66,Low,61+,False
+T024,C035,P011,4.0,2024-01-17,Credit Card,Isabella Williams,liam.lopez34@email.com,2024-03-03,Canada,47,Smartphone,Electronics,273.17,100,1092.68,109.26800000000001,983.412,January,Wednesday,47,High,46-60,False
+T025,C081,P036,3.0,2024-01-18,Bank Transfer,Liam Brown,oliver.lopez80@email.com,2024-05-26,Canada,63,Keyboard,Electronics,29.96,61,89.88,0.0,89.88,January,Thursday,63,Low,61+,False
+T026,C090,P013,2.0,2024-01-19,Bank Transfer,William Lopez,harper.lee89@email.com,2024-06-12,Germany,21,Laptop,Electronics,143.06,4,286.12,0.0,286.12,January,Friday,21,High,18-30,False
+T027,C008,P043,3.0,2024-01-20,Paypal,John Williams,ava.davis7@email.com,2024-01-13,Canada,33,Travel Guide,Books,32.2,94,96.60000000000001,0.0,96.60000000000001,January,Saturday,33,High,31-45,True
+T028,C093,P003,2.0,2024-01-20,Credit Card,Evelyn Hernandez,logan.smith92@email.com,2024-06-17,Italy,38,Sweater,Clothing,23.53,97,47.06,0.0,47.06,January,Saturday,38,Low,31-45,True
+T029,C154,P033,1.0,2024-01-21,Credit Card,Emma Garcia,isabella.thomas153@email.com,2024-10-07,Australia,50,Shoes,Clothing,87.74,85,87.74,0.0,87.74,January,Sunday,50,High,46-60,True
+T030,C090,P006,3.0,2024-01-22,Bank Transfer,William Lopez,harper.lee89@email.com,2024-06-12,Germany,21,Travel Guide,Books,116.11,62,348.33,0.0,348.33,January,Monday,21,High,18-30,False
+T032,C115,P010,4.0,2024-01-23,Credit Card,Liam Smith,mason.white114@email.com,2024-07-28,United States,25,Picture Frame,Home,265.9,53,1063.6,106.36,957.2399999999999,January,Tuesday,25,High,18-30,False
+T033,C105,P005,5.0,2024-01-24,Credit Card,Evelyn Wilson,oliver.gonzalez104@email.com,2024-07-09,Australia,39,Running Shoes,Sports,339.29,50,1696.45,169.645,1526.805,January,Wednesday,39,High,31-45,False
+T034,C135,P023,2.0,2024-01-25,Bank Transfer,Emily Johnson,ethan.martin134@email.com,2024-09-02,United Kingdom,46,Blanket,Home,419.63,8,839.26,0.0,839.26,January,Thursday,46,Medium,46-60,False
+T035,C196,P010,3.0,2024-01-25,Paypal,Mia Martinez,sophia.lopez195@email.com,2024-12-23,Australia,53,Picture Frame,Home,265.9,53,797.6999999999999,0.0,797.6999999999999,January,Thursday,53,Medium,46-60,False
+T036,C058,P044,5.0,2024-01-26,Paypal,Logan Thomas,isabella.lopez57@email.com,2024-04-14,Spain,33,Camera,Electronics,17.5,18,87.5,8.75,78.75,January,Friday,33,Medium,31-45,False
+T037,C114,P002,3.0,2024-01-27,Credit Card,Ava Williams,harper.thompson113@email.com,2024-07-26,Germany,71,Science Book,Books,34.88,500,104.64000000000001,0.0,104.64000000000001,January,Saturday,71,Low,61+,True
+T038,C075,P013,2.0,2024-01-28,Paypal,Evelyn Anderson,michael.garcia74@email.com,2024-05-15,Australia,65,Laptop,Electronics,143.06,4,286.12,0.0,286.12,January,Sunday,65,High,61+,True
+T039,C157,P040,4.0,2024-01-28,Bank Transfer,Ethan Martinez,noah.jackson156@email.com,2024-10-13,United States,42,Cookbook,Books,179.69,93,718.76,71.876,646.884,January,Sunday,42,High,31-45,True
+T040,C120,P002,2.0,2024-01-29,Bank Transfer,Logan Johnson,emily.jones119@email.com,2024-08-06,Japan,47,Science Book,Books,34.88,500,69.76,0.0,69.76,January,Monday,47,Low,46-60,False
+T041,C164,P020,4.0,2024-01-30,Paypal,Mason Moore,evelyn.williams163@email.com,2024-10-25,France,63,Yoga Mat,Sports,222.43,57,889.72,88.97200000000001,800.748,January,Tuesday,63,Medium,61+,False
+T042,C021,P001,5.0,2024-01-30,Paypal,Liam Brown,logan.lee20@email.com,2024-02-06,Italy,58,Speaker,Electronics,353.96,15,1769.8,176.98000000000002,1592.82,January,Tuesday,58,High,46-60,False
+T043,C164,P037,1.0,2024-01-31,Credit Card,Mason Moore,evelyn.williams163@email.com,2024-10-25,France,63,Mouse,Electronics,56.05,75,56.05,0.0,56.05,January,Wednesday,63,Medium,61+,False
+T044,C138,P009,5.0,2024-02-01,Paypal,Emma Gonzalez,harper.white137@email.com,2024-09-08,Italy,23,Fantasy Book,Books,132.62,41,663.1,66.31,596.79,February,Thursday,23,High,18-30,False
+T045,C101,P017,2.0,2024-02-02,Credit Card,William Jones,william.rodriguez100@email.com,2024-07-02,United Kingdom,50,Mirror,Home,77.79,15,155.58,0.0,155.58,February,Friday,50,High,46-60,False
+T048,C177,P015,2.0,2024-02-04,Bank Transfer,Emma Martin,oliver.thomas176@email.com,2024-11-18,United States,57,Biography,Books,35.32,93,70.64,0.0,70.64,February,Sunday,57,High,46-60,True
+T049,C099,P024,4.0,2024-02-05,Bank Transfer,Michael Thomas,michael.miller98@email.com,2024-06-28,Japan,20,Camera,Electronics,347.36,0,1389.44,138.94400000000002,1250.496,February,Monday,20,High,18-30,False
+T050,C036,P038,2.0,2024-02-05,Bank Transfer,Ava Brown,mia.gonzalez35@email.com,2024-03-05,Italy,59,Dress,Clothing,18.41,89,36.82,0.0,36.82,February,Monday,59,High,46-60,False
+T051,C096,P035,3.0,2024-02-06,Paypal,Isabella Davis,emily.brown95@email.com,2024-06-23,Netherlands,73,Biography,Books,54.98,46,164.94,0.0,164.94,February,Tuesday,73,Medium,61+,False
+T053,C151,P031,2.0,2024-02-08,Paypal,Olivia Wilson,james.gonzalez150@email.com,2024-10-02,Germany,38,Jacket,Clothing,367.72,66,735.44,0.0,735.44,February,Thursday,38,High,31-45,False
+T054,C190,P049,3.0,2024-02-08,Bank Transfer,Evelyn Jackson,abigail.garcia189@email.com,2024-12-12,Canada,42,Scarf,Clothing,297.03,90,891.0899999999999,0.0,891.0899999999999,February,Thursday,42,High,31-45,False
+T056,C012,P044,5.0,2024-02-10,Credit Card,James White,mia.lopez11@email.com,2024-01-21,Australia,53,Camera,Electronics,17.5,18,87.5,8.75,78.75,February,Saturday,53,High,46-60,True
+T057,C113,P050,2.0,2024-02-10,Paypal,Sophia Davis,lucas.lee112@email.com,2024-07-24,Italy,68,Fiction Novel,Books,402.47,500,804.94,0.0,804.94,February,Saturday,68,High,61+,True
+T058,C183,P014,3.0,2024-02-11,Paypal,Alexander Hernandez,ethan.thompson182@email.com,2024-11-29,United States,56,Biography,Books,234.06,5,702.1800000000001,0.0,702.1800000000001,February,Sunday,56,High,46-60,True
+T059,C013,P011,3.0,2024-02-12,Bank Transfer,Logan White,noah.gonzalez12@email.com,2024-01-23,Australia,36,Smartphone,Electronics,273.17,100,819.51,0.0,819.51,February,Monday,36,Medium,31-45,False
+T060,C023,P009,4.0,2024-02-13,Paypal,Sophia Lopez,alexander.white22@email.com,2024-02-10,Netherlands,57,Fantasy Book,Books,132.62,41,530.48,53.048,477.432,February,Tuesday,57,High,46-60,False
+T061,C099,P034,5.0,2024-02-13,Credit Card,Michael Thomas,michael.miller98@email.com,2024-06-28,Japan,20,Vase,Home,17.05,77,85.25,8.525,76.725,February,Tuesday,20,High,18-30,False
+T062,C105,P012,1.0,2024-02-14,Credit Card,Evelyn Wilson,oliver.gonzalez104@email.com,2024-07-09,Australia,39,Picture Frame,Home,265.9,52,265.9,0.0,265.9,February,Wednesday,39,High,31-45,False
+T063,C030,P035,5.0,2024-02-15,Bank Transfer,Logan Martin,olivia.miller29@email.com,2024-02-23,France,74,Biography,Books,54.98,46,274.9,27.49,247.40999999999997,February,Thursday,74,Medium,61+,False
+T064,C017,P035,5.0,2024-02-16,Credit Card,John Garcia,lucas.taylor16@email.com,2024-01-30,United Kingdom,37,Biography,Books,54.98,46,274.9,27.49,247.40999999999997,February,Friday,37,High,31-45,False
+T065,C113,P001,4.0,2024-02-16,Paypal,Sophia Davis,lucas.lee112@email.com,2024-07-24,Italy,68,Speaker,Electronics,353.96,15,1415.84,141.584,1274.2559999999999,February,Friday,68,High,61+,False
+T066,C062,P040,1.0,2024-02-17,Credit Card,Ava Moore,charlotte.thomas61@email.com,2024-04-21,Spain,71,Cookbook,Books,179.69,93,179.69,0.0,179.69,February,Saturday,71,Low,61+,True
+T067,C084,P022,4.0,2024-02-18,Bank Transfer,John Rodriguez,mia.anderson83@email.com,2024-06-01,United States,71,Running Shoes,Sports,100.32,61,401.28,40.128,361.152,February,Sunday,71,Medium,61+,True
+T068,C112,P029,1.0,2024-02-19,Paypal,Lucas Anderson,amelia.martin111@email.com,2024-07-22,Germany,62,Plant Pot,Home,477.88,63,477.88,0.0,477.88,February,Monday,62,High,61+,False
+T069,C086,P008,2.0,2024-02-19,Bank Transfer,Lucas Brown,charlotte.taylor85@email.com,2024-06-04,Australia,33,Cookbook,Books,299.51,85,599.02,0.0,599.02,February,Monday,33,High,31-45,False
+T070,C141,P011,1.0,2024-02-20,Paypal,James Miller,logan.williams140@email.com,2024-09-13,Netherlands,54,Smartphone,Electronics,273.17,100,273.17,0.0,273.17,February,Tuesday,54,High,46-60,False
+T071,C187,P041,4.0,2024-02-21,Credit Card,Isabella Anderson,mason.williams186@email.com,2024-12-07,Italy,43,T-Shirt,Clothing,328.39,9,1313.56,131.356,1182.204,February,Wednesday,43,High,31-45,False
+T072,C019,P037,5.0,2024-02-21,Bank Transfer,Liam Rodriguez,mason.jackson18@email.com,2024-02-03,Spain,24,Mouse,Electronics,56.05,75,280.25,28.025000000000002,252.225,February,Wednesday,24,High,18-30,False
+T073,C177,P014,1.0,2024-02-22,Bank Transfer,Emma Martin,oliver.thomas176@email.com,2024-11-18,United States,57,Biography,Books,234.06,5,234.06,0.0,234.06,February,Thursday,57,High,46-60,False
+T074,C100,P030,1.0,2024-02-23,Paypal,Michael Moore,sophia.davis99@email.com,2024-06-30,Australia,34,Dress,Clothing,281.63,21,281.63,0.0,281.63,February,Friday,34,Low,31-45,False
+T075,C140,P035,3.0,2024-02-24,Bank Transfer,Sophia Davis,evelyn.johnson139@email.com,2024-09-11,France,58,Biography,Books,54.98,46,164.94,0.0,164.94,February,Saturday,58,Medium,46-60,True
+T076,C189,P021,5.0,2024-02-24,Paypal,John Anderson,logan.jones188@email.com,2024-12-10,Spain,67,Poetry Collection,Books,48.44,100,242.2,24.22,217.98,February,Saturday,67,High,61+,True
+T077,C147,P037,2.0,2024-02-25,Paypal,Harper Brown,michael.rodriguez146@email.com,2024-09-24,Japan,48,Mouse,Electronics,56.05,75,112.1,0.0,112.1,February,Sunday,48,High,46-60,True
+T078,C076,P005,4.0,2024-02-26,Paypal,Lucas Rodriguez,sophia.miller75@email.com,2024-05-17,Netherlands,42,Running Shoes,Sports,339.29,50,1357.16,135.716,1221.444,February,Monday,42,High,31-45,False
+T080,C199,P014,2.0,2024-02-27,Credit Card,Isabella Martin,james.anderson198@email.com,2024-12-29,United Kingdom,18,Biography,Books,234.06,5,468.12,0.0,468.12,February,Tuesday,18,Low,18-30,False
+T081,C028,P026,1.0,2024-02-28,Paypal,Noah Williams,sophia.jones27@email.com,2024-02-19,Germany,28,Cookbook,Books,226.75,95,226.75,0.0,226.75,February,Wednesday,28,High,18-30,False
+T082,C128,P004,1.0,2024-02-29,Bank Transfer,Mason Thomas,ava.gonzalez127@email.com,2024-08-20,Italy,21,Smartphone,Electronics,56.05,86,56.05,0.0,56.05,February,Thursday,21,Low,18-30,False
+T083,C052,P025,5.0,2024-02-29,Credit Card,Emma Davis,sophia.garcia51@email.com,2024-04-03,United States,72,Fiction Novel,Books,94.91,0,474.54999999999995,47.455,427.09499999999997,February,Thursday,72,Medium,61+,False
+T084,C083,P045,1.0,2024-03-01,Bank Transfer,Olivia Anderson,liam.wilson82@email.com,2024-05-30,Australia,19,Fantasy Book,Books,256.54,500,256.54,0.0,256.54,March,Friday,19,High,18-30,False
+T086,C144,P025,1.0,2024-03-03,Paypal,Olivia Rodriguez,emily.garcia143@email.com,2024-09-19,Canada,66,Fiction Novel,Books,94.91,0,94.91,0.0,94.91,March,Sunday,66,High,61+,True
+T087,C117,P018,4.0,2024-03-03,Credit Card,Ava Jackson,logan.johnson116@email.com,2024-07-31,Netherlands,44,Smartphone,Electronics,488.17,29,1952.68,195.26800000000003,1757.412,March,Sunday,44,High,31-45,True
+T088,C069,P040,4.0,2024-03-04,Credit Card,Michael Johnson,logan.white68@email.com,2024-05-04,Canada,25,Cookbook,Books,179.69,93,718.76,71.876,646.884,March,Monday,25,Medium,18-30,False
+T089,C099,P008,2.0,2024-03-05,Bank Transfer,Michael Thomas,michael.miller98@email.com,2024-06-28,Japan,20,Cookbook,Books,299.51,85,599.02,0.0,599.02,March,Tuesday,20,High,18-30,False
+T090,C140,P039,2.0,2024-03-06,Bank Transfer,Sophia Davis,evelyn.johnson139@email.com,2024-09-11,France,58,Candle,Home,250.89,38,501.78,0.0,501.78,March,Wednesday,58,Medium,46-60,False
+T091,C025,P040,5.0,2024-03-06,Paypal,Oliver Johnson,john.johnson24@email.com,2024-02-14,Japan,35,Cookbook,Books,179.69,93,898.45,89.84500000000001,808.605,March,Wednesday,35,High,31-45,False
+T092,C180,P014,5.0,2024-03-07,Credit Card,Mason Taylor,mia.jackson179@email.com,2024-11-24,Spain,60,Biography,Books,234.06,5,1170.3,117.03,1053.27,March,Thursday,60,High,46-60,False
+T093,C123,P032,5.0,2024-03-08,Credit Card,Michael Taylor,michael.davis122@email.com,2024-08-11,Germany,64,Lamp,Home,131.39,15,656.9499999999999,65.695,591.2549999999999,March,Friday,64,Medium,61+,False
+T094,C053,P038,3.0,2024-03-09,Credit Card,Emma Hernandez,william.miller52@email.com,2024-04-05,France,26,Dress,Clothing,18.41,89,55.230000000000004,0.0,55.230000000000004,March,Saturday,26,High,18-30,True
+T095,C151,P033,4.0,2024-03-09,Paypal,Olivia Wilson,james.gonzalez150@email.com,2024-10-02,Germany,38,Shoes,Clothing,87.74,85,350.96,35.096,315.864,March,Saturday,38,High,31-45,True
+T096,C144,P023,3.0,2024-03-10,Paypal,Olivia Rodriguez,emily.garcia143@email.com,2024-09-19,Canada,66,Blanket,Home,419.63,8,1258.8899999999999,0.0,1258.8899999999999,March,Sunday,66,High,61+,True
+T097,C057,P015,5.0,2024-03-11,Paypal,Liam Miller,oliver.hernandez56@email.com,2024-04-12,United Kingdom,65,Biography,Books,35.32,93,176.6,17.66,158.94,March,Monday,65,Low,61+,False
+T098,C039,P033,2.0,2024-03-11,Paypal,Mia Garcia,ethan.thomas38@email.com,2024-03-10,United Kingdom,33,Shoes,Clothing,87.74,85,175.48,0.0,175.48,March,Monday,33,High,31-45,False
+T099,C109,P025,1.0,2024-03-12,Paypal,Isabella Gonzalez,noah.taylor108@email.com,2024-07-17,Spain,47,Fiction Novel,Books,94.91,0,94.91,0.0,94.91,March,Tuesday,47,High,46-60,False
+T100,C181,P017,4.0,2025-01-01,Bank Transfer,Liam Rodriguez,noah.martin180@email.com,2024-11-26,Canada,71,Mirror,Home,77.79,15,311.16,31.116000000000003,280.04400000000004,January,Wednesday,71,High,61+,False
+T101,C042,P033,4.0,2024-03-14,Credit Card,Oliver White,harper.jackson41@email.com,2024-03-16,United Kingdom,74,Shoes,Clothing,87.74,85,350.96,35.096,315.864,March,Thursday,74,Low,61+,False
+T102,C186,P047,3.0,2024-03-14,Credit Card,Abigail Lee,harper.johnson185@email.com,2024-12-05,United Kingdom,72,Fiction Novel,Books,311.77,79,935.31,0.0,935.31,March,Thursday,72,High,61+,False
+T103,C167,P002,4.0,2024-03-15,Credit Card,Mason Thomas,alexander.garcia166@email.com,2024-10-31,Netherlands,49,Science Book,Books,34.88,500,139.52,13.952000000000002,125.56800000000001,March,Friday,49,High,46-60,False
+T104,C142,P014,5.0,2024-03-16,Credit Card,Harper Anderson,abigail.brown141@email.com,2024-09-15,Canada,41,Biography,Books,234.06,5,1170.3,117.03,1053.27,March,Saturday,41,High,31-45,True
+T105,C122,P040,5.0,2024-03-17,Credit Card,Emma Hernandez,emma.miller121@email.com,2024-08-09,Netherlands,45,Cookbook,Books,179.69,93,898.45,89.84500000000001,808.605,March,Sunday,45,High,31-45,True
+T106,C133,P040,3.0,2024-03-17,Credit Card,Mia Wilson,noah.moore132@email.com,2024-08-30,Germany,45,Cookbook,Books,179.69,93,539.0699999999999,0.0,539.0699999999999,March,Sunday,45,High,31-45,True
+T108,C075,P006,2.0,2024-03-19,Credit Card,Evelyn Anderson,michael.garcia74@email.com,2024-05-15,Australia,65,Travel Guide,Books,116.11,62,232.22,0.0,232.22,March,Tuesday,65,High,61+,False
+T109,C146,P006,3.0,2024-03-19,Bank Transfer,Michael Anderson,emma.davis145@email.com,2024-09-22,United States,70,Travel Guide,Books,116.11,62,348.33,0.0,348.33,March,Tuesday,70,High,61+,False
+T110,C076,P003,2.0,2024-03-20,Credit Card,Lucas Rodriguez,sophia.miller75@email.com,2024-05-17,Netherlands,42,Sweater,Clothing,23.53,97,47.06,0.0,47.06,March,Wednesday,42,High,31-45,False
+T112,C074,P008,2.0,2024-03-22,Paypal,Noah Gonzalez,emma.jones73@email.com,2024-05-13,Italy,52,Cookbook,Books,299.51,85,599.02,0.0,599.02,March,Friday,52,High,46-60,False
+T113,C186,P042,1.0,2024-03-22,Credit Card,Abigail Lee,harper.johnson185@email.com,2024-12-05,United Kingdom,72,Sneakers,Clothing,475.08,99,475.08,0.0,475.08,March,Friday,72,High,61+,False
+T114,C145,P015,1.0,2024-03-23,Paypal,Ethan Davis,john.miller144@email.com,2024-09-21,United States,63,Biography,Books,35.32,93,35.32,0.0,35.32,March,Saturday,63,High,61+,True
+T115,C007,P047,2.0,2024-03-24,Paypal,Charlotte Johnson,james.miller6@email.com,2024-01-12,Germany,23,Fiction Novel,Books,311.77,79,623.54,0.0,623.54,March,Sunday,23,High,18-30,True
+T117,C141,P033,5.0,2024-03-25,Bank Transfer,James Miller,logan.williams140@email.com,2024-09-13,Netherlands,54,Shoes,Clothing,87.74,85,438.7,43.870000000000005,394.83,March,Monday,54,High,46-60,False
+T118,C168,P030,5.0,2024-03-26,Paypal,Lucas Taylor,emily.miller167@email.com,2024-11-02,France,64,Dress,Clothing,281.63,21,1408.15,140.81500000000003,1267.335,March,Tuesday,64,High,61+,False
+T119,C170,P039,1.0,2024-03-27,Paypal,Lucas Williams,emma.rodriguez169@email.com,2024-11-05,United Kingdom,40,Candle,Home,250.89,38,250.89,0.0,250.89,March,Wednesday,40,Medium,31-45,False
+T120,C137,P027,1.0,2024-03-28,Paypal,Logan Brown,lucas.thompson136@email.com,2024-09-06,Japan,70,Jeans,Clothing,279.12,47,279.12,0.0,279.12,March,Thursday,70,High,61+,False
+T121,C178,P036,3.0,2024-03-28,Credit Card,Michael Wilson,isabella.taylor177@email.com,2024-11-20,United Kingdom,50,Keyboard,Electronics,29.96,61,89.88,0.0,89.88,March,Thursday,50,Medium,46-60,False
+T123,C122,P038,2.0,2024-03-30,Bank Transfer,Emma Hernandez,emma.miller121@email.com,2024-08-09,Netherlands,45,Dress,Clothing,18.41,89,36.82,0.0,36.82,March,Saturday,45,High,31-45,True
+T124,C194,P033,1.0,2024-03-30,Bank Transfer,William Lopez,emma.martinez193@email.com,2024-12-19,United States,24,Shoes,Clothing,87.74,85,87.74,0.0,87.74,March,Saturday,24,High,18-30,True
+T125,C005,P037,5.0,2024-03-31,Credit Card,Abigail Moore,william.jones4@email.com,2024-01-08,Canada,50,Mouse,Electronics,56.05,75,280.25,28.025000000000002,252.225,March,Sunday,50,High,46-60,True
+T126,C029,P027,3.0,2024-04-01,Bank Transfer,Harper Martinez,william.garcia28@email.com,2024-02-21,Canada,45,Jeans,Clothing,279.12,47,837.36,0.0,837.36,April,Monday,45,High,31-45,False
+T127,C165,P033,2.0,2024-04-02,Credit Card,Emma Hernandez,logan.brown164@email.com,2024-10-27,United States,41,Shoes,Clothing,87.74,85,175.48,0.0,175.48,April,Tuesday,41,High,31-45,False
+T128,C166,P004,3.0,2024-04-02,Paypal,Emma Johnson,abigail.jones165@email.com,2024-10-29,United States,67,Smartphone,Electronics,56.05,86,168.14999999999998,0.0,168.14999999999998,April,Tuesday,67,Medium,61+,False
+T129,C083,P022,2.0,2024-04-03,Paypal,Olivia Anderson,liam.wilson82@email.com,2024-05-30,Australia,19,Running Shoes,Sports,100.32,61,200.64,0.0,200.64,April,Wednesday,19,High,18-30,False
+T130,C136,P002,2.0,2024-04-04,Bank Transfer,Abigail Lee,amelia.lee135@email.com,2024-09-04,Netherlands,63,Science Book,Books,34.88,500,69.76,0.0,69.76,April,Thursday,63,High,61+,False
+T131,C109,P010,1.0,2024-04-05,Credit Card,Isabella Gonzalez,noah.taylor108@email.com,2024-07-17,Spain,47,Picture Frame,Home,265.9,53,265.9,0.0,265.9,April,Friday,47,High,46-60,False
+T132,C065,P005,3.0,2024-04-05,Credit Card,Charlotte Jackson,lucas.jackson64@email.com,2024-04-27,United Kingdom,41,Running Shoes,Sports,339.29,50,1017.8700000000001,0.0,1017.8700000000001,April,Friday,41,High,31-45,False
+T133,C086,P010,3.0,2024-04-06,Bank Transfer,Lucas Brown,charlotte.taylor85@email.com,2024-06-04,Australia,33,Picture Frame,Home,265.9,53,797.6999999999999,0.0,797.6999999999999,April,Saturday,33,High,31-45,True
+T134,C145,P033,5.0,2024-04-07,Credit Card,Ethan Davis,john.miller144@email.com,2024-09-21,United States,63,Shoes,Clothing,87.74,85,438.7,43.870000000000005,394.83,April,Sunday,63,High,61+,True
+T136,C045,P013,1.0,2024-04-08,Bank Transfer,Logan Garcia,logan.thompson44@email.com,2024-03-21,Netherlands,19,Laptop,Electronics,143.06,4,143.06,0.0,143.06,April,Monday,19,Low,18-30,False
+T137,C132,P031,1.0,2024-04-09,Bank Transfer,Abigail Wilson,mia.taylor131@email.com,2024-08-28,Canada,61,Jacket,Clothing,367.72,66,367.72,0.0,367.72,April,Tuesday,61,High,61+,False
+T138,C036,P047,4.0,2024-04-10,Credit Card,Ava Brown,mia.gonzalez35@email.com,2024-03-05,Italy,59,Fiction Novel,Books,311.77,79,1247.08,124.708,1122.3719999999998,April,Wednesday,59,High,46-60,False
+T139,C070,P036,5.0,2024-04-10,Bank Transfer,Sophia Jones,abigail.smith69@email.com,2024-05-06,Japan,53,Keyboard,Electronics,29.96,61,149.8,14.980000000000002,134.82000000000002,April,Wednesday,53,Medium,46-60,False
+T140,C159,P045,2.0,2024-04-11,Credit Card,Emily Moore,ethan.lee158@email.com,2024-10-16,Netherlands,48,Fantasy Book,Books,256.54,500,513.08,0.0,513.08,April,Thursday,48,High,46-60,False
+T141,C019,P024,3.0,2024-04-12,Credit Card,Liam Rodriguez,mason.jackson18@email.com,2024-02-03,Spain,24,Camera,Electronics,347.36,0,1042.08,0.0,1042.08,April,Friday,24,High,18-30,False
+T142,C189,P015,1.0,2024-04-13,Credit Card,John Anderson,logan.jones188@email.com,2024-12-10,Spain,67,Biography,Books,35.32,93,35.32,0.0,35.32,April,Saturday,67,High,61+,True
+T143,C108,P029,3.0,2024-04-13,Credit Card,James White,mia.thomas107@email.com,2024-07-15,Australia,63,Plant Pot,Home,477.88,63,1433.6399999999999,0.0,1433.6399999999999,April,Saturday,63,High,61+,True
+T144,C182,P008,3.0,2024-04-14,Credit Card,James Thompson,charlotte.lee181@email.com,2024-11-27,Italy,65,Cookbook,Books,299.51,85,898.53,0.0,898.53,April,Sunday,65,High,61+,True
+T145,C167,P005,4.0,2024-04-15,Bank Transfer,Mason Thomas,alexander.garcia166@email.com,2024-10-31,Netherlands,49,Running Shoes,Sports,339.29,50,1357.16,135.716,1221.444,April,Monday,49,High,46-60,False
+T146,C091,P029,2.0,2024-04-16,Paypal,Olivia Moore,mason.thompson90@email.com,2024-06-14,Germany,50,Plant Pot,Home,477.88,63,955.76,0.0,955.76,April,Tuesday,50,High,46-60,False
+T147,C090,P047,1.0,2024-04-16,Paypal,William Lopez,harper.lee89@email.com,2024-06-12,Germany,21,Fiction Novel,Books,311.77,79,311.77,0.0,311.77,April,Tuesday,21,High,18-30,False
+T148,C019,P004,3.0,2024-04-17,Bank Transfer,Liam Rodriguez,mason.jackson18@email.com,2024-02-03,Spain,24,Smartphone,Electronics,56.05,86,168.14999999999998,0.0,168.14999999999998,April,Wednesday,24,High,18-30,False
+T149,C039,P012,1.0,2024-04-18,Bank Transfer,Mia Garcia,ethan.thomas38@email.com,2024-03-10,United Kingdom,33,Picture Frame,Home,265.9,52,265.9,0.0,265.9,April,Thursday,33,High,31-45,False
+T150,C126,P045,2.0,2024-04-18,Paypal,James Moore,olivia.hernandez125@email.com,2024-08-17,France,65,Fantasy Book,Books,256.54,500,513.08,0.0,513.08,April,Thursday,65,High,61+,False
+T151,C195,P002,2.0,2024-04-19,Paypal,Michael Davis,michael.hernandez194@email.com,2024-12-21,Spain,74,Science Book,Books,34.88,500,69.76,0.0,69.76,April,Friday,74,Low,61+,False
+T152,C173,P027,2.0,2024-04-20,Paypal,Abigail Davis,william.lopez172@email.com,2024-11-11,Italy,59,Jeans,Clothing,279.12,47,558.24,0.0,558.24,April,Saturday,59,High,46-60,True
+T153,C141,P031,1.0,2024-04-21,Paypal,James Miller,logan.williams140@email.com,2024-09-13,Netherlands,54,Jacket,Clothing,367.72,66,367.72,0.0,367.72,April,Sunday,54,High,46-60,True
+T154,C126,P036,1.0,2024-04-21,Paypal,James Moore,olivia.hernandez125@email.com,2024-08-17,France,65,Keyboard,Electronics,29.96,61,29.96,0.0,29.96,April,Sunday,65,High,61+,True
+T155,C058,P036,5.0,2024-04-22,Credit Card,Logan Thomas,isabella.lopez57@email.com,2024-04-14,Spain,33,Keyboard,Electronics,29.96,61,149.8,14.980000000000002,134.82000000000002,April,Monday,33,Medium,31-45,False
+T156,C148,P026,3.0,2024-04-23,Bank Transfer,Emma Lee,sophia.martinez147@email.com,2024-09-26,Japan,52,Cookbook,Books,226.75,95,680.25,0.0,680.25,April,Tuesday,52,Medium,46-60,False
+T157,C200,P043,3.0,2024-04-24,Credit Card,Logan Taylor,ava.thomas199@email.com,2024-12-31,Spain,25,Travel Guide,Books,32.2,94,96.60000000000001,0.0,96.60000000000001,April,Wednesday,25,Low,18-30,False
+T158,C061,P027,2.0,2024-04-24,Paypal,Oliver Jones,noah.anderson60@email.com,2024-04-20,France,41,Jeans,Clothing,279.12,47,558.24,0.0,558.24,April,Wednesday,41,High,31-45,False
+T159,C127,P005,4.0,2024-04-25,Paypal,William Jackson,james.lopez126@email.com,2024-08-19,France,36,Running Shoes,Sports,339.29,50,1357.16,135.716,1221.444,April,Thursday,36,High,31-45,False
+T160,C105,P020,3.0,2024-04-26,Paypal,Evelyn Wilson,oliver.gonzalez104@email.com,2024-07-09,Australia,39,Yoga Mat,Sports,222.43,57,667.29,0.0,667.29,April,Friday,39,High,31-45,False
+T161,C167,P011,5.0,2024-04-27,Credit Card,Mason Thomas,alexander.garcia166@email.com,2024-10-31,Netherlands,49,Smartphone,Electronics,273.17,100,1365.8500000000001,136.585,1229.265,April,Saturday,49,High,46-60,True
+T163,C131,P040,2.0,2024-04-28,Paypal,Sophia Brown,liam.thomas130@email.com,2024-08-26,France,34,Cookbook,Books,179.69,93,359.38,0.0,359.38,April,Sunday,34,Low,31-45,True
+T164,C092,P038,5.0,2024-04-29,Credit Card,Lucas Smith,evelyn.white91@email.com,2024-06-15,United States,31,Dress,Clothing,18.41,89,92.05,9.205,82.845,April,Monday,31,High,31-45,False
+T165,C190,P006,4.0,2024-04-29,Credit Card,Evelyn Jackson,abigail.garcia189@email.com,2024-12-12,Canada,42,Travel Guide,Books,116.11,62,464.44,46.444,417.996,April,Monday,42,High,31-45,False
+T166,C191,P008,5.0,2024-04-30,Paypal,Sophia Williams,alexander.miller190@email.com,2024-12-14,France,41,Cookbook,Books,299.51,85,1497.55,149.755,1347.795,April,Tuesday,41,High,31-45,False
+T167,C113,P023,2.0,2024-05-01,Credit Card,Sophia Davis,lucas.lee112@email.com,2024-07-24,Italy,68,Blanket,Home,419.63,8,839.26,0.0,839.26,May,Wednesday,68,High,61+,False
+T168,C153,P047,5.0,2024-05-02,Bank Transfer,James Gonzalez,oliver.anderson152@email.com,2024-10-05,Spain,40,Fiction Novel,Books,311.77,79,1558.85,155.885,1402.965,May,Thursday,40,High,31-45,False
+T169,C056,P026,5.0,2024-05-02,Bank Transfer,Mason White,ava.martinez55@email.com,2024-04-10,France,36,Cookbook,Books,226.75,95,1133.75,113.375,1020.375,May,Thursday,36,High,31-45,False
+T170,C161,P046,1.0,2024-05-03,Bank Transfer,Amelia Jones,lucas.white160@email.com,2024-10-20,Spain,75,Mirror,Home,274.29,3,274.29,0.0,274.29,May,Friday,75,Medium,61+,False
+T171,C166,P043,2.0,2024-05-04,Bank Transfer,Emma Johnson,abigail.jones165@email.com,2024-10-29,United States,67,Travel Guide,Books,32.2,94,64.4,0.0,64.4,May,Saturday,67,Medium,61+,True
+T172,C117,P012,5.0,2024-05-05,Paypal,Ava Jackson,logan.johnson116@email.com,2024-07-31,Netherlands,44,Picture Frame,Home,265.9,52,1329.5,132.95000000000002,1196.55,May,Sunday,44,High,31-45,True
+T174,C058,P013,3.0,2024-05-06,Paypal,Logan Thomas,isabella.lopez57@email.com,2024-04-14,Spain,33,Laptop,Electronics,143.06,4,429.18,0.0,429.18,May,Monday,33,Medium,31-45,False
+T175,C044,P040,2.0,2024-05-07,Bank Transfer,Michael Martin,evelyn.lee43@email.com,2024-03-19,Japan,66,Cookbook,Books,179.69,93,359.38,0.0,359.38,May,Tuesday,66,High,61+,False
+T176,C173,P018,3.0,2024-05-08,Bank Transfer,Abigail Davis,william.lopez172@email.com,2024-11-11,Italy,59,Smartphone,Electronics,488.17,29,1464.51,0.0,1464.51,May,Wednesday,59,High,46-60,False
+T177,C160,P025,2.0,2024-05-08,Credit Card,Abigail White,amelia.thompson159@email.com,2024-10-18,Australia,71,Fiction Novel,Books,94.91,0,189.82,0.0,189.82,May,Wednesday,71,Low,61+,False
+T178,C173,P033,3.0,2024-05-09,Credit Card,Abigail Davis,william.lopez172@email.com,2024-11-11,Italy,59,Shoes,Clothing,87.74,85,263.21999999999997,0.0,263.21999999999997,May,Thursday,59,High,46-60,False
+T179,C061,P047,5.0,2024-05-10,Bank Transfer,Oliver Jones,noah.anderson60@email.com,2024-04-20,France,41,Fiction Novel,Books,311.77,79,1558.85,155.885,1402.965,May,Friday,41,High,31-45,False
+T180,C047,P040,5.0,2024-05-10,Bank Transfer,Olivia Anderson,alexander.smith46@email.com,2024-03-25,United Kingdom,65,Cookbook,Books,179.69,93,898.45,89.84500000000001,808.605,May,Friday,65,High,61+,False
+T181,C149,P043,1.0,2024-05-11,Bank Transfer,Harper Smith,william.hernandez148@email.com,2024-09-28,France,50,Travel Guide,Books,32.2,94,32.2,0.0,32.2,May,Saturday,50,Low,46-60,True
+T182,C080,P012,3.0,2024-05-12,Bank Transfer,Oliver Lee,ava.hernandez79@email.com,2024-05-24,Japan,35,Picture Frame,Home,265.9,52,797.6999999999999,0.0,797.6999999999999,May,Sunday,35,High,31-45,True
+T183,C118,P044,4.0,2024-05-13,Credit Card,Ava Smith,abigail.williams117@email.com,2024-08-02,Canada,51,Camera,Electronics,17.5,18,70.0,7.0,63.0,May,Monday,51,High,46-60,False
+T185,C147,P048,3.0,2024-05-14,Credit Card,Harper Brown,michael.rodriguez146@email.com,2024-09-24,Japan,48,Camera,Electronics,324.79,91,974.3700000000001,0.0,974.3700000000001,May,Tuesday,48,High,46-60,False
+T186,C020,P004,3.0,2024-05-15,Bank Transfer,William Miller,evelyn.martin19@email.com,2024-02-04,United Kingdom,69,Smartphone,Electronics,56.05,86,168.14999999999998,0.0,168.14999999999998,May,Wednesday,69,Low,61+,False
+T187,C185,P005,1.0,2024-05-16,Bank Transfer,Noah Jones,lucas.smith184@email.com,2024-12-03,Germany,59,Running Shoes,Sports,339.29,50,339.29,0.0,339.29,May,Thursday,59,Medium,46-60,False
+T188,C146,P037,5.0,2024-05-16,Bank Transfer,Michael Anderson,emma.davis145@email.com,2024-09-22,United States,70,Mouse,Electronics,56.05,75,280.25,28.025000000000002,252.225,May,Thursday,70,High,61+,False
+T189,C047,P008,3.0,2024-05-17,Credit Card,Olivia Anderson,alexander.smith46@email.com,2024-03-25,United Kingdom,65,Cookbook,Books,299.51,85,898.53,0.0,898.53,May,Friday,65,High,61+,False
+T190,C049,P042,5.0,2024-05-18,Credit Card,Logan White,john.williams48@email.com,2024-03-29,Canada,22,Sneakers,Clothing,475.08,99,2375.4,237.54000000000002,2137.86,May,Saturday,22,High,18-30,True
+T191,C014,P049,1.0,2024-05-18,Paypal,Harper Wilson,charlotte.wilson13@email.com,2024-01-24,Germany,43,Scarf,Clothing,297.03,90,297.03,0.0,297.03,May,Saturday,43,High,31-45,True
+T193,C159,P031,2.0,2024-05-20,Paypal,Emily Moore,ethan.lee158@email.com,2024-10-16,Netherlands,48,Jacket,Clothing,367.72,66,735.44,0.0,735.44,May,Monday,48,High,46-60,False
+T195,C117,P029,3.0,2024-05-21,Credit Card,Ava Jackson,logan.johnson116@email.com,2024-07-31,Netherlands,44,Plant Pot,Home,477.88,63,1433.6399999999999,0.0,1433.6399999999999,May,Tuesday,44,High,31-45,False
+T196,C054,P014,4.0,2024-05-22,Credit Card,Noah Rodriguez,olivia.davis53@email.com,2024-04-07,United Kingdom,58,Biography,Books,234.06,5,936.24,93.62400000000001,842.616,May,Wednesday,58,Medium,46-60,False
+T197,C118,P040,5.0,2024-05-23,Paypal,Ava Smith,abigail.williams117@email.com,2024-08-02,Canada,51,Cookbook,Books,179.69,93,898.45,89.84500000000001,808.605,May,Thursday,51,High,46-60,False
+T199,C144,P022,5.0,2024-05-24,Credit Card,Olivia Rodriguez,emily.garcia143@email.com,2024-09-19,Canada,66,Running Shoes,Sports,100.32,61,501.59999999999997,50.16,451.43999999999994,May,Friday,66,High,61+,False
+T200,C185,P011,2.0,2024-05-25,Bank Transfer,Noah Jones,lucas.smith184@email.com,2024-12-03,Germany,59,Smartphone,Electronics,273.17,100,546.34,0.0,546.34,May,Saturday,59,Medium,46-60,True
+T201,C012,P023,1.0,2024-05-26,Bank Transfer,James White,mia.lopez11@email.com,2024-01-21,Australia,53,Blanket,Home,419.63,8,419.63,0.0,419.63,May,Sunday,53,High,46-60,True
+T202,C074,P001,3.0,2025-10-01,Paypal,Noah Gonzalez,emma.jones73@email.com,2024-05-13,Italy,52,Speaker,Electronics,353.96,15,1061.8799999999999,0.0,1061.8799999999999,October,Wednesday,52,High,46-60,False
+T203,C016,P046,2.0,2024-05-27,Paypal,Mason Rodriguez,amelia.thomas15@email.com,2024-01-28,Italy,36,Mirror,Home,274.29,3,548.58,0.0,548.58,May,Monday,36,Medium,31-45,False
+T204,C200,P037,2.0,2024-05-28,Paypal,Logan Taylor,ava.thomas199@email.com,2024-12-31,Spain,25,Mouse,Electronics,56.05,75,112.1,0.0,112.1,May,Tuesday,25,Low,18-30,False
+T207,C156,P046,2.0,2024-05-30,Credit Card,Noah Rodriguez,mia.moore155@email.com,2024-10-11,Italy,35,Mirror,Home,274.29,3,548.58,0.0,548.58,May,Thursday,35,Medium,31-45,False
+T208,C117,P036,4.0,2024-05-31,Paypal,Ava Jackson,logan.johnson116@email.com,2024-07-31,Netherlands,44,Keyboard,Electronics,29.96,61,119.84,11.984000000000002,107.856,May,Friday,44,High,31-45,False
+T209,C008,P023,2.0,2024-06-01,Credit Card,John Williams,ava.davis7@email.com,2024-01-13,Canada,33,Blanket,Home,419.63,8,839.26,0.0,839.26,June,Saturday,33,High,31-45,True
+T210,C122,P001,5.0,2024-06-01,Paypal,Emma Hernandez,emma.miller121@email.com,2024-08-09,Netherlands,45,Speaker,Electronics,353.96,15,1769.8,176.98000000000002,1592.82,June,Saturday,45,High,31-45,True
+T211,C092,P040,5.0,2024-06-02,Bank Transfer,Lucas Smith,evelyn.white91@email.com,2024-06-15,United States,31,Cookbook,Books,179.69,93,898.45,89.84500000000001,808.605,June,Sunday,31,High,31-45,True
+T212,C164,P015,4.0,2024-06-03,Bank Transfer,Mason Moore,evelyn.williams163@email.com,2024-10-25,France,63,Biography,Books,35.32,93,141.28,14.128,127.152,June,Monday,63,Medium,61+,False
+T213,C090,P021,2.0,2024-06-04,Bank Transfer,William Lopez,harper.lee89@email.com,2024-06-12,Germany,21,Poetry Collection,Books,48.44,100,96.88,0.0,96.88,June,Tuesday,21,High,18-30,False
+T214,C136,P047,5.0,2024-06-04,Paypal,Abigail Lee,amelia.lee135@email.com,2024-09-04,Netherlands,63,Fiction Novel,Books,311.77,79,1558.85,155.885,1402.965,June,Tuesday,63,High,61+,False
+T215,C186,P009,3.0,2024-06-05,Bank Transfer,Abigail Lee,harper.johnson185@email.com,2024-12-05,United Kingdom,72,Fantasy Book,Books,132.62,41,397.86,0.0,397.86,June,Wednesday,72,High,61+,False
+T216,C060,P009,1.0,2024-06-06,Credit Card,Ethan Jones,mia.wilson59@email.com,2024-04-18,Netherlands,37,Fantasy Book,Books,132.62,41,132.62,0.0,132.62,June,Thursday,37,Low,31-45,False
+T217,C178,P010,2.0,2024-06-06,Bank Transfer,Michael Wilson,isabella.taylor177@email.com,2024-11-20,United Kingdom,50,Picture Frame,Home,265.9,53,531.8,0.0,531.8,June,Thursday,50,Medium,46-60,False
+T218,C028,P026,1.0,2024-06-07,Bank Transfer,Noah Williams,sophia.jones27@email.com,2024-02-19,Germany,28,Cookbook,Books,226.75,95,226.75,0.0,226.75,June,Friday,28,High,18-30,False
+T219,C101,P041,2.0,2024-06-08,Bank Transfer,William Jones,william.rodriguez100@email.com,2024-07-02,United Kingdom,50,T-Shirt,Clothing,328.39,9,656.78,0.0,656.78,June,Saturday,50,High,46-60,True
+T220,C041,P035,4.0,2024-06-09,Credit Card,James Thompson,lucas.moore40@email.com,2024-03-14,Japan,65,Biography,Books,54.98,46,219.92,21.992,197.928,June,Sunday,65,Low,61+,True
+T222,C155,P026,3.0,2024-06-10,Credit Card,Noah Smith,liam.taylor154@email.com,2024-10-09,Japan,20,Cookbook,Books,226.75,95,680.25,0.0,680.25,June,Monday,20,High,18-30,False
+T223,C191,P011,3.0,2024-06-11,Paypal,Sophia Williams,alexander.miller190@email.com,2024-12-14,France,41,Smartphone,Electronics,273.17,100,819.51,0.0,819.51,June,Tuesday,41,High,31-45,False
+T224,C145,P038,2.0,2024-06-12,Paypal,Ethan Davis,john.miller144@email.com,2024-09-21,United States,63,Dress,Clothing,18.41,89,36.82,0.0,36.82,June,Wednesday,63,High,61+,False
+T225,C161,P002,1.0,2024-06-12,Bank Transfer,Amelia Jones,lucas.white160@email.com,2024-10-20,Spain,75,Science Book,Books,34.88,500,34.88,0.0,34.88,June,Wednesday,75,Medium,61+,False
+T226,C157,P007,2.0,2024-06-13,Paypal,Ethan Martinez,noah.jackson156@email.com,2024-10-13,United States,42,Tennis Racket,Sports,491.1,21,982.2,0.0,982.2,June,Thursday,42,High,31-45,False
+T227,C141,P018,4.0,2024-06-14,Credit Card,James Miller,logan.williams140@email.com,2024-09-13,Netherlands,54,Smartphone,Electronics,488.17,29,1952.68,195.26800000000003,1757.412,June,Friday,54,High,46-60,False
+T228,C046,P027,4.0,2024-06-15,Credit Card,Harper Davis,abigail.white45@email.com,2024-03-23,Italy,18,Jeans,Clothing,279.12,47,1116.48,111.64800000000001,1004.832,June,Saturday,18,High,18-30,True
+T229,C035,P034,5.0,2024-06-15,Paypal,Isabella Williams,liam.lopez34@email.com,2024-03-03,Canada,47,Vase,Home,17.05,77,85.25,8.525,76.725,June,Saturday,47,High,46-60,True
+T231,C082,P017,4.0,2024-06-17,Bank Transfer,Isabella Wilson,isabella.gonzalez81@email.com,2024-05-28,Japan,35,Mirror,Home,77.79,15,311.16,31.116000000000003,280.04400000000004,June,Monday,35,High,31-45,False
+T232,C115,P043,4.0,2024-06-17,Credit Card,Liam Smith,mason.white114@email.com,2024-07-28,United States,25,Travel Guide,Books,32.2,94,128.8,12.880000000000003,115.92000000000002,June,Monday,25,High,18-30,False
+T233,C197,P044,4.0,2024-06-18,Bank Transfer,Olivia Anderson,william.gonzalez196@email.com,2024-12-25,Italy,62,Camera,Electronics,17.5,18,70.0,7.0,63.0,June,Tuesday,62,High,61+,False
+T234,C047,P024,2.0,2024-06-19,Paypal,Olivia Anderson,alexander.smith46@email.com,2024-03-25,United Kingdom,65,Camera,Electronics,347.36,0,694.72,0.0,694.72,June,Wednesday,65,High,61+,False
+T235,C153,P025,4.0,2024-06-20,Paypal,James Gonzalez,oliver.anderson152@email.com,2024-10-05,Spain,40,Fiction Novel,Books,94.91,0,379.64,37.964,341.676,June,Thursday,40,High,31-45,False
+T236,C194,P007,3.0,2024-06-20,Credit Card,William Lopez,emma.martinez193@email.com,2024-12-19,United States,24,Tennis Racket,Sports,491.1,21,1473.3000000000002,0.0,1473.3000000000002,June,Thursday,24,High,18-30,False
+T237,C010,P006,1.0,2024-06-21,Paypal,Lucas Martin,isabella.martinez9@email.com,2024-01-17,Italy,20,Travel Guide,Books,116.11,62,116.11,0.0,116.11,June,Friday,20,Low,18-30,False
+T238,C056,P024,4.0,2024-06-22,Credit Card,Mason White,ava.martinez55@email.com,2024-04-10,France,36,Camera,Electronics,347.36,0,1389.44,138.94400000000002,1250.496,June,Saturday,36,High,31-45,True
+T239,C030,P033,1.0,2024-06-23,Paypal,Logan Martin,olivia.miller29@email.com,2024-02-23,France,74,Shoes,Clothing,87.74,85,87.74,0.0,87.74,June,Sunday,74,Medium,61+,True
+T241,C005,P029,1.0,2024-06-24,Bank Transfer,Abigail Moore,william.jones4@email.com,2024-01-08,Canada,50,Plant Pot,Home,477.88,63,477.88,0.0,477.88,June,Monday,50,High,46-60,False
+T242,C119,P043,2.0,2024-06-25,Paypal,Michael White,alexander.brown118@email.com,2024-08-04,Canada,38,Travel Guide,Books,32.2,94,64.4,0.0,64.4,June,Tuesday,38,Low,31-45,False
+T244,C118,P026,2.0,2024-06-26,Credit Card,Ava Smith,abigail.williams117@email.com,2024-08-02,Canada,51,Cookbook,Books,226.75,95,453.5,0.0,453.5,June,Wednesday,51,High,46-60,False
+T245,C065,P028,2.0,2024-06-27,Credit Card,Charlotte Jackson,lucas.jackson64@email.com,2024-04-27,United Kingdom,41,Fantasy Book,Books,99.6,0,199.2,0.0,199.2,June,Thursday,41,High,31-45,False
+T246,C146,P050,5.0,2024-06-28,Paypal,Michael Anderson,emma.davis145@email.com,2024-09-22,United States,70,Fiction Novel,Books,402.47,500,2012.3500000000001,201.235,1811.1150000000002,June,Friday,70,High,61+,False
+T247,C177,P021,4.0,2024-06-28,Credit Card,Emma Martin,oliver.thomas176@email.com,2024-11-18,United States,57,Poetry Collection,Books,48.44,100,193.76,19.376,174.384,June,Friday,57,High,46-60,False
+T248,C011,P049,4.0,2024-06-29,Paypal,John Moore,liam.hernandez10@email.com,2024-01-19,France,37,Scarf,Clothing,297.03,90,1188.12,118.812,1069.308,June,Saturday,37,High,31-45,True
+T249,C085,P007,3.0,2024-06-30,Bank Transfer,Lucas Garcia,noah.thomas84@email.com,2024-06-03,Australia,52,Tennis Racket,Sports,491.1,21,1473.3000000000002,0.0,1473.3000000000002,June,Sunday,52,High,46-60,True
+T250,C026,P017,3.0,2024-07-01,Credit Card,Emily Anderson,emma.williams25@email.com,2024-02-15,United States,57,Mirror,Home,77.79,15,233.37,0.0,233.37,July,Monday,57,High,46-60,False
+T251,C063,P020,4.0,2024-07-01,Paypal,Harper Rodriguez,ethan.taylor62@email.com,2024-04-23,United Kingdom,73,Yoga Mat,Sports,222.43,57,889.72,88.97200000000001,800.748,July,Monday,73,High,61+,False
+T252,C086,P041,5.0,2024-07-02,Bank Transfer,Lucas Brown,charlotte.taylor85@email.com,2024-06-04,Australia,33,T-Shirt,Clothing,328.39,9,1641.9499999999998,164.195,1477.7549999999999,July,Tuesday,33,High,31-45,False
+T253,C059,P049,4.0,2024-07-03,Bank Transfer,Noah Lee,liam.gonzalez58@email.com,2024-04-16,Spain,20,Scarf,Clothing,297.03,90,1188.12,118.812,1069.308,July,Wednesday,20,High,18-30,False
+T255,C177,P022,3.0,2024-07-04,Credit Card,Emma Martin,oliver.thomas176@email.com,2024-11-18,United States,57,Running Shoes,Sports,100.32,61,300.96,0.0,300.96,July,Thursday,57,High,46-60,False
+T256,C161,P028,1.0,2024-07-05,Paypal,Amelia Jones,lucas.white160@email.com,2024-10-20,Spain,75,Fantasy Book,Books,99.6,0,99.6,0.0,99.6,July,Friday,75,Medium,61+,False
+T257,C098,P040,3.0,2024-07-06,Bank Transfer,Mason Williams,emma.garcia97@email.com,2024-06-26,Canada,24,Cookbook,Books,179.69,93,539.0699999999999,0.0,539.0699999999999,July,Saturday,24,High,18-30,True
+T258,C105,P049,3.0,2024-07-06,Paypal,Evelyn Wilson,oliver.gonzalez104@email.com,2024-07-09,Australia,39,Scarf,Clothing,297.03,90,891.0899999999999,0.0,891.0899999999999,July,Saturday,39,High,31-45,True
+T259,C099,P007,2.0,2024-07-07,Credit Card,Michael Thomas,michael.miller98@email.com,2024-06-28,Japan,20,Tennis Racket,Sports,491.1,21,982.2,0.0,982.2,July,Sunday,20,High,18-30,True
+T260,C129,P001,2.0,2024-07-08,Bank Transfer,Ava Thomas,oliver.wilson128@email.com,2024-08-22,Canada,52,Speaker,Electronics,353.96,15,707.92,0.0,707.92,July,Monday,52,Medium,46-60,False
+T261,C149,P032,2.0,2024-07-09,Paypal,Harper Smith,william.hernandez148@email.com,2024-09-28,France,50,Lamp,Home,131.39,15,262.78,0.0,262.78,July,Tuesday,50,Low,46-60,False
+T262,C055,P013,2.0,2024-07-09,Credit Card,Michael Miller,james.rodriguez54@email.com,2024-04-09,Australia,52,Laptop,Electronics,143.06,4,286.12,0.0,286.12,July,Tuesday,52,Low,46-60,False
+T264,C197,P023,4.0,2024-07-11,Credit Card,Olivia Anderson,william.gonzalez196@email.com,2024-12-25,Italy,62,Blanket,Home,419.63,8,1678.52,167.852,1510.668,July,Thursday,62,High,61+,False
+T265,C095,P019,1.0,2024-07-12,Bank Transfer,Sophia Lopez,alexander.williams94@email.com,2024-06-21,Canada,37,Tablet,Electronics,30.12,62,30.12,0.0,30.12,July,Friday,37,High,31-45,False
+T266,C133,P032,3.0,2024-07-12,Paypal,Mia Wilson,noah.moore132@email.com,2024-08-30,Germany,45,Lamp,Home,131.39,15,394.16999999999996,0.0,394.16999999999996,July,Friday,45,High,31-45,False
+T269,C181,P049,5.0,2024-07-15,Credit Card,Liam Rodriguez,noah.martin180@email.com,2024-11-26,Canada,71,Scarf,Clothing,297.03,90,1485.1499999999999,148.515,1336.6349999999998,July,Monday,71,High,61+,False
+T270,C023,P045,5.0,2024-07-15,Credit Card,Sophia Lopez,alexander.white22@email.com,2024-02-10,Netherlands,57,Fantasy Book,Books,256.54,500,1282.7,128.27,1154.43,July,Monday,57,High,46-60,False
+T271,C053,P029,3.0,2024-07-16,Paypal,Emma Hernandez,william.miller52@email.com,2024-04-05,France,26,Plant Pot,Home,477.88,63,1433.6399999999999,0.0,1433.6399999999999,July,Tuesday,26,High,18-30,False
+T272,C165,P030,4.0,2024-07-17,Credit Card,Emma Hernandez,logan.brown164@email.com,2024-10-27,United States,41,Dress,Clothing,281.63,21,1126.52,112.652,1013.8679999999999,July,Wednesday,41,High,31-45,False
+T273,C083,P016,2.0,2024-07-17,Bank Transfer,Olivia Anderson,liam.wilson82@email.com,2024-05-30,Australia,19,Mirror,Home,274.91,54,549.82,0.0,549.82,July,Wednesday,19,High,18-30,False
+T274,C145,P040,4.0,2024-07-18,Bank Transfer,Ethan Davis,john.miller144@email.com,2024-09-21,United States,63,Cookbook,Books,179.69,93,718.76,71.876,646.884,July,Thursday,63,High,61+,False
+T275,C085,P019,3.0,2024-07-19,Bank Transfer,Lucas Garcia,noah.thomas84@email.com,2024-06-03,Australia,52,Tablet,Electronics,30.12,62,90.36,0.0,90.36,July,Friday,52,High,46-60,False
+T276,C078,P018,3.0,2024-07-20,Bank Transfer,Abigail Brown,olivia.rodriguez77@email.com,2024-05-21,Japan,42,Smartphone,Electronics,488.17,29,1464.51,0.0,1464.51,July,Saturday,42,High,31-45,True
+T277,C110,P001,3.0,2024-07-20,Paypal,Abigail Lee,charlotte.moore109@email.com,2024-07-18,Germany,55,Speaker,Electronics,353.96,15,1061.8799999999999,0.0,1061.8799999999999,July,Saturday,55,High,46-60,True
+T279,C051,P047,4.0,2024-07-22,Paypal,Abigail Hernandez,michael.jones50@email.com,2024-04-01,Germany,49,Fiction Novel,Books,311.77,79,1247.08,124.708,1122.3719999999998,July,Monday,49,High,46-60,False
+T280,C173,P050,4.0,2024-07-23,Credit Card,Abigail Davis,william.lopez172@email.com,2024-11-11,Italy,59,Fiction Novel,Books,402.47,500,1609.88,160.98800000000003,1448.892,July,Tuesday,59,High,46-60,False
+T282,C190,P028,5.0,2024-07-24,Credit Card,Evelyn Jackson,abigail.garcia189@email.com,2024-12-12,Canada,42,Fantasy Book,Books,99.6,0,498.0,49.800000000000004,448.2,July,Wednesday,42,High,31-45,False
+T283,C193,P049,5.0,2024-07-25,Paypal,Lucas Rodriguez,john.rodriguez192@email.com,2024-12-18,Australia,75,Scarf,Clothing,297.03,90,1485.1499999999999,148.515,1336.6349999999998,July,Thursday,75,High,61+,False
+T284,C113,P050,3.0,2024-07-26,Credit Card,Sophia Davis,lucas.lee112@email.com,2024-07-24,Italy,68,Fiction Novel,Books,402.47,500,1207.41,0.0,1207.41,July,Friday,68,High,61+,False
+T285,C032,P030,4.0,2024-07-26,Paypal,James White,ava.rodriguez31@email.com,2024-02-26,Germany,67,Dress,Clothing,281.63,21,1126.52,112.652,1013.8679999999999,July,Friday,67,High,61+,False
+T286,C034,P038,3.0,2024-07-27,Bank Transfer,Abigail Davis,isabella.hernandez33@email.com,2024-03-01,Germany,48,Dress,Clothing,18.41,89,55.230000000000004,0.0,55.230000000000004,July,Saturday,48,High,46-60,True
+T287,C092,P004,1.0,2024-07-28,Bank Transfer,Lucas Smith,evelyn.white91@email.com,2024-06-15,United States,31,Smartphone,Electronics,56.05,86,56.05,0.0,56.05,July,Sunday,31,High,31-45,True
+T288,C095,P001,5.0,2024-07-28,Credit Card,Sophia Lopez,alexander.williams94@email.com,2024-06-21,Canada,37,Speaker,Electronics,353.96,15,1769.8,176.98000000000002,1592.82,July,Sunday,37,High,31-45,True
+T289,C072,P008,3.0,2024-07-29,Paypal,Abigail Wilson,emily.williams71@email.com,2024-05-10,Italy,57,Cookbook,Books,299.51,85,898.53,0.0,898.53,July,Monday,57,Medium,46-60,False
+T290,C039,P029,3.0,2024-07-30,Bank Transfer,Mia Garcia,ethan.thomas38@email.com,2024-03-10,United Kingdom,33,Plant Pot,Home,477.88,63,1433.6399999999999,0.0,1433.6399999999999,July,Tuesday,33,High,31-45,False
+T291,C154,P039,1.0,2024-07-31,Paypal,Emma Garcia,isabella.thomas153@email.com,2024-10-07,Australia,50,Candle,Home,250.89,38,250.89,0.0,250.89,July,Wednesday,50,High,46-60,False
+T292,C162,P003,2.0,2024-07-31,Paypal,James Martinez,harper.smith161@email.com,2024-10-22,Australia,20,Sweater,Clothing,23.53,97,47.06,0.0,47.06,July,Wednesday,20,Low,18-30,False
+T293,C182,P032,4.0,2024-08-01,Credit Card,James Thompson,charlotte.lee181@email.com,2024-11-27,Italy,65,Lamp,Home,131.39,15,525.56,52.556,473.00399999999996,August,Thursday,65,High,61+,False
+T294,C118,P010,2.0,2024-08-02,Bank Transfer,Ava Smith,abigail.williams117@email.com,2024-08-02,Canada,51,Picture Frame,Home,265.9,53,531.8,0.0,531.8,August,Friday,51,High,46-60,False
+T296,C123,P019,3.0,2024-08-03,Credit Card,Michael Taylor,michael.davis122@email.com,2024-08-11,Germany,64,Tablet,Electronics,30.12,62,90.36,0.0,90.36,August,Saturday,64,Medium,61+,True
+T297,C050,P046,1.0,2024-08-04,Bank Transfer,Harper Davis,emma.brown49@email.com,2024-03-30,Australia,54,Mirror,Home,274.29,3,274.29,0.0,274.29,August,Sunday,54,Low,46-60,True
+T298,C012,P034,1.0,2024-08-05,Bank Transfer,James White,mia.lopez11@email.com,2024-01-21,Australia,53,Vase,Home,17.05,77,17.05,0.0,17.05,August,Monday,53,High,46-60,False
+T299,C193,P033,4.0,2024-08-05,Paypal,Lucas Rodriguez,john.rodriguez192@email.com,2024-12-18,Australia,75,Shoes,Clothing,87.74,85,350.96,35.096,315.864,August,Monday,75,High,61+,False
+T301,C133,P028,4.0,2024-08-07,Paypal,Mia Wilson,noah.moore132@email.com,2024-08-30,Germany,45,Fantasy Book,Books,99.6,0,398.4,39.84,358.55999999999995,August,Wednesday,45,High,31-45,False
+T302,C057,P032,2.0,2024-08-08,Paypal,Liam Miller,oliver.hernandez56@email.com,2024-04-12,United Kingdom,65,Lamp,Home,131.39,15,262.78,0.0,262.78,August,Thursday,65,Low,61+,False
+T303,C145,P050,4.0,2024-08-08,Paypal,Ethan Davis,john.miller144@email.com,2024-09-21,United States,63,Fiction Novel,Books,402.47,500,1609.88,160.98800000000003,1448.892,August,Thursday,63,High,61+,False
+T304,C112,P007,1.0,2024-08-09,Bank Transfer,Lucas Anderson,amelia.martin111@email.com,2024-07-22,Germany,62,Tennis Racket,Sports,491.1,21,491.1,0.0,491.1,August,Friday,62,High,61+,False
+T305,C047,P029,1.0,2024-08-10,Credit Card,Olivia Anderson,alexander.smith46@email.com,2024-03-25,United Kingdom,65,Plant Pot,Home,477.88,63,477.88,0.0,477.88,August,Saturday,65,High,61+,True
+T306,C151,P008,5.0,2024-08-11,Paypal,Olivia Wilson,james.gonzalez150@email.com,2024-10-02,Germany,38,Cookbook,Books,299.51,85,1497.55,149.755,1347.795,August,Sunday,38,High,31-45,True
+T307,C085,P001,5.0,2024-08-11,Credit Card,Lucas Garcia,noah.thomas84@email.com,2024-06-03,Australia,52,Speaker,Electronics,353.96,15,1769.8,176.98000000000002,1592.82,August,Sunday,52,High,46-60,True
+T308,C142,P003,3.0,2024-08-12,Credit Card,Harper Anderson,abigail.brown141@email.com,2024-09-15,Canada,41,Sweater,Clothing,23.53,97,70.59,0.0,70.59,August,Monday,41,High,31-45,False
+T309,C066,P024,2.0,2024-08-13,Bank Transfer,Noah Lopez,harper.martin65@email.com,2024-04-29,Netherlands,69,Camera,Electronics,347.36,0,694.72,0.0,694.72,August,Tuesday,69,Medium,61+,False
+T310,C075,P023,4.0,2024-08-14,Credit Card,Evelyn Anderson,michael.garcia74@email.com,2024-05-15,Australia,65,Blanket,Home,419.63,8,1678.52,167.852,1510.668,August,Wednesday,65,High,61+,False
+T311,C179,P008,3.0,2024-08-14,Credit Card,Abigail Jackson,liam.moore178@email.com,2024-11-22,United Kingdom,26,Cookbook,Books,299.51,85,898.53,0.0,898.53,August,Wednesday,26,High,18-30,False
+T313,C166,P037,4.0,2024-08-16,Paypal,Emma Johnson,abigail.jones165@email.com,2024-10-29,United States,67,Mouse,Electronics,56.05,75,224.2,22.42,201.77999999999997,August,Friday,67,Medium,61+,False
+T315,C038,P033,4.0,2024-08-17,Bank Transfer,Ethan Lee,charlotte.anderson37@email.com,2024-03-08,Canada,24,Shoes,Clothing,87.74,85,350.96,35.096,315.864,August,Saturday,24,Medium,18-30,True
+T317,C098,P047,3.0,2024-08-19,Credit Card,Mason Williams,emma.garcia97@email.com,2024-06-26,Canada,24,Fiction Novel,Books,311.77,79,935.31,0.0,935.31,August,Monday,24,High,18-30,False
+T318,C082,P008,4.0,2024-08-19,Paypal,Isabella Wilson,isabella.gonzalez81@email.com,2024-05-28,Japan,35,Cookbook,Books,299.51,85,1198.04,119.804,1078.2359999999999,August,Monday,35,High,31-45,False
+T319,C030,P034,1.0,2024-08-20,Credit Card,Logan Martin,olivia.miller29@email.com,2024-02-23,France,74,Vase,Home,17.05,77,17.05,0.0,17.05,August,Tuesday,74,Medium,61+,False
+T320,C079,P035,1.0,2024-08-21,Bank Transfer,Abigail Moore,james.martinez78@email.com,2024-05-23,United States,46,Biography,Books,54.98,46,54.98,0.0,54.98,August,Wednesday,46,Low,46-60,False
+T321,C091,P032,4.0,2024-08-22,Credit Card,Olivia Moore,mason.thompson90@email.com,2024-06-14,Germany,50,Lamp,Home,131.39,15,525.56,52.556,473.00399999999996,August,Thursday,50,High,46-60,False
+T322,C179,P024,4.0,2024-08-22,Paypal,Abigail Jackson,liam.moore178@email.com,2024-11-22,United Kingdom,26,Camera,Electronics,347.36,0,1389.44,138.94400000000002,1250.496,August,Thursday,26,High,18-30,False
+T323,C191,P014,4.0,2024-08-23,Paypal,Sophia Williams,alexander.miller190@email.com,2024-12-14,France,41,Biography,Books,234.06,5,936.24,93.62400000000001,842.616,August,Friday,41,High,31-45,False
+T324,C052,P032,1.0,2024-08-24,Bank Transfer,Emma Davis,sophia.garcia51@email.com,2024-04-03,United States,72,Lamp,Home,131.39,15,131.39,0.0,131.39,August,Saturday,72,Medium,61+,True
+T325,C166,P046,1.0,2024-08-24,Paypal,Emma Johnson,abigail.jones165@email.com,2024-10-29,United States,67,Mirror,Home,274.29,3,274.29,0.0,274.29,August,Saturday,67,Medium,61+,True
+T326,C079,P043,4.0,2024-08-25,Credit Card,Abigail Moore,james.martinez78@email.com,2024-05-23,United States,46,Travel Guide,Books,32.2,94,128.8,12.880000000000003,115.92000000000002,August,Sunday,46,Low,46-60,True
+T327,C030,P016,2.0,2024-08-26,Paypal,Logan Martin,olivia.miller29@email.com,2024-02-23,France,74,Mirror,Home,274.91,54,549.82,0.0,549.82,August,Monday,74,Medium,61+,False
+T328,C106,P004,5.0,2024-08-27,Bank Transfer,James Moore,isabella.wilson105@email.com,2024-07-11,Italy,72,Smartphone,Electronics,56.05,86,280.25,28.025000000000002,252.225,August,Tuesday,72,Low,61+,False
+T329,C051,P037,2.0,2024-08-27,Paypal,Abigail Hernandez,michael.jones50@email.com,2024-04-01,Germany,49,Mouse,Electronics,56.05,75,112.1,0.0,112.1,August,Tuesday,49,High,46-60,False
+T330,C081,P021,3.0,2024-08-28,Paypal,Liam Brown,oliver.lopez80@email.com,2024-05-26,Canada,63,Poetry Collection,Books,48.44,100,145.32,0.0,145.32,August,Wednesday,63,Low,61+,False
+T331,C133,P014,5.0,2024-08-29,Paypal,Mia Wilson,noah.moore132@email.com,2024-08-30,Germany,45,Biography,Books,234.06,5,1170.3,117.03,1053.27,August,Thursday,45,High,31-45,False
+T332,C029,P031,1.0,2024-08-30,Bank Transfer,Harper Martinez,william.garcia28@email.com,2024-02-21,Canada,45,Jacket,Clothing,367.72,66,367.72,0.0,367.72,August,Friday,45,High,31-45,False
+T333,C132,P048,5.0,2024-08-30,Paypal,Abigail Wilson,mia.taylor131@email.com,2024-08-28,Canada,61,Camera,Electronics,324.79,91,1623.95,162.395,1461.555,August,Friday,61,High,61+,False
+T334,C138,P018,2.0,2024-08-31,Paypal,Emma Gonzalez,harper.white137@email.com,2024-09-08,Italy,23,Smartphone,Electronics,488.17,29,976.34,0.0,976.34,August,Saturday,23,High,18-30,True
+T335,C184,P007,2.0,2024-09-01,Credit Card,Ava Rodriguez,amelia.white183@email.com,2024-12-01,United States,46,Tennis Racket,Sports,491.1,21,982.2,0.0,982.2,September,Sunday,46,High,46-60,True
+T336,C145,P010,3.0,2024-09-02,Bank Transfer,Ethan Davis,john.miller144@email.com,2024-09-21,United States,63,Picture Frame,Home,265.9,53,797.6999999999999,0.0,797.6999999999999,September,Monday,63,High,61+,False
+T337,C074,P007,5.0,2024-09-02,Paypal,Noah Gonzalez,emma.jones73@email.com,2024-05-13,Italy,52,Tennis Racket,Sports,491.1,21,2455.5,245.55,2209.95,September,Monday,52,High,46-60,False
+T338,C017,P033,1.0,2024-09-03,Bank Transfer,John Garcia,lucas.taylor16@email.com,2024-01-30,United Kingdom,37,Shoes,Clothing,87.74,85,87.74,0.0,87.74,September,Tuesday,37,High,31-45,False
+T339,C084,P023,1.0,2024-09-04,Paypal,John Rodriguez,mia.anderson83@email.com,2024-06-01,United States,71,Blanket,Home,419.63,8,419.63,0.0,419.63,September,Wednesday,71,Medium,61+,False
+T340,C069,P021,4.0,2024-09-04,Paypal,Michael Johnson,logan.white68@email.com,2024-05-04,Canada,25,Poetry Collection,Books,48.44,100,193.76,19.376,174.384,September,Wednesday,25,Medium,18-30,False
+T341,C034,P019,1.0,2024-09-05,Paypal,Abigail Davis,isabella.hernandez33@email.com,2024-03-01,Germany,48,Tablet,Electronics,30.12,62,30.12,0.0,30.12,September,Thursday,48,High,46-60,False
+T343,C053,P019,3.0,2024-09-07,Credit Card,Emma Hernandez,william.miller52@email.com,2024-04-05,France,26,Tablet,Electronics,30.12,62,90.36,0.0,90.36,September,Saturday,26,High,18-30,True
+T344,C194,P036,1.0,2024-09-07,Credit Card,William Lopez,emma.martinez193@email.com,2024-12-19,United States,24,Keyboard,Electronics,29.96,61,29.96,0.0,29.96,September,Saturday,24,High,18-30,True
+T345,C126,P029,1.0,2024-09-08,Bank Transfer,James Moore,olivia.hernandez125@email.com,2024-08-17,France,65,Plant Pot,Home,477.88,63,477.88,0.0,477.88,September,Sunday,65,High,61+,True
+T346,C043,P018,4.0,2024-09-09,Bank Transfer,Abigail Lee,mason.martin42@email.com,2024-03-18,Netherlands,69,Smartphone,Electronics,488.17,29,1952.68,195.26800000000003,1757.412,September,Monday,69,High,61+,False
+T347,C115,P002,1.0,2024-09-10,Credit Card,Liam Smith,mason.white114@email.com,2024-07-28,United States,25,Science Book,Books,34.88,500,34.88,0.0,34.88,September,Tuesday,25,High,18-30,False
+T349,C151,P047,4.0,2024-09-11,Paypal,Olivia Wilson,james.gonzalez150@email.com,2024-10-02,Germany,38,Fiction Novel,Books,311.77,79,1247.08,124.708,1122.3719999999998,September,Wednesday,38,High,31-45,False
+T350,C183,P005,1.0,2024-09-12,Paypal,Alexander Hernandez,ethan.thompson182@email.com,2024-11-29,United States,56,Running Shoes,Sports,339.29,50,339.29,0.0,339.29,September,Thursday,56,High,46-60,False
+T351,C080,P020,2.0,2024-09-13,Paypal,Oliver Lee,ava.hernandez79@email.com,2024-05-24,Japan,35,Yoga Mat,Sports,222.43,57,444.86,0.0,444.86,September,Friday,35,High,31-45,False
+T352,C095,P011,2.0,2024-09-13,Credit Card,Sophia Lopez,alexander.williams94@email.com,2024-06-21,Canada,37,Smartphone,Electronics,273.17,100,546.34,0.0,546.34,September,Friday,37,High,31-45,False
+T353,C118,P042,4.0,2024-09-14,Bank Transfer,Ava Smith,abigail.williams117@email.com,2024-08-02,Canada,51,Sneakers,Clothing,475.08,99,1900.32,190.032,1710.288,September,Saturday,51,High,46-60,True
+T354,C144,P002,1.0,2024-09-15,Credit Card,Olivia Rodriguez,emily.garcia143@email.com,2024-09-19,Canada,66,Science Book,Books,34.88,500,34.88,0.0,34.88,September,Sunday,66,High,61+,True
+T355,C008,P003,2.0,2024-09-15,Bank Transfer,John Williams,ava.davis7@email.com,2024-01-13,Canada,33,Sweater,Clothing,23.53,97,47.06,0.0,47.06,September,Sunday,33,High,31-45,True
+T356,C132,P023,1.0,2024-09-16,Paypal,Abigail Wilson,mia.taylor131@email.com,2024-08-28,Canada,61,Blanket,Home,419.63,8,419.63,0.0,419.63,September,Monday,61,High,61+,False
+T357,C104,P012,1.0,2024-09-17,Credit Card,Oliver Taylor,ava.lopez103@email.com,2024-07-07,Canada,68,Picture Frame,Home,265.9,52,265.9,0.0,265.9,September,Tuesday,68,Low,61+,False
+T358,C132,P020,1.0,2024-09-18,Bank Transfer,Abigail Wilson,mia.taylor131@email.com,2024-08-28,Canada,61,Yoga Mat,Sports,222.43,57,222.43,0.0,222.43,September,Wednesday,61,High,61+,False
+T359,C184,P005,5.0,2024-09-18,Bank Transfer,Ava Rodriguez,amelia.white183@email.com,2024-12-01,United States,46,Running Shoes,Sports,339.29,50,1696.45,169.645,1526.805,September,Wednesday,46,High,46-60,False
+T360,C025,P037,1.0,2024-09-19,Paypal,Oliver Johnson,john.johnson24@email.com,2024-02-14,Japan,35,Mouse,Electronics,56.05,75,56.05,0.0,56.05,September,Thursday,35,High,31-45,False
+T361,C195,P038,5.0,2025-07-02,Credit Card,Michael Davis,michael.hernandez194@email.com,2024-12-21,Spain,74,Dress,Clothing,18.41,89,92.05,9.205,82.845,July,Wednesday,74,Low,61+,False
+T362,C096,P030,2.0,2024-09-21,Credit Card,Isabella Davis,emily.brown95@email.com,2024-06-23,Netherlands,73,Dress,Clothing,281.63,21,563.26,0.0,563.26,September,Saturday,73,Medium,61+,True
+T363,C195,P009,2.0,2024-09-21,Credit Card,Michael Davis,michael.hernandez194@email.com,2024-12-21,Spain,74,Fantasy Book,Books,132.62,41,265.24,0.0,265.24,September,Saturday,74,Low,61+,True
+T364,C155,P034,2.0,2024-09-22,Paypal,Noah Smith,liam.taylor154@email.com,2024-10-09,Japan,20,Vase,Home,17.05,77,34.1,0.0,34.1,September,Sunday,20,High,18-30,True
+T365,C093,P044,2.0,2024-09-23,Credit Card,Evelyn Hernandez,logan.smith92@email.com,2024-06-17,Italy,38,Camera,Electronics,17.5,18,35.0,0.0,35.0,September,Monday,38,Low,31-45,False
+T366,C160,P035,2.0,2024-09-23,Paypal,Abigail White,amelia.thompson159@email.com,2024-10-18,Australia,71,Biography,Books,54.98,46,109.96,0.0,109.96,September,Monday,71,Low,61+,False
+T367,C178,P022,2.0,2024-09-24,Paypal,Michael Wilson,isabella.taylor177@email.com,2024-11-20,United Kingdom,50,Running Shoes,Sports,100.32,61,200.64,0.0,200.64,September,Tuesday,50,Medium,46-60,False
+T368,C061,P044,2.0,2024-09-25,Paypal,Oliver Jones,noah.anderson60@email.com,2024-04-20,France,41,Camera,Electronics,17.5,18,35.0,0.0,35.0,September,Wednesday,41,High,31-45,False
+T369,C122,P024,2.0,2024-09-26,Bank Transfer,Emma Hernandez,emma.miller121@email.com,2024-08-09,Netherlands,45,Camera,Electronics,347.36,0,694.72,0.0,694.72,September,Thursday,45,High,31-45,False
+T370,C051,P017,4.0,2024-09-26,Credit Card,Abigail Hernandez,michael.jones50@email.com,2024-04-01,Germany,49,Mirror,Home,77.79,15,311.16,31.116000000000003,280.04400000000004,September,Thursday,49,High,46-60,False
+T371,C147,P010,1.0,2024-09-27,Credit Card,Harper Brown,michael.rodriguez146@email.com,2024-09-24,Japan,48,Picture Frame,Home,265.9,53,265.9,0.0,265.9,September,Friday,48,High,46-60,False
+T372,C021,P030,3.0,2024-09-28,Paypal,Liam Brown,logan.lee20@email.com,2024-02-06,Italy,58,Dress,Clothing,281.63,21,844.89,0.0,844.89,September,Saturday,58,High,46-60,True
+T373,C005,P046,5.0,2024-09-29,Paypal,Abigail Moore,william.jones4@email.com,2024-01-08,Canada,50,Mirror,Home,274.29,3,1371.45,137.145,1234.305,September,Sunday,50,High,46-60,True
+T374,C092,P023,3.0,2024-09-29,Credit Card,Lucas Smith,evelyn.white91@email.com,2024-06-15,United States,31,Blanket,Home,419.63,8,1258.8899999999999,0.0,1258.8899999999999,September,Sunday,31,High,31-45,True
+T375,C170,P032,3.0,2024-09-30,Paypal,Lucas Williams,emma.rodriguez169@email.com,2024-11-05,United Kingdom,40,Lamp,Home,131.39,15,394.16999999999996,0.0,394.16999999999996,September,Monday,40,Medium,31-45,False
+T376,C061,P017,1.0,2024-10-01,Credit Card,Oliver Jones,noah.anderson60@email.com,2024-04-20,France,41,Mirror,Home,77.79,15,77.79,0.0,77.79,October,Tuesday,41,High,31-45,False
+T377,C022,P050,1.0,2024-10-02,Bank Transfer,Michael Gonzalez,abigail.thompson21@email.com,2024-02-08,United States,50,Fiction Novel,Books,402.47,500,402.47,0.0,402.47,October,Wednesday,50,Low,46-60,False
+T378,C149,P017,1.0,2024-10-02,Paypal,Harper Smith,william.hernandez148@email.com,2024-09-28,France,50,Mirror,Home,77.79,15,77.79,0.0,77.79,October,Wednesday,50,Low,46-60,False
+T379,C070,P014,2.0,2024-10-03,Credit Card,Sophia Jones,abigail.smith69@email.com,2024-05-06,Japan,53,Biography,Books,234.06,5,468.12,0.0,468.12,October,Thursday,53,Medium,46-60,False
+T381,C133,P040,2.0,2024-10-04,Credit Card,Mia Wilson,noah.moore132@email.com,2024-08-30,Germany,45,Cookbook,Books,179.69,93,359.38,0.0,359.38,October,Friday,45,High,31-45,False
+T382,C012,P002,4.0,2024-10-05,Credit Card,James White,mia.lopez11@email.com,2024-01-21,Australia,53,Science Book,Books,34.88,500,139.52,13.952000000000002,125.56800000000001,October,Saturday,53,High,46-60,True
+T383,C090,P045,4.0,2024-10-06,Paypal,William Lopez,harper.lee89@email.com,2024-06-12,Germany,21,Fantasy Book,Books,256.54,500,1026.16,102.61600000000001,923.5440000000001,October,Sunday,21,High,18-30,True
+T384,C046,P025,3.0,2024-10-07,Bank Transfer,Harper Davis,abigail.white45@email.com,2024-03-23,Italy,18,Fiction Novel,Books,94.91,0,284.73,0.0,284.73,October,Monday,18,High,18-30,False
+T385,C034,P039,3.0,2024-10-07,Credit Card,Abigail Davis,isabella.hernandez33@email.com,2024-03-01,Germany,48,Candle,Home,250.89,38,752.67,0.0,752.67,October,Monday,48,High,46-60,False
+T386,C177,P009,4.0,2024-10-08,Credit Card,Emma Martin,oliver.thomas176@email.com,2024-11-18,United States,57,Fantasy Book,Books,132.62,41,530.48,53.048,477.432,October,Tuesday,57,High,46-60,False
+T387,C078,P022,4.0,2024-10-09,Credit Card,Abigail Brown,olivia.rodriguez77@email.com,2024-05-21,Japan,42,Running Shoes,Sports,100.32,61,401.28,40.128,361.152,October,Wednesday,42,High,31-45,False
+T388,C045,P043,2.0,2024-10-10,Bank Transfer,Logan Garcia,logan.thompson44@email.com,2024-03-21,Netherlands,19,Travel Guide,Books,32.2,94,64.4,0.0,64.4,October,Thursday,19,Low,18-30,False
+T389,C155,P046,2.0,2024-10-10,Bank Transfer,Noah Smith,liam.taylor154@email.com,2024-10-09,Japan,20,Mirror,Home,274.29,3,548.58,0.0,548.58,October,Thursday,20,High,18-30,False
+T390,C073,P004,3.0,2024-10-11,Paypal,Evelyn Williams,john.brown72@email.com,2024-05-12,United Kingdom,37,Smartphone,Electronics,56.05,86,168.14999999999998,0.0,168.14999999999998,October,Friday,37,Low,31-45,False
+T391,C026,P026,1.0,2024-10-12,Bank Transfer,Emily Anderson,emma.williams25@email.com,2024-02-15,United States,57,Cookbook,Books,226.75,95,226.75,0.0,226.75,October,Saturday,57,High,46-60,True
+T392,C047,P029,4.0,2024-10-13,Paypal,Olivia Anderson,alexander.smith46@email.com,2024-03-25,United Kingdom,65,Plant Pot,Home,477.88,63,1911.52,191.15200000000002,1720.368,October,Sunday,65,High,61+,True
+T393,C121,P045,2.0,2024-10-13,Paypal,Ava Williams,john.garcia120@email.com,2024-08-08,Netherlands,50,Fantasy Book,Books,256.54,500,513.08,0.0,513.08,October,Sunday,50,Medium,46-60,True
+T394,C056,P034,3.0,2024-10-14,Bank Transfer,Mason White,ava.martinez55@email.com,2024-04-10,France,36,Vase,Home,17.05,77,51.150000000000006,0.0,51.150000000000006,October,Monday,36,High,31-45,False
+T395,C094,P023,2.0,2024-10-15,Paypal,Amelia Smith,abigail.johnson93@email.com,2024-06-19,Netherlands,65,Blanket,Home,419.63,8,839.26,0.0,839.26,October,Tuesday,65,High,61+,False
+T396,C107,P037,4.0,2024-10-15,Bank Transfer,Emily White,liam.anderson106@email.com,2024-07-13,Germany,39,Mouse,Electronics,56.05,75,224.2,22.42,201.77999999999997,October,Tuesday,39,Low,31-45,False
+T397,C063,P011,4.0,2024-10-16,Paypal,Harper Rodriguez,ethan.taylor62@email.com,2024-04-23,United Kingdom,73,Smartphone,Electronics,273.17,100,1092.68,109.26800000000001,983.412,October,Wednesday,73,High,61+,False
+T398,C048,P006,5.0,2024-10-17,Bank Transfer,Noah Rodriguez,emily.johnson47@email.com,2024-03-27,France,29,Travel Guide,Books,116.11,62,580.55,58.055,522.495,October,Thursday,29,Medium,18-30,False
+T399,C061,P018,1.0,2024-10-18,Bank Transfer,Oliver Jones,noah.anderson60@email.com,2024-04-20,France,41,Smartphone,Electronics,488.17,29,488.17,0.0,488.17,October,Friday,41,High,31-45,False
+T400,C081,P021,5.0,2024-10-18,Paypal,Liam Brown,oliver.lopez80@email.com,2024-05-26,Canada,63,Poetry Collection,Books,48.44,100,242.2,24.22,217.98,October,Friday,63,Low,61+,False
+T401,C026,P042,3.0,2024-10-19,Credit Card,Emily Anderson,emma.williams25@email.com,2024-02-15,United States,57,Sneakers,Clothing,475.08,99,1425.24,0.0,1425.24,October,Saturday,57,High,46-60,True
+T402,C036,P036,2.0,2024-10-20,Paypal,Ava Brown,mia.gonzalez35@email.com,2024-03-05,Italy,59,Keyboard,Electronics,29.96,61,59.92,0.0,59.92,October,Sunday,59,High,46-60,True
+T404,C008,P038,4.0,2024-10-21,Credit Card,John Williams,ava.davis7@email.com,2024-01-13,Canada,33,Dress,Clothing,18.41,89,73.64,7.364000000000001,66.276,October,Monday,33,High,31-45,False
+T405,C113,P034,5.0,2024-10-22,Paypal,Sophia Davis,lucas.lee112@email.com,2024-07-24,Italy,68,Vase,Home,17.05,77,85.25,8.525,76.725,October,Tuesday,68,High,61+,False
+T407,C180,P037,5.0,2024-10-23,Paypal,Mason Taylor,mia.jackson179@email.com,2024-11-24,Spain,60,Mouse,Electronics,56.05,75,280.25,28.025000000000002,252.225,October,Wednesday,60,High,46-60,False
+T408,C047,P025,3.0,2024-10-24,Credit Card,Olivia Anderson,alexander.smith46@email.com,2024-03-25,United Kingdom,65,Fiction Novel,Books,94.91,0,284.73,0.0,284.73,October,Thursday,65,High,61+,False
+T409,C127,P038,4.0,2024-10-25,Bank Transfer,William Jackson,james.lopez126@email.com,2024-08-19,France,36,Dress,Clothing,18.41,89,73.64,7.364000000000001,66.276,October,Friday,36,High,31-45,False
+T410,C056,P012,2.0,2024-10-26,Paypal,Mason White,ava.martinez55@email.com,2024-04-10,France,36,Picture Frame,Home,265.9,52,531.8,0.0,531.8,October,Saturday,36,High,31-45,True
+T411,C014,P023,2.0,2024-10-26,Paypal,Harper Wilson,charlotte.wilson13@email.com,2024-01-24,Germany,43,Blanket,Home,419.63,8,839.26,0.0,839.26,October,Saturday,43,High,31-45,True
+T412,C028,P042,3.0,2024-10-27,Paypal,Noah Williams,sophia.jones27@email.com,2024-02-19,Germany,28,Sneakers,Clothing,475.08,99,1425.24,0.0,1425.24,October,Sunday,28,High,18-30,True
+T413,C078,P022,5.0,2024-10-28,Paypal,Abigail Brown,olivia.rodriguez77@email.com,2024-05-21,Japan,42,Running Shoes,Sports,100.32,61,501.59999999999997,50.16,451.43999999999994,October,Monday,42,High,31-45,False
+T414,C130,P021,1.0,2024-10-29,Paypal,Charlotte Miller,isabella.anderson129@email.com,2024-08-24,Canada,66,Poetry Collection,Books,48.44,100,48.44,0.0,48.44,October,Tuesday,66,Low,61+,False
+T415,C109,P027,3.0,2024-10-29,Bank Transfer,Isabella Gonzalez,noah.taylor108@email.com,2024-07-17,Spain,47,Jeans,Clothing,279.12,47,837.36,0.0,837.36,October,Tuesday,47,High,46-60,False
+T416,C154,P031,3.0,2024-10-30,Bank Transfer,Emma Garcia,isabella.thomas153@email.com,2024-10-07,Australia,50,Jacket,Clothing,367.72,66,1103.16,0.0,1103.16,October,Wednesday,50,High,46-60,False
+T417,C014,P006,4.0,2024-10-31,Paypal,Harper Wilson,charlotte.wilson13@email.com,2024-01-24,Germany,43,Travel Guide,Books,116.11,62,464.44,46.444,417.996,October,Thursday,43,High,31-45,False
+T418,C187,P027,2.0,2024-11-01,Credit Card,Isabella Anderson,mason.williams186@email.com,2024-12-07,Italy,43,Jeans,Clothing,279.12,47,558.24,0.0,558.24,November,Friday,43,High,31-45,False
+T419,C056,P040,3.0,2024-11-01,Bank Transfer,Mason White,ava.martinez55@email.com,2024-04-10,France,36,Cookbook,Books,179.69,93,539.0699999999999,0.0,539.0699999999999,November,Friday,36,High,31-45,False
+T420,C115,P034,3.0,2024-11-02,Credit Card,Liam Smith,mason.white114@email.com,2024-07-28,United States,25,Vase,Home,17.05,77,51.150000000000006,0.0,51.150000000000006,November,Saturday,25,High,18-30,True
+T421,C007,P012,5.0,2024-11-03,Bank Transfer,Charlotte Johnson,james.miller6@email.com,2024-01-12,Germany,23,Picture Frame,Home,265.9,52,1329.5,132.95000000000002,1196.55,November,Sunday,23,High,18-30,True
+T425,C107,P045,1.0,2024-11-06,Bank Transfer,Emily White,liam.anderson106@email.com,2024-07-13,Germany,39,Fantasy Book,Books,256.54,500,256.54,0.0,256.54,November,Wednesday,39,Low,31-45,False
+T426,C018,P017,5.0,2024-11-06,Paypal,Alexander Wilson,harper.moore17@email.com,2024-02-01,Australia,49,Mirror,Home,77.79,15,388.95000000000005,38.89500000000001,350.05500000000006,November,Wednesday,49,Low,46-60,False
+T427,C038,P026,2.0,2024-11-07,Paypal,Ethan Lee,charlotte.anderson37@email.com,2024-03-08,Canada,24,Cookbook,Books,226.75,95,453.5,0.0,453.5,November,Thursday,24,Medium,18-30,False
+T428,C115,P021,5.0,2024-11-08,Paypal,Liam Smith,mason.white114@email.com,2024-07-28,United States,25,Poetry Collection,Books,48.44,100,242.2,24.22,217.98,November,Friday,25,High,18-30,False
+T429,C015,P028,4.0,2024-11-09,Paypal,Ava Anderson,ethan.anderson14@email.com,2024-01-26,Spain,20,Fantasy Book,Books,99.6,0,398.4,39.84,358.55999999999995,November,Saturday,20,Low,18-30,True
+T431,C119,P002,4.0,2024-11-10,Paypal,Michael White,alexander.brown118@email.com,2024-08-04,Canada,38,Science Book,Books,34.88,500,139.52,13.952000000000002,125.56800000000001,November,Sunday,38,Low,31-45,True
+T433,C039,P001,4.0,2024-11-11,Credit Card,Mia Garcia,ethan.thomas38@email.com,2024-03-10,United Kingdom,33,Speaker,Electronics,353.96,15,1415.84,141.584,1274.2559999999999,November,Monday,33,High,31-45,False
+T434,C185,P036,4.0,2024-11-12,Paypal,Noah Jones,lucas.smith184@email.com,2024-12-03,Germany,59,Keyboard,Electronics,29.96,61,119.84,11.984000000000002,107.856,November,Tuesday,59,Medium,46-60,False
+T435,C017,P026,4.0,2024-11-13,Credit Card,John Garcia,lucas.taylor16@email.com,2024-01-30,United Kingdom,37,Cookbook,Books,226.75,95,907.0,90.7,816.3,November,Wednesday,37,High,31-45,False
+T436,C086,P029,2.0,2024-11-14,Bank Transfer,Lucas Brown,charlotte.taylor85@email.com,2024-06-04,Australia,33,Plant Pot,Home,477.88,63,955.76,0.0,955.76,November,Thursday,33,High,31-45,False
+T437,C126,P021,1.0,2024-11-14,Paypal,James Moore,olivia.hernandez125@email.com,2024-08-17,France,65,Poetry Collection,Books,48.44,100,48.44,0.0,48.44,November,Thursday,65,High,61+,False
+T438,C044,P011,3.0,2024-11-15,Credit Card,Michael Martin,evelyn.lee43@email.com,2024-03-19,Japan,66,Smartphone,Electronics,273.17,100,819.51,0.0,819.51,November,Friday,66,High,61+,False
+T439,C025,P040,1.0,2024-11-16,Paypal,Oliver Johnson,john.johnson24@email.com,2024-02-14,Japan,35,Cookbook,Books,179.69,93,179.69,0.0,179.69,November,Saturday,35,High,31-45,True
+T440,C145,P011,4.0,2024-11-17,Paypal,Ethan Davis,john.miller144@email.com,2024-09-21,United States,63,Smartphone,Electronics,273.17,100,1092.68,109.26800000000001,983.412,November,Sunday,63,High,61+,True
+T441,C013,P036,2.0,2024-11-17,Paypal,Logan White,noah.gonzalez12@email.com,2024-01-23,Australia,36,Keyboard,Electronics,29.96,61,59.92,0.0,59.92,November,Sunday,36,Medium,31-45,True
+T442,C025,P049,5.0,2024-11-18,Credit Card,Oliver Johnson,john.johnson24@email.com,2024-02-14,Japan,35,Scarf,Clothing,297.03,90,1485.1499999999999,148.515,1336.6349999999998,November,Monday,35,High,31-45,False
+T443,C068,P039,2.0,2024-11-19,Bank Transfer,Lucas Thomas,evelyn.thompson67@email.com,2024-05-02,Australia,66,Candle,Home,250.89,38,501.78,0.0,501.78,November,Tuesday,66,Medium,61+,False
+T444,C138,P040,4.0,2024-11-20,Bank Transfer,Emma Gonzalez,harper.white137@email.com,2024-09-08,Italy,23,Cookbook,Books,179.69,93,718.76,71.876,646.884,November,Wednesday,23,High,18-30,False
+T445,C067,P035,2.0,2025-04-02,Credit Card,Ava Jones,mason.lee66@email.com,2024-05-01,France,28,Biography,Books,54.98,46,109.96,0.0,109.96,April,Wednesday,28,Low,18-30,False
+T446,C109,P034,2.0,2024-11-21,Paypal,Isabella Gonzalez,noah.taylor108@email.com,2024-07-17,Spain,47,Vase,Home,17.05,77,34.1,0.0,34.1,November,Thursday,47,High,46-60,False
+T447,C146,P047,4.0,2024-11-22,Credit Card,Michael Anderson,emma.davis145@email.com,2024-09-22,United States,70,Fiction Novel,Books,311.77,79,1247.08,124.708,1122.3719999999998,November,Friday,70,High,61+,False
+T450,C034,P005,3.0,2024-11-24,Paypal,Abigail Davis,isabella.hernandez33@email.com,2024-03-01,Germany,48,Running Shoes,Sports,339.29,50,1017.8700000000001,0.0,1017.8700000000001,November,Sunday,48,High,46-60,True
+T452,C008,P036,5.0,2024-11-25,Paypal,John Williams,ava.davis7@email.com,2024-01-13,Canada,33,Keyboard,Electronics,29.96,61,149.8,14.980000000000002,134.82000000000002,November,Monday,33,High,31-45,False
+T453,C168,P047,4.0,2024-11-26,Credit Card,Lucas Taylor,emily.miller167@email.com,2024-11-02,France,64,Fiction Novel,Books,311.77,79,1247.08,124.708,1122.3719999999998,November,Tuesday,64,High,61+,False
+T454,C113,P020,3.0,2024-11-27,Bank Transfer,Sophia Davis,lucas.lee112@email.com,2024-07-24,Italy,68,Yoga Mat,Sports,222.43,57,667.29,0.0,667.29,November,Wednesday,68,High,61+,False
+T455,C083,P019,5.0,2024-11-28,Credit Card,Olivia Anderson,liam.wilson82@email.com,2024-05-30,Australia,19,Tablet,Electronics,30.12,62,150.6,15.06,135.54,November,Thursday,19,High,18-30,False
+T456,C042,P035,2.0,2024-11-28,Credit Card,Oliver White,harper.jackson41@email.com,2024-03-16,United Kingdom,74,Biography,Books,54.98,46,109.96,0.0,109.96,November,Thursday,74,Low,61+,False
+T458,C101,P017,1.0,2024-11-30,Paypal,William Jones,william.rodriguez100@email.com,2024-07-02,United Kingdom,50,Mirror,Home,77.79,15,77.79,0.0,77.79,November,Saturday,50,High,46-60,True
+T460,C180,P043,2.0,2024-12-01,Credit Card,Mason Taylor,mia.jackson179@email.com,2024-11-24,Spain,60,Travel Guide,Books,32.2,94,64.4,0.0,64.4,December,Sunday,60,High,46-60,True
+T461,C026,P034,4.0,2024-12-02,Bank Transfer,Emily Anderson,emma.williams25@email.com,2024-02-15,United States,57,Vase,Home,17.05,77,68.2,6.82,61.38,December,Monday,57,High,46-60,False
+T462,C064,P009,2.0,2024-12-03,Paypal,Emily Jackson,amelia.moore63@email.com,2024-04-25,Netherlands,50,Fantasy Book,Books,132.62,41,265.24,0.0,265.24,December,Tuesday,50,Low,46-60,False
+T463,C187,P026,4.0,2024-12-03,Credit Card,Isabella Anderson,mason.williams186@email.com,2024-12-07,Italy,43,Cookbook,Books,226.75,95,907.0,90.7,816.3,December,Tuesday,43,High,31-45,False
+T464,C184,P002,2.0,2024-12-04,Bank Transfer,Ava Rodriguez,amelia.white183@email.com,2024-12-01,United States,46,Science Book,Books,34.88,500,69.76,0.0,69.76,December,Wednesday,46,High,46-60,False
+T465,C059,P009,5.0,2024-12-05,Paypal,Noah Lee,liam.gonzalez58@email.com,2024-04-16,Spain,20,Fantasy Book,Books,132.62,41,663.1,66.31,596.79,December,Thursday,20,High,18-30,False
+T466,C109,P009,5.0,2024-12-06,Paypal,Isabella Gonzalez,noah.taylor108@email.com,2024-07-17,Spain,47,Fantasy Book,Books,132.62,41,663.1,66.31,596.79,December,Friday,47,High,46-60,False
+T467,C198,P040,5.0,2024-12-06,Bank Transfer,Harper White,olivia.wilson197@email.com,2024-12-27,France,37,Cookbook,Books,179.69,93,898.45,89.84500000000001,808.605,December,Friday,37,High,31-45,False
+T468,C121,P017,1.0,2024-12-07,Bank Transfer,Ava Williams,john.garcia120@email.com,2024-08-08,Netherlands,50,Mirror,Home,77.79,15,77.79,0.0,77.79,December,Saturday,50,Medium,46-60,True
+T470,C181,P025,5.0,2024-12-09,Bank Transfer,Liam Rodriguez,noah.martin180@email.com,2024-11-26,Canada,71,Fiction Novel,Books,94.91,0,474.54999999999995,47.455,427.09499999999997,December,Monday,71,High,61+,False
+T472,C021,P040,4.0,2024-12-10,Bank Transfer,Liam Brown,logan.lee20@email.com,2024-02-06,Italy,58,Cookbook,Books,179.69,93,718.76,71.876,646.884,December,Tuesday,58,High,46-60,False
+T473,C198,P042,2.0,2024-12-11,Paypal,Harper White,olivia.wilson197@email.com,2024-12-27,France,37,Sneakers,Clothing,475.08,99,950.16,0.0,950.16,December,Wednesday,37,High,31-45,False
+T474,C070,P025,1.0,2024-12-11,Paypal,Sophia Jones,abigail.smith69@email.com,2024-05-06,Japan,53,Fiction Novel,Books,94.91,0,94.91,0.0,94.91,December,Wednesday,53,Medium,46-60,False
+T475,C112,P039,3.0,2024-12-12,Credit Card,Lucas Anderson,amelia.martin111@email.com,2024-07-22,Germany,62,Candle,Home,250.89,38,752.67,0.0,752.67,December,Thursday,62,High,61+,False
+T477,C094,P003,1.0,2024-12-14,Paypal,Amelia Smith,abigail.johnson93@email.com,2024-06-19,Netherlands,65,Sweater,Clothing,23.53,97,23.53,0.0,23.53,December,Saturday,65,High,61+,True
+T478,C075,P050,4.0,2024-12-14,Bank Transfer,Evelyn Anderson,michael.garcia74@email.com,2024-05-15,Australia,65,Fiction Novel,Books,402.47,500,1609.88,160.98800000000003,1448.892,December,Saturday,65,High,61+,True
+T479,C190,P037,2.0,2024-12-15,Paypal,Evelyn Jackson,abigail.garcia189@email.com,2024-12-12,Canada,42,Mouse,Electronics,56.05,75,112.1,0.0,112.1,December,Sunday,42,High,31-45,True
+T480,C062,P044,3.0,2024-12-16,Credit Card,Ava Moore,charlotte.thomas61@email.com,2024-04-21,Spain,71,Camera,Electronics,17.5,18,52.5,0.0,52.5,December,Monday,71,Low,61+,False
+T481,C094,P044,5.0,2024-12-17,Bank Transfer,Amelia Smith,abigail.johnson93@email.com,2024-06-19,Netherlands,65,Camera,Electronics,17.5,18,87.5,8.75,78.75,December,Tuesday,65,High,61+,False
+T482,C095,P030,2.0,2024-12-17,Bank Transfer,Sophia Lopez,alexander.williams94@email.com,2024-06-21,Canada,37,Dress,Clothing,281.63,21,563.26,0.0,563.26,December,Tuesday,37,High,31-45,False
+T484,C055,P034,4.0,2024-12-19,Bank Transfer,Michael Miller,james.rodriguez54@email.com,2024-04-09,Australia,52,Vase,Home,17.05,77,68.2,6.82,61.38,December,Thursday,52,Low,46-60,False
+T485,C137,P012,4.0,2024-12-20,Bank Transfer,Logan Brown,lucas.thompson136@email.com,2024-09-06,Japan,70,Picture Frame,Home,265.9,52,1063.6,106.36,957.2399999999999,December,Friday,70,High,61+,False
+T486,C131,P019,5.0,2024-12-20,Credit Card,Sophia Brown,liam.thomas130@email.com,2024-08-26,France,34,Tablet,Electronics,30.12,62,150.6,15.06,135.54,December,Friday,34,Low,31-45,False
+T487,C031,P037,3.0,2024-12-21,Bank Transfer,Mia Jackson,james.davis30@email.com,2024-02-25,Japan,42,Mouse,Electronics,56.05,75,168.14999999999998,0.0,168.14999999999998,December,Saturday,42,Low,31-45,True
+T488,C040,P044,2.0,2024-12-22,Credit Card,Mia Lopez,amelia.taylor39@email.com,2024-03-12,France,43,Camera,Electronics,17.5,18,35.0,0.0,35.0,December,Sunday,43,Low,31-45,True
+T489,C036,P049,3.0,2024-12-22,Credit Card,Ava Brown,mia.gonzalez35@email.com,2024-03-05,Italy,59,Scarf,Clothing,297.03,90,891.0899999999999,0.0,891.0899999999999,December,Sunday,59,High,46-60,True
+T493,C075,P047,4.0,2024-12-25,Bank Transfer,Evelyn Anderson,michael.garcia74@email.com,2024-05-15,Australia,65,Fiction Novel,Books,311.77,79,1247.08,124.708,1122.3719999999998,December,Wednesday,65,High,61+,False
+T495,C079,P016,1.0,2024-12-27,Bank Transfer,Abigail Moore,james.martinez78@email.com,2024-05-23,United States,46,Mirror,Home,274.91,54,274.91,0.0,274.91,December,Friday,46,Low,46-60,False
+T497,C118,P019,4.0,2024-12-28,Credit Card,Ava Smith,abigail.williams117@email.com,2024-08-02,Canada,51,Tablet,Electronics,30.12,62,120.48,12.048000000000002,108.432,December,Saturday,51,High,46-60,True
+T498,C113,P008,3.0,2024-12-29,Bank Transfer,Sophia Davis,lucas.lee112@email.com,2024-07-24,Italy,68,Cookbook,Books,299.51,85,898.53,0.0,898.53,December,Sunday,68,High,61+,True
+T499,C094,P031,4.0,2024-12-30,Credit Card,Amelia Smith,abigail.johnson93@email.com,2024-06-19,Netherlands,65,Jacket,Clothing,367.72,66,1470.88,147.08800000000002,1323.7920000000001,December,Monday,65,High,61+,False
+T500,C179,P021,1.0,2024-12-31,Paypal,Abigail Jackson,liam.moore178@email.com,2024-11-22,United Kingdom,26,Poetry Collection,Books,48.44,100,48.44,0.0,48.44,December,Tuesday,26,High,18-30,False

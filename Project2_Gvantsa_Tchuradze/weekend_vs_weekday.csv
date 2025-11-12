@@ -1,0 +1,3 @@
+is_weekend,transactions,total_revenue,avg_value
+False,316,168732.97,533.97
+True,123,70658.92,574.46
