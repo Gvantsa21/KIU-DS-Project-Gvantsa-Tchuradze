@@ -149,24 +149,6 @@ Both methods will display all plots automatically.
 
 ---
 
-# 🛠 Requirements
-
-`requirements.txt`:
-
-```
-pandas==2.0.3
-numpy==1.24.3
-matplotlib==3.7.1
-seaborn==0.12.2
-```
-
-Install with:
-
-```
-pip install -r requirements.txt
-```
-
----
 
 # 📈 Key Findings (Summary)
 
