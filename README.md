@@ -26,7 +26,11 @@ All visualizations include proper titles, labels, legends, readable text, colorb
 ```plaintext
 KIU-DS-Project3-YourName/
 │
-├── Project3_YourName.ipynb        # OR .py script version
+├── Task1    
+│
+├── Task2     
+│
+├── Task3    
 │
 ├── data/
 │   └── student_performance.csv    # Dataset (required)
