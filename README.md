@@ -1,83 +1,194 @@
-# Project 1 — Python & NumPy Fundamentals
-
-**Course:** Introduction to Data Science with Python
-**Program:** Computer Science, Kutaisi International University
-
----
-
-## Student
-
-* **Name:** *Gvantsa Tchuradze*
-* **Student ID:** not sure what student id is ... (Tchuradze.gvantsa@kiu.edu.ge?)
-* **Submission Date:** *2025-10-19*
-
-**Honor Code:** I certify that this work is my own and I have not plagiarized.
+# 📊 Project 3 — Data Visualization & Exploratory Data Analysis  
+### *Introduction to Data Science with Python*  
+**Name:** Gvantsa Tchuradze 
+**Student ID:**
+**Date:** 12/06/2025 
+**Honor Code:** *I certify that this work is my own.*
 
 ---
 
-## Project Overview
+## 📁 Project Description
+This project explores student academic performance using **Python**, **Matplotlib**, **Seaborn**, and **Exploratory Data Analysis (EDA)**.  
+The dataset includes demographic variables, academic indicators, study habits, and lifestyle factors for 500 students.
 
-This repository contains the solution for **Project 1: Python & NumPy Fundamentals** (October 2025). The project implements three tasks:
+The project contains 3 major tasks:
 
-* **Task 1 — Python Data Structures & Control Flow**: processing student exam scores and attendance using pure Python.
-* **Task 2 — NumPy Arrays & Operations**: creating, exploring, and analyzing temperature and sales arrays.
-* **Task 3 — Applied Data Analysis**: simulated fitness-tracking dataset (100 users × 90 days × 4 metrics), cleaning pipeline and analysis using NumPy.
+- **Task 1:** Matplotlib fundamentals  
+- **Task 2:** Seaborn & statistical visualization  
+- **Task 3:** Full data story + insights + advanced EDA dashboard  
 
-This repository is prepared according to the course submission guidelines and verified to run without errors (restart kernel & run all).
+All visualizations include proper titles, labels, legends, readable text, colorblind-friendly palettes, and saved images.
 
 ---
 
+# 📂 Repository Structure
 
-## Requirements
-
-* Python 3.10+ recommended
-* `numpy==1.24.3` (exact version required by course)
-
-I
-## How to run
-
-**Python script:**
-
-```bash
-python Project1_GVantsa_Tchuradze.py
+```plaintext
+KIU-DS-Project3-YourName/
+│
+├── Project3_YourName.ipynb        # OR .py script version
+│
+├── data/
+│   └── student_performance.csv    # Dataset (required)
+│
+├── figures/                       # Optional: saved visualization images
+│   ├── gpa_distribution.png
+│   ├── study_hours_vs_gpa.png
+│   ├── major_gpa_boxplot.png
+│   └── ...
+│
+├── README.md
+└── requirements.txt
 ```
----
-
-## Summary of findings (Task 3)
-
-This project uses a simulated dataset of 100 users over 90 days with four daily metrics: steps, calories, active minutes, and average heart rate. I first added some problems to the data to make it realistic: about 5% missing values (NaNs) to imitate device failures and 2% extreme outliers. To clean the data I removed outliers using the IQR method for each metric, then filled missing values with the mean of that metric. Doing outlier removal first makes the mean used for imputation more reliable.
-
-After cleaning, I looked for patterns:
-
-Users naturally fall into three activity groups by average steps: low (≈25%), medium (≈50%), and high (≈25%).
-
-The top 10 users (by a combined z-score across metrics) have higher steps, more active minutes, and burn more calories — so steps and calories are linked.
-
-Some users are very consistent day-to-day (low variation), which is useful for making personalized suggestions.
-
-Time patterns:
-
-There is a weekly rhythm (day-of-week effect): activity usually dips slightly on weekends and is higher mid-week.
-
-A 7-day rolling average smooths short-term noise and shows small trends over time.
-
-I also compared three 30-day windows to check month-over-month changes.
-
-Other findings:
-
-Steps and calories are positively correlated. Active minutes also correlate with these. Heart rate has a weaker correlation with the others.
-
-Age has a small negative link with steps (older users tend to have slightly fewer steps). Men and women show small differences in average steps.
-
-I created a simple health score (weighted z-sum) that ranks users — weights put most emphasis on steps and active minutes.
-
-Using goals (8000 steps, 2000 calories, 60 active minutes), a small group meets all three goals at least 80% of days.
-
-Surprising note: Because steps were generated with a lognormal distribution and clipped to realistic values, the simulated data has more consistent achievers than purely random numbers would — so be careful: how you create synthetic data can change conclusions.
-
-
-If you have questions about this repository, email: [Tchuradze.gvantsa@kiu.edu.ge](mailto:Tchuradze.gvantsa@kiu.edu.ge)
 
 ---
 
-*Prepared for: Introduction to Data Science with Python — Project 1*
+# 🧪 Dataset
+The dataset is generated from the provided instructor script and contains **27 features**, including:
+
+- **Demographics:** Gender, Age, Major, Academic Year  
+- **Academics:** Current GPA, Previous GPA, Final Average  
+- **Behavior:** Study Hours, Attendance Rate  
+- **Lifestyle:** Sleep Hours, Health Score  
+- **Status Indicators:** Scholarship, Part-Time Work  
+
+The CSV file must be included inside the **data/** folder exactly as shown.
+
+---
+
+# 📘 Task Overview
+
+---
+
+## ✅ **Task 1 — Matplotlib Fundamentals**
+Included visualizations:
+
+- Line plot (Study Hours vs GPA)
+- Scatter plot (Attendance vs Final Average, colored by Major)
+- Histogram of GPA with mean/median lines
+- Bar chart (Average GPA by Major)
+- Boxplot (Subject score comparison)
+- 2×2 Subplot figure
+- Clean professional visualization with consistent style
+- Saved images in **figures/**
+
+---
+
+## 🎨 **Task 2 — Seaborn Statistical Visualizations**
+
+- Distribution & KDE plots  
+- Violin plot (Major vs Final Average)  
+- Swarm/box plots  
+- Correlation heatmap  
+- Pairplot with hue  
+- Regression plot + R²  
+- Countplot (Majors)  
+- Multi-category comparison (Major × Year)  
+- FacetGrid split by Gender & Scholarship  
+
+---
+
+## 📊 **Task 3 — Full Visual Story**
+
+### Contains three parts:
+
+### **A. Research Questions**
+Example included questions:
+- What factors have the strongest impact on GPA?
+- How do study habits differ across performance groups?
+- Do scholarship students perform better?
+- Does part-time work reduce academic performance?
+
+---
+
+### **B. Dashboard (6–10 plots)**
+Organized into:
+
+#### 🔹 Performance Overview
+- GPA distribution  
+- Demographic composition  
+- Average scores per subject  
+
+#### 🔹 Academic Predictors
+- Study hours vs GPA  
+- Attendance vs Final Average  
+- Sleep hours vs GPA  
+- Previous GPA vs Current GPA  
+
+#### 🔹 Group Comparisons
+- GPA by Major  
+- GPA by Academic Year  
+- Scholarship status difference  
+- Impact of part-time work  
+
+---
+
+### **C. Insights & Recommendations (~300 words)**  
+Interpretation includes:
+- Key correlations  
+- Strongest predictors  
+- Comparison insights  
+- Actionable recommendations  
+- Limitations & next steps  
+
+---
+
+# ▶️ Running Instructions
+
+## **Option 1 — Jupyter Notebook**
+```
+jupyter notebook Project3_YourName.ipynb
+```
+
+## **Option 2 — Python Script**
+```
+python Project3_YourName.py
+```
+
+Both methods will display all plots automatically.
+
+---
+
+# 🛠 Requirements
+
+`requirements.txt`:
+
+```
+pandas==2.0.3
+numpy==1.24.3
+matplotlib==3.7.1
+seaborn==0.12.2
+```
+
+Install with:
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+# 📈 Key Findings (Summary)
+
+- Students who study more than **15 hours/week** have significantly higher GPAs  
+- Attendance rate shows a **strong positive correlation** with GPA  
+- Sleeping **7–9 hours** leads to better academic outcomes  
+- Previous GPA is the **best predictor** of current GPA  
+- Scholarship students maintain higher academic performance  
+- Part-time work slightly reduces GPA due to lower study time  
+- Engineering majors show high workload and wider GPA variance  
+
+---
+
+# 🧩 Limitations
+- Synthetic dataset may not perfectly model real-world data  
+- Some relationships may be non-linear  
+- External factors not included (motivation, stress, teaching quality)  
+
+---
+
+# 🎯 Conclusion
+This project demonstrates how visualization and exploratory data analysis reveal valuable insights about student performance. Using Matplotlib, Seaborn, and statistical graphics, we identify key factors that shape academic outcomes and propose evidence-based recommendations.
+
+---
+
