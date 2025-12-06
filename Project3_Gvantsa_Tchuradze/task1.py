@@ -1,23 +1,15 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.stats import norm
+import seaborn as sns
 
-# Load CSV
 df = pd.read_csv("C:\\Users\\GVANTSA\\OneDrive\\Desktop\\datasc\\Project3_Gvantsa_tchuradze\\student_performance.csv")
-
-# ---------------------------------------------------------
-# 1. LINE PLOT — Study Hours vs GPA 
-# ---------------------------------------------------------
 
 df_sorted = df.sort_values("Study_Hours_Per_Week")
 
 plt.figure(figsize=(8,5))
-plt.plot(df_sorted["Study_Hours_Per_Week"],
-         df_sorted["Current_GPA"],
-         color="blue",
-         linestyle="-",
-         linewidth=2)
-
+plt.plot(df_sorted["Study_Hours_Per_Week"], df_sorted["Current_GPA"], color="blue", linestyle="-", linewidth=2)
 plt.title("Relationship Between Study Hours and Current GPA", fontsize=14)
 plt.xlabel("Study Hours Per Week")
 plt.ylabel("Current GPA")
@@ -25,23 +17,12 @@ plt.grid(True, linestyle="--", alpha=0.6)
 plt.tight_layout()
 plt.show()
 
-# ---------------------------------------------------------
-# 2. SCATTER PLOT — Attendance vs Final Average
-# ---------------------------------------------------------
-
 plt.figure(figsize=(8,5))
-
 majors = df["Major"].unique()
 colors = plt.cm.tab10(np.linspace(0,1,len(majors)))
-
 for major, color in zip(majors, colors):
     subset = df[df["Major"] == major]
-    plt.scatter(subset["Attendance_Rate"],
-                subset["Final_Average"],
-                label=major,
-                color=color,
-                alpha=0.6)
-
+    plt.scatter(subset["Attendance_Rate"], subset["Final_Average"], label=major, color=color, alpha=0.6)
 plt.title("Attendance vs Final Average by Major")
 plt.xlabel("Attendance Rate (%)")
 plt.ylabel("Final Average (%)")
@@ -49,43 +30,25 @@ plt.legend(title="Major", bbox_to_anchor=(1.05,1), loc="upper left")
 plt.tight_layout()
 plt.show()
 
-# ---------------------------------------------------------
-# 3. BAR CHART — Average GPA by Major
-# ---------------------------------------------------------
-
 gpa_by_major = df.groupby("Major")["Current_GPA"].mean().sort_values(ascending=False)
-
 plt.figure(figsize=(8,5))
 plt.barh(gpa_by_major.index, gpa_by_major.values)
-
-# Add labels
 for i, val in enumerate(gpa_by_major.values):
     plt.text(val + 0.02, i, f"{val:.2f}", va="center")
-
 plt.title("Average GPA by Major")
 plt.xlabel("Average GPA")
-plt.gca().invert_yaxis()  # High to low
+plt.gca().invert_yaxis()
 plt.tight_layout()
 plt.show()
 
-# ---------------------------------------------------------
-# 4. HISTOGRAM — Current GPA Distribution
-# ---------------------------------------------------------
-
 plt.figure(figsize=(8,5))
 plt.hist(df["Current_GPA"], bins=25, edgecolor="black", alpha=0.7)
-
 mean = df["Current_GPA"].mean()
 median = df["Current_GPA"].median()
-
 plt.axvline(mean, color="red", linestyle="--", label=f"Mean = {mean:.2f}")
 plt.axvline(median, color="green", linestyle=":", label=f"Median = {median:.2f}")
-
-# Optional normal curve
-from scipy.stats import norm
 x = np.linspace(df["Current_GPA"].min(), df["Current_GPA"].max(), 100)
 plt.plot(x, norm.pdf(x, mean, df["Current_GPA"].std()) * len(df["Current_GPA"]) * 0.5)
-
 plt.title("Distribution of Current GPA")
 plt.xlabel("GPA")
 plt.ylabel("Frequency")
@@ -93,16 +56,9 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-# ---------------------------------------------------------
-# 5. BOX PLOT — Course Score Comparison
-# ---------------------------------------------------------
-
-courses = ["Mathematics_Score","Programming_Score","Statistics_Score",
-           "English_Score","Science_Score"]
-
+courses = ["Mathematics_Score","Programming_Score","Statistics_Score","English_Score","Science_Score"]
 plt.figure(figsize=(8,6))
 plt.boxplot([df[c] for c in courses], labels=courses, patch_artist=True)
-
 plt.title("Course Score Comparison")
 plt.xlabel("Course")
 plt.ylabel("Score")
@@ -110,124 +66,48 @@ plt.xticks(rotation=20)
 plt.tight_layout()
 plt.show()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 fig = plt.figure(figsize=(12,10))
 fig.suptitle("Student Academic Insights", fontsize=16)
-
-# ------------------------------------
-# Top-left: GPA Histogram
-# ------------------------------------
 ax1 = fig.add_subplot(2,2,1)
 ax1.hist(df["Current_GPA"], bins=20, edgecolor="black", alpha=0.7)
 ax1.set_title("GPA Distribution")
 ax1.set_xlabel("GPA")
 ax1.set_ylabel("Count")
-
-# ------------------------------------
-# Top-right: Study Hours vs GPA Scatter
-# ------------------------------------
 ax2 = fig.add_subplot(2,2,2)
 ax2.scatter(df["Study_Hours_Per_Week"], df["Current_GPA"], alpha=0.6)
 ax2.set_title("Study Hours vs GPA")
 ax2.set_xlabel("Study Hours")
 ax2.set_ylabel("GPA")
-
-# ------------------------------------
-# Bottom-left: Avg Scores by Year
-# ------------------------------------
 ax3 = fig.add_subplot(2,2,3)
-year_scores = df.groupby("Year")[["Mathematics_Score","Programming_Score",
-                                  "Statistics_Score","English_Score",
-                                  "Science_Score"]].mean()
-
+year_scores = df.groupby("Year")[["Mathematics_Score","Programming_Score","Statistics_Score","English_Score","Science_Score"]].mean()
 ax3.bar(year_scores.index, year_scores.mean(axis=1))
 ax3.set_title("Average Score by Academic Year")
 ax3.set_xlabel("Year")
 ax3.set_ylabel("Average Score")
-
-# ------------------------------------
-# Bottom-right: Attendance Distribution
-# ------------------------------------
 ax4 = fig.add_subplot(2,2,4)
 ax4.hist(df["Attendance_Rate"], bins=20, edgecolor="black", alpha=0.7)
 ax4.set_title("Attendance Rate Distribution")
 ax4.set_xlabel("Attendance (%)")
 ax4.set_ylabel("Count")
-
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 plt.show()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 plt.figure(figsize=(10,6))
-
-plt.scatter(df["Study_Hours_Per_Week"], df["Current_GPA"],
-            alpha=0.6, color="#4C72B0", edgecolor="black")
-
+plt.scatter(df["Study_Hours_Per_Week"], df["Current_GPA"], alpha=0.6, color="#4C72B0", edgecolor="black")
 plt.title("Study Hours vs GPA (Customized)", fontsize=18, weight="bold")
 plt.xlabel("Study Hours Per Week", fontsize=14)
 plt.ylabel("Current GPA", fontsize=14)
 plt.grid(True, linestyle="--", alpha=0.5)
-
-# Highlight interesting point
 max_gpa_idx = df["Current_GPA"].idxmax()
-plt.annotate("Highest GPA",
-             (df["Study_Hours_Per_Week"][max_gpa_idx],
-              df["Current_GPA"][max_gpa_idx]),
-             textcoords="offset points", xytext=(10,10),
-             arrowprops=dict(arrowstyle="->"))
-
-# Text box with summary
+plt.annotate("Highest GPA", (df["Study_Hours_Per_Week"][max_gpa_idx], df["Current_GPA"][max_gpa_idx]), textcoords="offset points", xytext=(10,10), arrowprops=dict(arrowstyle="->"))
 mean_hours = df["Study_Hours_Per_Week"].mean()
 mean_gpa = df["Current_GPA"].mean()
-
 textstr = f"Mean Study Hours: {mean_hours:.1f}\nMean GPA: {mean_gpa:.2f}"
-
-plt.gcf().text(0.75, 0.75, textstr,
-               fontsize=12,
-               bbox=dict(facecolor="white", alpha=0.8))
-
+plt.gcf().text(0.75, 0.75, textstr, fontsize=12, bbox=dict(facecolor="white", alpha=0.8))
 plt.tight_layout()
-
-# SAVE PLOTS
 plt.savefig("study_hours_vs_gpa_custom.png", dpi=300)
 plt.show()
 
-# Histogram saved
 plt.figure(figsize=(10,6))
 plt.hist(df["Current_GPA"], bins=25, edgecolor="black")
 plt.title("Current GPA Distribution")
