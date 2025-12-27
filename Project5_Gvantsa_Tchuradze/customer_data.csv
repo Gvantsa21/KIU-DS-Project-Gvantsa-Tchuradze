@@ -1,0 +1,1001 @@
+Customer_ID,Age,Gender,Annual_Income,Education,Location_Type,Account_Age_Days,Membership_Type,Payment_Method,Total_Purchases,Total_Amount_Spent,Avg_Order_Value,Days_Since_Last_Purchase,Purchase_Frequency,Visits_Per_Month,Time_Per_Visit_Minutes,Product_Views_Per_Visit,Cart_Abandonment_Rate,Email_Open_Rate,Customer_Service_Contacts,Satisfaction_Score,NPS,Referrals,Loyalty_Points,Complaints,Favorite_Category,Num_Categories_Shopped,Discount_Usage_Rate,Returns_Rate,Churn_Risk_Score,Churned
+CUST0001,47,Male,68822,High School,Urban,62,Premium,PayPal,9,448.82,49.87,61,4.35,5.7,8.3,8,64.0,35.6,3,4.9,,0,613,0,Sports,3,37.6,28.7,73.4,1
+CUST0002,37,Male,46578,Bachelor,Suburban,838,VIP,Credit Card,83,12676.65,152.73,48,2.97,0.9,13.8,7,64.3,45.1,2,6.4,23.0,1,1317,1,Electronics,1,21.1,16.7,59.3,1
+CUST0003,49,Female,81128,Bachelor,Urban,300,Basic,Debit Card,18,1293.56,71.86,23,1.8,13.0,8.0,6,26.3,59.1,4,5.0,-6.0,0,153,1,Books,1,66.5,10.3,44.3,0
+CUST0004,62,Female,113217,High School,Urban,251,Premium,Credit Card,21,3989.94,190.0,13,2.51,4.7,4.7,8,61.8,51.9,1,2.9,-27.0,0,1019,1,Beauty,2,27.2,14.2,55.8,1
+CUST0005,36,Male,28062,High School,Urban,45,Basic,Credit Card,4,113.48,28.37,174,2.67,14.5,5.3,7,72.9,52.1,1,5.6,36.0,1,658,1,Sports,3,55.5,17.5,80.6,1
+CUST0006,36,Female,57915,Master,Suburban,419,Premium,Credit Card,33,3289.43,99.68,71,2.36,7.0,1.0,7,71.1,,1,4.9,-19.0,0,331,1,Sports,4,27.8,2.6,50.2,1
+CUST0007,63,Male,91858,High School,Urban,809,VIP,Debit Card,82,7251.82,88.44,16,3.04,9.3,3.2,6,59.9,56.5,4,7.0,57.0,1,611,1,Sports,2,15.4,20.8,62.5,1
+CUST0008,51,Female,89210,Bachelor,Urban,704,Basic,Bank Transfer,11,679.68,61.79,84,0.47,1.9,1.0,4,60.8,44.8,3,4.8,-5.0,0,326,0,Books,5,39.7,14.0,34.8,0
+CUST0009,32,Female,52508,Master,Urban,393,Basic,Credit Card,10,800.88,80.09,64,0.76,13.7,2.3,9,59.6,46.5,3,5.2,19.0,0,611,0,Home & Garden,1,33.9,15.7,56.0,1
+CUST0010,48,Female,63630,High School,Suburban,31,Basic,Credit Card,7,757.87,108.27,15,6.77,38.4,5.0,11,56.8,68.7,1,9.8,100.0,1,352,1,Beauty,5,31.2,39.8,60.4,1
+CUST0011,33,Female,46274,High School,Urban,47,Premium,PayPal,0,0.0,0.0,25,0.0,6.2,6.3,5,25.2,29.7,3,4.0,-20.0,0,0,1,Books,4,42.0,3.8,59.6,1
+CUST0012,33,Female,39120,Bachelor,Suburban,30,Premium,Credit Card,0,0.0,0.0,9,0.0,9.1,7.3,9,36.5,52.7,0,7.2,45.0,2,0,1,Clothing,2,21.0,27.3,50.5,1
+CUST0013,43,Male,83600,Bachelor,Suburban,119,Basic,PayPal,0,0.0,0.0,5,0.0,10.0,16.8,6,30.6,32.9,1,6.8,47.0,4,0,1,Home & Garden,2,58.6,15.6,49.5,0
+CUST0014,18,Female,23030,Bachelor,Suburban,58,Basic,PayPal,10,465.21,46.52,57,5.17,2.6,1.3,4,65.1,35.5,1,5.3,-11.0,0,143,0,Books,2,16.3,15.8,58.9,1
+CUST0015,18,Male,51228,Master,Rural,120,Basic,Bank Transfer,12,1456.13,121.34,14,3.0,3.3,2.2,5,63.0,26.9,4,6.9,,0,457,0,Clothing,2,43.3,18.9,37.5,0
+CUST0016,31,Female,46630,High School,Urban,194,Premium,Debit Card,8,1355.19,169.4,77,1.24,12.3,6.1,12,51.6,36.1,2,8.6,100.0,1,502,1,Electronics,3,57.0,29.3,50.2,1
+CUST0017,24,Female,23964,Bachelor,Urban,1145,Premium,Debit Card,77,9748.67,126.61,244,2.02,4.3,8.8,10,71.7,24.7,4,8.3,84.0,1,1550,0,Clothing,3,5.3,5.0,46.6,0
+CUST0018,44,Female,46284,Bachelor,Rural,377,Basic,Debit Card,9,445.36,49.48,3,0.72,7.0,2.9,4,81.3,72.3,2,4.7,10.0,0,784,1,Beauty,4,46.2,5.2,58.1,1
+CUST0019,26,Male,20000,High School,Suburban,720,Premium,Debit Card,51,2127.15,41.71,28,2.12,9.3,5.7,10,56.1,18.7,3,5.5,7.0,0,0,2,Sports,3,15.7,28.5,66.3,1
+CUST0020,18,Female,20000,Bachelor,Suburban,495,Premium,Debit Card,35,8950.39,255.73,72,2.12,12.6,6.4,12,47.8,49.2,1,4.2,-41.0,1,1097,0,Beauty,2,25.5,50.0,63.0,1
+CUST0021,61,Female,95947,High School,Suburban,47,Basic,Credit Card,5,816.0,163.2,70,3.19,7.3,14.7,6,17.7,63.1,1,6.3,19.0,0,301,1,Home & Garden,5,60.8,23.4,47.4,0
+CUST0022,36,Female,63821,Bachelor,Suburban,532,Basic,Debit Card,19,2285.27,120.28,64,1.07,7.4,1.4,8,65.4,14.0,3,5.7,,0,191,1,Books,1,56.0,20.4,59.8,1
+CUST0023,41,Male,40622,High School,Rural,128,Premium,Debit Card,23,4038.97,175.61,19,5.39,34.6,7.1,4,43.2,20.7,1,8.1,80.0,1,0,0,Beauty,4,40.9,15.7,62.1,1
+CUST0024,18,Male,36136,Bachelor,Rural,407,VIP,PayPal,35,2748.43,78.53,27,2.58,16.1,9.0,10,57.9,45.2,1,9.8,100.0,2,997,0,Books,2,24.6,18.1,73.4,0
+CUST0025,31,Male,40294,Bachelor,Suburban,166,Basic,PayPal,0,0.0,0.0,40,0.0,6.4,7.6,8,72.9,8.4,3,3.6,-21.0,1,0,2,Sports,1,47.2,9.9,45.5,0
+CUST0026,41,Male,66542,Master,Urban,2000,Basic,Debit Card,64,9717.5,151.84,164,0.96,7.5,11.9,12,73.4,13.0,0,8.5,67.0,2,0,1,Home & Garden,1,42.9,23.4,35.7,0
+CUST0027,22,Female,54893,High School,Rural,122,Basic,Credit Card,0,0.0,0.0,17,0.0,26.3,1.9,9,57.1,,1,6.2,33.0,4,10,1,Home & Garden,2,48.8,29.4,48.6,0
+CUST0028,45,Male,83953,Bachelor,Urban,130,Premium,PayPal,1,103.79,103.79,115,0.23,12.7,1.0,4,16.2,40.2,0,6.8,22.0,1,0,1,Beauty,1,19.1,10.5,51.7,1
+CUST0029,30,Other,41722,Bachelor,Urban,1067,Basic,Debit Card,30,4276.05,142.53,14,0.84,17.5,11.4,7,54.0,40.0,4,7.9,61.0,1,1356,0,Sports,2,43.5,28.3,47.2,0
+CUST0030,35,Male,41132,Bachelor,Rural,30,Basic,PayPal,0,0.0,0.0,203,0.0,6.2,3.7,6,8.9,53.5,0,7.1,39.0,1,244,1,Home & Garden,2,80.8,20.1,38.8,0
+CUST0031,30,Male,20000,Bachelor,Urban,477,Premium,Bank Transfer,27,1688.47,62.54,49,1.7,5.7,4.7,10,39.3,47.3,0,8.4,89.0,3,16,0,Sports,2,11.4,21.6,76.7,1
+CUST0032,67,Female,87873,Bachelor,Urban,516,Premium,Credit Card,36,5067.15,140.75,28,2.09,22.2,5.2,10,50.1,38.6,2,7.4,6.0,0,408,1,Clothing,1,17.2,31.7,74.5,1
+CUST0033,39,Female,57973,Master,Urban,724,Basic,PayPal,21,1886.93,89.85,42,0.87,7.9,5.5,13,66.0,40.8,2,6.7,33.0,4,84,0,Beauty,3,54.7,34.9,44.0,0
+CUST0034,24,Female,20000,Master,Rural,1466,Basic,Credit Card,47,3899.12,82.96,14,0.96,7.8,9.6,11,65.6,39.9,3,5.3,10.0,0,1498,0,Sports,3,39.4,18.3,43.2,0
+CUST0035,52,Female,78541,Bachelor,Suburban,1485,Premium,Credit Card,103,7951.59,77.2,14,2.08,5.9,6.9,16,31.3,61.5,2,10.0,72.0,3,1132,0,Books,6,41.0,11.2,42.6,1
+CUST0036,21,Female,29893,Bachelor,Suburban,30,Basic,Debit Card,0,0.0,0.0,5,0.0,17.1,1.4,6,14.1,42.0,1,6.4,40.0,3,0,1,Electronics,1,29.1,19.9,49.3,0
+CUST0037,43,Male,64087,Master,Urban,690,Basic,Credit Card,21,896.69,42.7,5,0.91,9.6,4.7,9,43.5,30.0,4,6.2,22.0,0,0,2,Clothing,4,17.3,12.0,54.1,1
+CUST0038,18,Other,20000,PhD,Suburban,415,VIP,PayPal,43,2576.11,59.91,19,3.11,3.2,6.3,16,59.2,68.5,3,6.7,21.0,1,245,0,Beauty,1,36.6,21.0,77.4,1
+CUST0039,20,Other,29280,Master,Suburban,416,Basic,Credit Card,4,122.64,30.66,64,0.29,5.4,7.4,9,19.6,,2,2.9,-26.0,1,0,0,Beauty,1,40.2,9.7,39.6,0
+CUST0040,42,Female,72539,Bachelor,Urban,54,Premium,Credit Card,0,0.0,0.0,42,0.0,19.5,4.4,7,52.4,52.7,4,3.4,-42.0,0,0,1,Beauty,3,50.6,28.6,68.9,1
+CUST0041,51,Male,62784,High School,Urban,420,VIP,Debit Card,43,3753.04,87.28,4,3.07,9.8,3.2,3,13.1,37.3,0,8.0,73.0,1,673,2,Books,2,41.4,2.9,62.6,1
+CUST0042,42,Female,87074,Bachelor,Urban,1617,Basic,PayPal,56,1097.41,19.6,86,1.04,17.2,10.0,3,71.8,29.2,1,6.3,30.0,0,0,0,Clothing,2,71.2,38.1,41.0,0
+CUST0043,38,Male,58031,Bachelor,Rural,971,Basic,Bank Transfer,42,1973.92,47.0,41,1.3,11.2,3.6,6,60.5,53.0,4,6.4,23.0,0,821,0,Books,1,23.3,13.0,52.1,1
+CUST0044,35,Male,54783,Bachelor,Suburban,231,Premium,PayPal,16,1436.38,89.77,145,2.08,3.6,8.0,4,48.8,36.7,4,4.0,-36.0,0,147,1,Home & Garden,3,21.7,18.1,91.0,1
+CUST0045,18,Male,33333,Bachelor,Rural,30,VIP,Debit Card,7,719.95,102.85,49,7.0,12.1,9.5,15,48.2,49.9,1,6.7,23.0,1,0,0,Sports,2,24.2,15.0,90.7,1
+CUST0046,29,Male,47438,Master,Urban,179,VIP,Credit Card,16,3161.34,197.58,8,2.68,8.1,6.0,11,32.2,45.1,1,4.3,-2.0,2,0,1,Books,1,71.1,16.8,60.6,1
+CUST0047,33,Female,65357,Bachelor,Suburban,700,Premium,Credit Card,48,5363.11,111.73,28,2.06,5.5,2.8,9,94.1,36.4,3,7.7,72.0,3,1147,0,Books,5,58.5,9.3,58.4,1
+CUST0048,55,Female,88807,Master,Suburban,483,Basic,Credit Card,24,1718.2,71.59,47,1.49,5.9,7.0,5,71.9,32.1,3,6.7,44.0,0,318,0,Home & Garden,2,54.0,3.8,50.9,0
+CUST0049,45,Female,61313,Bachelor,Suburban,245,Premium,Debit Card,5,429.5,85.9,1,0.61,16.9,4.0,13,44.6,41.3,2,6.8,36.0,3,0,0,Electronics,2,59.7,24.5,40.2,0
+CUST0050,18,Male,28133,Bachelor,Rural,30,Basic,Debit Card,3,262.95,87.65,0,3.0,10.1,20.9,8,44.5,34.1,1,6.4,39.0,3,0,0,Electronics,3,42.7,5.7,51.0,1
+CUST0051,44,Male,51834,Bachelor,Urban,222,Basic,Debit Card,18,1079.47,59.97,6,2.43,9.5,9.1,4,53.1,29.3,2,5.3,11.0,0,907,0,Sports,2,37.6,11.6,41.3,0
+CUST0052,34,Male,54418,Master,Urban,253,Basic,PayPal,9,828.3,92.03,13,1.07,23.7,8.9,10,58.2,34.3,4,7.5,42.0,1,0,0,Home & Garden,2,44.1,44.0,49.5,0
+CUST0053,29,Other,43442,High School,Suburban,1055,Basic,Debit Card,43,2500.44,58.15,25,1.22,4.8,11.1,11,75.8,22.3,2,9.4,73.0,2,65,1,Clothing,5,37.1,12.4,29.7,0
+CUST0054,49,Male,73218,High School,Suburban,409,Premium,Credit Card,24,2273.44,94.73,30,1.76,7.8,1.0,6,51.4,25.0,2,6.4,23.0,0,512,0,Books,2,25.4,3.5,50.4,1
+CUST0055,55,Female,82572,PhD,Suburban,149,Basic,Credit Card,4,308.61,77.15,6,0.81,5.1,4.7,11,36.4,27.1,3,4.7,-15.0,0,756,0,Sports,3,60.0,9.4,34.8,0
+CUST0056,53,Female,53632,High School,Urban,298,Basic,PayPal,10,696.57,69.66,50,1.01,11.9,10.7,7,51.2,,2,3.6,-26.0,0,0,1,Electronics,1,35.6,21.5,49.3,0
+CUST0057,27,Male,32029,Bachelor,Suburban,30,Basic,PayPal,0,0.0,0.0,40,0.0,9.7,3.2,4,43.7,31.4,4,5.3,31.0,1,0,1,Clothing,1,49.6,1.0,44.3,0
+CUST0058,35,Female,55893,Bachelor,Urban,1438,VIP,PayPal,137,16755.39,122.3,15,2.86,6.3,1.1,5,6.6,50.5,7,5.2,9.0,0,1622,0,Beauty,1,29.5,22.9,86.5,1
+CUST0059,44,Female,71388,Bachelor,Urban,178,Premium,Credit Card,6,694.5,115.75,0,1.01,7.0,5.6,6,56.7,16.9,2,5.4,30.0,0,521,0,Home & Garden,3,45.5,2.7,43.1,0
+CUST0060,54,Female,67775,Bachelor,Suburban,259,Basic,Bank Transfer,12,809.72,67.48,3,1.39,15.8,2.3,6,10.3,23.7,1,8.2,64.0,2,645,1,Beauty,2,54.1,11.6,43.8,0
+CUST0061,32,Female,68296,High School,Suburban,175,Basic,Credit Card,10,1196.5,119.65,22,1.71,18.6,2.6,9,63.0,34.6,2,4.8,-7.0,0,0,1,Books,2,53.2,12.0,40.3,0
+CUST0062,37,Male,44867,Bachelor,Urban,458,Basic,Credit Card,16,1219.96,76.25,7,1.05,5.3,4.4,8,69.8,34.2,1,9.7,71.0,4,179,1,Beauty,3,35.0,31.8,27.2,0
+CUST0063,23,Male,47202,Bachelor,Urban,434,VIP,Bank Transfer,47,3617.04,76.96,21,3.25,39.5,1.7,7,4.9,28.5,3,4.9,8.0,0,0,0,Beauty,3,23.4,4.8,62.9,1
+CUST0064,22,Female,37118,Bachelor,Urban,502,Premium,Credit Card,32,1920.11,60.0,44,1.91,2.5,4.2,8,25.8,57.0,2,3.6,-38.0,0,634,0,Books,3,25.2,31.4,57.3,1
+CUST0065,52,Female,70817,High School,Urban,124,Premium,Debit Card,14,2606.31,186.16,35,3.39,3.4,6.1,10,52.8,28.6,1,5.8,3.0,0,471,1,Electronics,2,62.5,10.5,51.2,1
+CUST0066,60,Male,117380,Bachelor,Suburban,151,Premium,Credit Card,10,1753.89,175.39,11,1.99,6.7,17.9,9,37.8,54.2,2,6.7,20.0,0,0,0,Beauty,2,34.5,12.4,34.7,1
+CUST0067,38,Female,41605,High School,Rural,53,Basic,Debit Card,2,104.34,52.17,18,1.13,4.5,3.4,7,18.0,26.6,4,5.2,10.0,0,777,0,Electronics,4,33.0,19.2,31.6,0
+CUST0068,55,Female,98287,High School,Urban,426,Premium,Bank Transfer,27,1756.1,65.04,42,1.9,4.1,4.5,9,36.8,45.3,5,5.3,-2.0,0,343,0,Sports,3,33.3,15.1,61.4,1
+CUST0069,45,Female,85509,High School,Suburban,30,Premium,Credit Card,5,494.88,98.98,88,5.0,18.3,7.7,16,76.3,59.0,5,4.2,8.0,1,162,0,Beauty,2,46.3,17.7,87.0,1
+CUST0070,30,Male,35691,High School,Rural,364,Basic,Debit Card,10,1095.57,109.56,62,0.82,12.2,3.8,5,64.9,38.2,2,5.4,26.0,0,20,0,Beauty,3,37.9,7.9,27.0,0
+CUST0071,45,Female,91387,Master,Suburban,815,Basic,Credit Card,32,1289.93,40.31,36,1.18,8.9,3.0,7,56.7,42.6,0,5.8,8.0,1,124,2,Books,2,63.0,19.8,44.1,0
+CUST0072,63,Female,90509,High School,Urban,885,Premium,Debit Card,53,2384.76,45.0,20,1.8,5.5,10.8,12,57.4,28.7,3,6.8,-1.0,0,47,0,Books,1,71.2,3.3,38.9,0
+CUST0073,39,Male,65470,Master,Rural,238,VIP,Credit Card,18,105.35,5.85,20,2.27,3.6,14.1,8,43.0,60.4,2,7.9,61.0,1,0,0,Beauty,2,35.6,10.1,44.0,0
+CUST0074,63,Male,98165,PhD,Urban,245,Basic,Credit Card,11,1207.3,109.75,95,1.35,3.4,3.8,8,35.8,56.4,5,4.7,-10.0,0,735,0,Beauty,3,46.7,37.7,68.5,1
+CUST0075,18,Other,20695,Bachelor,Urban,32,VIP,Credit Card,2,57.49,28.74,1,1.88,18.2,2.9,8,85.5,53.8,1,5.4,21.0,1,0,1,Books,3,29.5,11.6,66.7,1
+CUST0076,52,Male,92672,High School,Urban,444,Premium,Credit Card,27,1416.46,52.46,198,1.82,17.7,2.6,15,76.6,38.2,4,5.8,15.0,0,0,1,Books,1,31.7,2.8,97.4,1
+CUST0077,41,Female,76242,Bachelor,Suburban,688,Basic,Bank Transfer,27,3509.25,129.97,49,1.18,6.8,7.9,7,44.4,28.0,3,8.2,82.0,0,286,0,Clothing,5,10.9,15.7,41.3,1
+CUST0078,35,Female,28272,Master,Urban,112,Basic,Credit Card,0,0.0,0.0,51,0.0,2.3,11.9,7,61.0,24.5,2,5.7,,0,712,1,Home & Garden,2,7.6,18.6,51.3,0
+CUST0079,41,Male,83905,Bachelor,Urban,218,Basic,Credit Card,6,1083.19,180.53,1,0.83,12.9,6.7,7,64.6,15.3,4,3.3,-54.0,0,673,0,Clothing,4,31.8,7.1,49.2,0
+CUST0080,18,Female,20000,High School,Urban,730,Premium,Debit Card,55,11774.9,214.09,41,2.26,6.9,8.1,6,38.2,14.6,1,7.9,47.0,2,980,0,Beauty,2,24.7,31.8,66.2,0
+CUST0081,36,Male,71678,Bachelor,Suburban,838,Basic,Credit Card,35,10970.67,313.45,29,1.25,16.2,10.2,7,59.5,51.6,4,6.6,25.0,0,1710,0,Home & Garden,5,22.6,17.6,63.8,1
+CUST0082,45,Female,87401,Master,Rural,111,Basic,PayPal,11,702.59,63.87,5,2.97,3.4,14.4,8,63.0,34.9,3,7.0,38.0,0,124,0,Clothing,4,26.7,3.4,46.4,0
+CUST0083,62,Male,76746,Master,Urban,319,Premium,Bank Transfer,19,1040.04,54.74,14,1.79,8.9,6.9,13,73.8,24.7,0,8.4,64.0,5,0,3,Sports,2,58.0,9.8,39.8,0
+CUST0084,32,Female,43148,High School,Rural,85,Premium,Debit Card,11,1113.03,101.18,99,3.88,3.1,3.6,10,54.0,56.5,2,6.5,40.0,0,0,2,Home & Garden,5,27.3,34.9,57.1,1
+CUST0085,27,Male,23674,Bachelor,Rural,42,Basic,PayPal,0,0.0,0.0,35,0.0,4.7,8.5,9,71.8,23.9,1,5.2,13.0,0,686,0,Books,3,18.9,44.2,32.8,0
+CUST0086,32,Male,46086,High School,Suburban,968,Basic,Debit Card,27,1859.34,68.86,24,0.84,4.6,11.0,10,59.6,21.8,0,6.1,15.0,0,1227,1,Home & Garden,2,15.4,8.4,43.4,0
+CUST0087,53,Other,77239,High School,Urban,687,Basic,Credit Card,11,958.53,87.14,3,0.48,6.8,4.1,7,23.3,38.1,3,5.2,14.0,2,255,0,Books,5,58.2,16.5,25.0,0
+CUST0088,44,Male,80685,Master,Suburban,570,Premium,Debit Card,46,4858.27,105.61,56,2.42,19.3,1.0,5,54.7,44.9,2,7.8,39.0,2,202,0,Sports,2,19.0,19.7,61.1,1
+CUST0089,32,Female,68965,High School,Rural,30,Premium,Debit Card,0,0.0,0.0,54,0.0,9.2,3.6,11,54.3,41.2,1,5.5,21.0,0,0,1,Beauty,2,23.2,30.6,49.3,0
+CUST0090,47,Male,94395,High School,Suburban,742,Basic,Debit Card,24,1621.67,67.57,42,0.97,14.4,1.7,11,45.2,44.9,1,6.2,38.0,3,0,0,Home & Garden,4,41.4,9.8,41.5,0
+CUST0091,41,Female,55907,High School,Urban,230,Premium,PayPal,10,345.99,34.6,32,1.3,8.8,3.7,12,18.3,40.5,3,4.4,-8.0,0,0,1,Electronics,3,18.5,5.7,53.0,1
+CUST0092,54,Male,80052,Master,Suburban,167,Premium,Debit Card,14,559.14,39.94,25,2.51,6.1,4.7,7,80.2,33.0,1,9.1,90.0,0,0,2,Books,2,15.6,15.4,30.1,0
+CUST0093,29,Other,20000,Master,Suburban,316,Premium,Bank Transfer,19,336.48,17.71,40,1.8,1.1,7.2,7,38.8,33.1,2,6.0,31.0,5,0,0,Home & Garden,2,38.6,17.2,77.9,1
+CUST0094,35,Male,42412,Bachelor,Suburban,38,Premium,PayPal,0,0.0,0.0,11,0.0,3.5,8.1,10,60.7,28.6,1,7.5,66.0,6,60,0,Clothing,1,42.0,9.0,45.9,0
+CUST0095,34,Male,67263,Master,Urban,565,Basic,Debit Card,21,644.06,30.67,127,1.12,8.3,3.9,5,67.3,40.3,1,9.3,97.0,2,0,0,Home & Garden,2,27.4,20.2,44.0,0
+CUST0096,18,Male,46944,High School,Urban,349,Basic,Debit Card,4,233.95,58.49,39,0.34,9.4,7.6,12,35.9,38.7,1,5.2,21.0,0,0,1,Books,1,18.7,24.8,39.3,0
+CUST0097,44,Male,50475,Bachelor,Suburban,82,Premium,Credit Card,1,100.6,100.6,16,0.37,16.3,7.1,10,42.9,27.3,4,6.2,0.0,0,390,1,Electronics,1,45.4,11.4,41.8,0
+CUST0098,43,Female,58573,Bachelor,Rural,83,Premium,Bank Transfer,0,0.0,0.0,26,0.0,1.8,7.1,15,52.9,30.9,1,6.4,29.0,0,0,0,Electronics,4,36.4,10.2,36.1,1
+CUST0099,40,Male,62354,High School,Urban,81,Premium,Debit Card,0,0.0,0.0,73,0.0,30.8,2.7,8,67.5,23.9,1,8.6,71.0,3,0,3,Clothing,1,26.2,10.7,47.7,0
+CUST0100,36,Female,60392,Bachelor,Rural,30,Basic,Credit Card,1,67.12,67.12,7,1.0,1.1,8.6,14,45.4,52.3,3,4.3,-11.0,0,0,1,Sports,2,22.5,19.7,46.7,0
+CUST0101,18,Male,20000,Master,Urban,354,VIP,Credit Card,25,2439.06,97.56,15,2.12,7.9,5.8,16,15.5,37.2,3,6.3,40.0,1,1015,1,Electronics,2,36.5,7.1,64.4,0
+CUST0102,33,Male,57421,High School,Suburban,733,Premium,Debit Card,41,4550.24,110.98,51,1.68,5.2,4.8,5,31.2,32.0,4,6.8,37.0,2,209,0,Beauty,5,43.7,11.3,51.4,1
+CUST0103,34,Female,45682,High School,Suburban,30,Basic,Credit Card,0,0.0,0.0,17,0.0,3.6,2.9,12,23.2,18.0,2,5.0,1.0,0,298,0,Sports,2,40.7,24.0,30.2,0
+CUST0104,27,Female,40043,High School,Suburban,30,Basic,Credit Card,0,0.0,0.0,70,0.0,22.8,3.8,11,44.5,26.2,0,6.7,41.0,1,0,0,Books,1,19.1,14.6,35.8,0
+CUST0105,37,Male,66054,High School,Rural,340,Premium,Debit Card,32,2153.13,67.29,6,2.82,5.4,9.5,9,69.6,38.2,2,6.4,6.0,0,390,0,Home & Garden,1,59.4,8.8,65.9,0
+CUST0106,46,Male,72086,Master,Urban,684,Premium,Credit Card,54,3219.83,59.63,64,2.37,1.6,7.5,3,26.7,27.8,2,8.7,98.0,1,595,0,Sports,3,29.0,12.7,67.2,1
+CUST0107,68,Male,93164,Bachelor,Rural,158,Basic,Debit Card,0,0.0,0.0,3,0.0,2.7,3.1,15,57.3,54.0,0,10.0,,2,542,1,Beauty,1,53.7,9.1,35.3,0
+CUST0108,42,Female,64266,Bachelor,Urban,172,VIP,Credit Card,19,1998.21,105.17,0,3.31,17.6,5.6,3,70.2,23.1,1,9.2,100.0,0,7,0,Books,5,16.1,16.0,47.3,0
+CUST0109,43,Female,66135,Master,Suburban,362,Basic,Credit Card,15,2443.72,162.91,102,1.24,2.8,7.3,6,42.4,40.4,2,8.5,56.0,2,0,1,Books,3,14.2,10.2,34.3,0
+CUST0110,38,Male,53960,High School,Suburban,128,Basic,Debit Card,1,152.18,152.18,39,0.23,2.2,3.3,5,41.3,20.3,1,1.0,-94.0,0,0,1,Books,2,15.3,30.8,44.6,0
+CUST0111,18,Female,20000,Bachelor,Suburban,30,VIP,Debit Card,0,0.0,0.0,19,0.0,9.6,8.5,14,66.7,15.7,1,6.7,31.0,5,482,0,Beauty,3,33.8,19.3,45.8,0
+CUST0112,39,Female,85120,Bachelor,Urban,531,VIP,Credit Card,53,8545.52,161.24,11,2.99,6.7,1.0,9,40.3,71.9,4,6.2,24.0,1,1895,0,Clothing,1,46.9,33.9,76.6,1
+CUST0113,40,Female,71164,Bachelor,Rural,393,Premium,Credit Card,25,1082.76,43.31,43,1.91,11.6,8.5,17,86.9,48.6,2,7.7,46.0,3,525,3,Beauty,2,33.9,1.4,79.6,1
+CUST0114,76,Female,102958,PhD,Urban,347,VIP,Debit Card,32,2789.09,87.16,32,2.77,6.1,8.1,8,67.4,72.7,3,4.0,-32.0,0,0,2,Clothing,1,57.7,10.1,87.6,1
+CUST0115,37,Male,68314,Master,Urban,541,Basic,Credit Card,20,1927.49,96.37,215,1.11,13.8,6.2,4,85.1,39.0,2,7.5,55.0,2,593,2,Sports,4,54.2,22.8,74.6,1
+CUST0116,44,Male,63983,Bachelor,Suburban,449,VIP,Credit Card,41,1110.43,27.08,183,2.74,2.4,4.3,13,52.7,60.2,1,4.2,6.0,0,0,0,Books,2,64.7,9.8,80.1,1
+CUST0117,39,Male,78737,Master,Suburban,92,Basic,Credit Card,0,0.0,0.0,45,0.0,2.0,2.4,13,43.4,54.1,1,8.0,86.0,1,0,1,Sports,4,79.5,8.3,35.4,0
+CUST0118,22,Male,36255,High School,Suburban,173,Basic,PayPal,6,1001.08,166.85,26,1.04,10.2,5.2,9,47.9,55.4,5,2.1,-61.0,1,193,1,Electronics,5,25.2,23.1,77.2,1
+CUST0119,57,Female,85450,High School,Urban,53,Basic,PayPal,3,39.31,13.1,30,1.7,6.7,7.0,6,43.3,50.9,1,8.4,52.0,1,181,0,Sports,3,48.4,35.4,27.5,0
+CUST0120,51,Female,85856,High School,Urban,55,Basic,PayPal,0,0.0,0.0,51,0.0,5.8,8.6,6,60.6,46.2,1,8.3,61.0,0,32,0,Home & Garden,2,58.9,12.7,19.7,0
+CUST0121,51,Male,55577,Bachelor,Suburban,451,Basic,PayPal,19,324.15,17.06,4,1.26,12.9,2.8,8,38.4,28.8,2,5.9,,3,0,1,Books,3,22.8,23.8,63.6,1
+CUST0122,26,Male,21488,Bachelor,Suburban,782,Basic,Debit Card,17,1614.26,94.96,17,0.65,33.7,3.7,5,49.6,47.3,0,8.0,75.0,1,691,0,Sports,2,13.7,23.4,24.9,0
+CUST0123,61,Male,74031,Bachelor,Urban,1315,Basic,Debit Card,40,1122.53,28.06,3,0.91,19.7,3.8,8,65.1,51.3,1,7.3,52.0,1,0,0,Clothing,3,37.9,32.7,49.6,0
+CUST0124,18,Female,24854,Master,Suburban,395,Basic,Debit Card,11,1142.15,103.83,3,0.84,13.3,1.3,9,89.3,75.6,1,4.5,-17.0,1,741,2,Home & Garden,2,48.4,44.0,77.9,1
+CUST0125,48,Male,100898,Bachelor,Suburban,81,Premium,Credit Card,2,296.88,148.44,9,0.74,5.6,11.4,13,57.5,48.2,2,6.9,51.0,1,0,1,Sports,1,40.0,13.0,42.8,0
+CUST0126,72,Female,137180,Bachelor,Suburban,44,Basic,Debit Card,0,0.0,0.0,29,0.0,23.9,12.2,5,42.2,52.7,4,6.8,70.0,1,107,0,Sports,4,27.0,8.8,38.6,0
+CUST0127,25,Male,46071,High School,Suburban,670,Basic,PayPal,31,4281.23,138.1,69,1.39,2.7,2.6,8,34.9,37.3,1,6.6,31.0,0,0,0,Sports,2,25.2,18.7,41.4,0
+CUST0128,31,Male,55053,High School,Suburban,345,Premium,Debit Card,18,1214.5,67.47,29,1.57,11.3,15.6,7,54.4,34.9,2,7.3,17.0,0,0,2,Beauty,1,41.4,6.8,71.6,1
+CUST0129,41,Other,37324,Bachelor,Suburban,385,VIP,Credit Card,50,1470.17,29.4,18,3.9,7.2,4.4,9,71.7,37.0,0,6.7,18.0,0,0,2,Beauty,4,14.5,16.0,71.5,1
+CUST0130,32,Other,41170,Bachelor,Suburban,608,Premium,Credit Card,42,6980.31,166.2,3,2.07,5.6,8.5,11,35.0,65.0,1,8.7,75.0,2,1458,0,Beauty,4,24.1,13.5,50.0,0
+CUST0131,18,Male,20000,Master,Urban,485,Basic,Debit Card,16,3731.53,233.22,35,0.99,3.1,8.2,3,55.6,60.2,2,6.3,24.0,0,1027,2,Clothing,3,49.6,5.4,60.5,1
+CUST0132,41,Female,55027,High School,Suburban,719,Premium,Debit Card,50,4227.87,84.56,14,2.09,42.6,1.0,11,72.3,52.3,3,6.5,50.0,4,859,1,Sports,5,22.5,9.5,67.2,1
+CUST0133,24,Female,32068,High School,Suburban,30,Basic,PayPal,13,816.03,62.77,42,13.0,5.6,5.4,9,61.8,49.0,1,7.5,40.0,3,98,0,Beauty,5,42.2,2.1,100.0,1
+CUST0134,47,Female,66379,Bachelor,Suburban,550,Basic,Credit Card,13,618.07,47.54,170,0.71,0.7,2.4,5,63.4,66.3,1,9.1,78.0,2,155,2,Electronics,4,65.6,12.6,34.9,0
+CUST0135,26,Male,20000,High School,Urban,761,Basic,PayPal,19,2312.25,121.7,5,0.75,14.9,1.0,6,14.1,54.0,0,8.2,54.0,5,864,0,Electronics,1,9.1,11.9,61.0,1
+CUST0136,63,Female,105479,High School,Rural,134,Premium,Debit Card,5,709.15,141.83,10,1.12,10.6,6.0,6,86.7,25.6,1,5.0,11.0,0,421,1,Electronics,2,41.9,16.4,71.9,1
+CUST0137,28,Female,26019,Bachelor,Suburban,409,Basic,PayPal,13,816.26,62.79,28,0.95,6.7,7.7,4,73.5,25.8,3,4.7,-19.0,1,90,0,Sports,2,45.1,5.1,46.5,1
+CUST0138,35,Female,58089,High School,Urban,150,Basic,Debit Card,0,0.0,0.0,155,0.0,6.2,3.2,3,36.0,57.0,2,5.9,14.0,1,743,0,Home & Garden,4,33.2,27.6,40.4,0
+CUST0139,52,Male,111621,Bachelor,Urban,1267,Basic,Debit Card,42,4868.72,115.92,66,0.99,7.8,5.7,7,71.7,13.6,2,7.6,29.0,1,894,0,Clothing,4,11.8,12.7,32.8,0
+CUST0140,21,Male,20000,High School,Rural,30,VIP,Debit Card,11,923.77,83.98,102,11.0,15.0,11.8,2,67.3,37.2,5,3.0,-48.0,0,213,1,Electronics,4,11.8,18.9,100.0,0
+CUST0141,43,Male,29506,High School,Urban,346,Premium,PayPal,23,2225.82,96.77,18,1.99,10.7,4.4,9,71.8,55.9,2,7.0,65.0,1,0,0,Electronics,2,43.2,9.1,43.7,0
+CUST0142,59,Female,85250,Bachelor,Rural,72,Basic,Bank Transfer,0,0.0,0.0,217,0.0,12.0,1.6,6,26.6,23.0,1,7.8,83.0,3,0,2,Beauty,1,20.2,18.6,41.4,0
+CUST0143,18,Male,39224,Master,Suburban,498,Premium,Credit Card,30,3627.2,120.91,4,1.81,12.0,9.2,4,83.9,64.9,0,6.8,47.0,3,194,0,Home & Garden,1,25.1,25.4,44.8,0
+CUST0144,42,Female,95285,Bachelor,Suburban,77,Premium,Credit Card,9,383.18,42.58,2,3.51,15.4,3.9,12,18.2,44.7,0,10.0,,1,266,0,Electronics,3,13.1,2.9,38.6,0
+CUST0145,43,Other,49017,Master,Urban,107,Premium,Bank Transfer,3,173.27,57.76,87,0.84,18.6,3.0,4,59.3,37.4,1,5.4,-1.0,0,435,0,Clothing,6,11.0,16.3,53.9,1
+CUST0146,51,Male,86590,High School,Urban,272,Basic,Debit Card,18,1376.7,76.48,117,1.99,4.7,4.1,7,34.4,44.5,4,5.7,16.0,0,0,0,Home & Garden,2,24.8,16.4,71.3,1
+CUST0147,21,Female,21760,Master,Rural,985,VIP,Debit Card,108,22986.45,212.84,4,3.29,9.6,4.0,9,26.5,9.6,3,4.5,-7.0,1,1325,0,Books,3,15.0,23.3,64.5,1
+CUST0148,20,Male,25161,High School,Urban,95,Basic,Debit Card,4,368.98,92.24,5,1.26,18.0,1.0,6,21.1,44.2,3,5.1,2.0,0,0,3,Clothing,4,23.8,19.8,57.6,1
+CUST0149,47,Female,113125,Bachelor,Suburban,62,Premium,Credit Card,4,181.9,45.48,1,1.94,4.7,6.4,8,40.9,33.4,2,5.9,29.0,1,0,1,Clothing,1,59.7,24.7,47.2,0
+CUST0150,44,Male,46445,Bachelor,Urban,569,Basic,PayPal,24,2327.71,96.99,4,1.27,20.8,6.3,7,37.7,19.4,1,6.3,13.0,0,830,0,Sports,4,20.7,35.5,26.3,0
+CUST0151,43,Female,71266,Master,Urban,277,Basic,PayPal,14,1567.24,111.95,10,1.52,4.7,4.2,8,24.2,21.2,1,5.7,52.0,1,16,1,Books,3,48.0,20.1,43.7,0
+CUST0152,45,Female,77515,Bachelor,Urban,971,Basic,Credit Card,28,4341.83,155.07,157,0.87,11.0,5.9,9,45.3,52.6,1,6.3,50.0,1,561,0,Books,3,23.3,29.8,61.5,1
+CUST0153,29,Female,60227,High School,Suburban,63,Premium,Credit Card,1,78.82,78.82,49,0.48,6.8,8.1,8,66.7,46.7,1,7.5,37.0,2,216,0,Home & Garden,4,31.7,1.9,44.3,1
+CUST0154,43,Female,68930,High School,Rural,415,Basic,PayPal,7,350.75,50.11,67,0.51,5.9,6.2,8,47.5,45.5,3,2.8,-43.0,1,0,1,Electronics,2,54.6,4.3,42.9,0
+CUST0155,44,Female,73611,Master,Urban,106,Premium,Credit Card,9,2199.94,244.44,67,2.55,11.6,2.9,8,73.9,40.1,3,2.9,-51.0,0,949,0,Books,3,25.2,9.2,82.2,1
+CUST0156,29,Female,38065,Bachelor,Urban,68,Basic,PayPal,5,485.56,97.11,34,2.21,18.7,2.4,8,35.0,74.8,3,4.9,7.0,0,0,0,Home & Garden,2,24.2,8.0,54.1,1
+CUST0157,67,Female,102697,Master,Urban,460,Premium,Credit Card,23,1050.31,45.67,71,1.5,6.6,17.1,7,71.2,46.5,3,5.8,14.0,0,884,0,Books,1,62.2,14.8,67.5,1
+CUST0158,47,Female,68312,High School,Suburban,360,Premium,Debit Card,21,1646.25,78.39,40,1.75,19.9,6.3,12,65.5,,1,5.7,-13.0,0,101,0,Beauty,3,42.2,14.7,67.2,1
+CUST0159,22,Male,40034,Bachelor,Urban,562,Premium,Bank Transfer,30,1733.28,57.78,16,1.6,4.5,4.6,10,74.3,28.6,3,6.2,10.0,0,4,0,Clothing,2,29.9,12.8,41.4,0
+CUST0160,49,Female,70796,High School,Rural,148,Premium,Debit Card,5,801.75,160.35,37,1.01,18.9,7.4,4,29.5,50.9,3,6.5,51.0,3,0,1,Beauty,3,5.4,10.2,64.6,1
+CUST0161,25,Female,42157,PhD,Suburban,237,Premium,Debit Card,18,2003.92,111.33,34,2.28,9.0,3.2,10,22.2,29.1,1,8.3,63.0,0,299,1,Books,3,36.3,15.6,49.9,0
+CUST0162,51,Female,78701,Bachelor,Suburban,207,Basic,Debit Card,3,196.9,65.63,78,0.43,10.5,9.2,9,30.6,48.3,2,8.0,57.0,1,1146,0,Electronics,3,62.2,29.5,39.4,0
+CUST0163,57,Male,103951,Master,Urban,1656,Premium,Credit Card,108,15322.82,141.88,180,1.96,3.0,3.9,7,36.0,19.7,3,5.7,24.0,1,1739,2,Home & Garden,4,37.4,30.1,84.5,1
+CUST0164,27,Female,39489,High School,Rural,138,Basic,Credit Card,0,0.0,0.0,23,0.0,5.7,1.0,8,9.4,,0,5.8,31.0,0,135,0,Electronics,1,41.8,15.6,25.1,0
+CUST0165,54,Male,56595,Bachelor,Urban,139,Premium,Bank Transfer,10,772.95,77.29,64,2.16,8.2,4.8,12,25.8,39.0,1,5.4,6.0,0,0,0,Sports,1,47.7,20.1,55.9,1
+CUST0166,46,Female,90919,Bachelor,Urban,175,Premium,PayPal,11,541.18,49.2,4,1.89,17.3,2.1,4,50.2,18.5,2,7.7,22.0,1,350,1,Electronics,2,42.5,11.3,40.9,0
+CUST0167,52,Male,66924,Bachelor,Suburban,332,Basic,Debit Card,7,342.58,48.94,67,0.63,7.1,4.4,6,25.0,21.0,2,5.2,-8.0,0,113,1,Electronics,3,17.7,15.6,49.7,0
+CUST0168,68,Female,89904,Master,Suburban,116,Basic,Credit Card,2,470.77,235.39,20,0.52,4.2,4.0,9,74.4,36.6,1,7.0,8.0,0,15,1,Home & Garden,4,10.5,13.0,42.0,0
+CUST0169,36,Other,47255,Master,Urban,987,Basic,Credit Card,33,4557.39,138.1,1,1.0,9.9,6.8,10,78.9,17.5,4,3.5,-50.0,1,703,0,Beauty,1,8.6,8.9,47.5,1
+CUST0170,28,Male,62727,Master,Urban,123,Premium,Credit Card,4,80.06,20.02,20,0.98,28.5,13.5,17,64.6,,0,6.1,23.0,0,0,0,Clothing,4,39.2,18.9,43.7,0
+CUST0171,26,Other,20000,Bachelor,Suburban,904,VIP,Debit Card,83,3475.99,41.88,42,2.75,10.7,8.6,9,56.2,26.9,1,6.8,37.0,1,297,1,Beauty,1,30.3,12.6,70.5,1
+CUST0172,27,Male,87326,High School,Urban,43,Premium,PayPal,11,396.92,36.08,5,7.67,7.0,6.3,7,31.8,29.9,2,7.2,64.0,3,0,0,Books,3,22.8,12.3,81.6,0
+CUST0173,38,Female,75351,High School,Suburban,427,Premium,Debit Card,25,2074.27,82.97,115,1.76,9.9,5.6,4,86.4,47.5,1,5.1,2.0,0,221,0,Books,2,50.3,11.2,62.6,1
+CUST0174,45,Female,73849,PhD,Suburban,950,VIP,PayPal,94,5766.55,61.35,3,2.97,4.0,6.5,13,29.5,29.3,0,,87.0,3,214,0,Home & Garden,1,3.6,10.9,39.3,0
+CUST0175,44,Female,68167,High School,Urban,73,Basic,Credit Card,7,1249.11,178.44,119,2.88,21.7,12.4,7,46.2,50.8,3,6.0,37.0,2,0,0,Home & Garden,1,26.8,9.7,53.0,1
+CUST0176,52,Female,84793,Bachelor,Suburban,1380,Basic,Credit Card,63,4097.67,65.04,55,1.37,21.4,7.4,8,32.1,49.2,0,7.2,70.0,1,0,0,Beauty,2,35.0,18.4,51.1,1
+CUST0177,40,Female,70567,Bachelor,Urban,241,Premium,Credit Card,9,1998.05,222.01,18,1.12,3.8,1.0,7,69.5,68.9,3,6.2,38.0,1,757,1,Clothing,5,34.1,6.4,63.0,1
+CUST0178,61,Male,101618,Bachelor,Suburban,1165,Premium,Debit Card,79,6001.26,75.97,22,2.03,21.1,2.2,9,43.2,31.4,1,6.9,36.0,6,261,2,Clothing,1,17.7,17.7,82.0,1
+CUST0179,36,Male,64524,PhD,Suburban,451,VIP,Credit Card,41,10209.98,249.02,60,2.73,10.0,10.3,8,31.1,53.3,0,6.2,20.0,0,708,0,Sports,2,34.5,12.6,60.5,1
+CUST0180,80,Female,112094,Bachelor,Urban,143,Basic,Bank Transfer,2,140.98,70.49,41,0.42,13.5,6.2,12,83.5,38.7,1,7.6,34.0,5,779,1,Books,6,44.9,33.1,47.8,0
+CUST0181,49,Female,73380,Bachelor,Suburban,83,Basic,Credit Card,0,0.0,0.0,50,0.0,8.3,12.3,9,54.3,45.4,1,8.6,59.0,0,283,0,Books,2,16.9,21.1,32.3,1
+CUST0182,27,Female,37991,High School,Rural,144,Basic,Bank Transfer,0,0.0,0.0,22,0.0,8.8,8.2,7,23.1,35.9,0,7.6,,1,0,1,Sports,2,7.6,24.5,27.6,0
+CUST0183,23,Female,29736,Bachelor,Urban,39,Basic,Debit Card,1,125.22,125.22,30,0.77,5.0,5.5,8,59.6,46.2,3,3.7,-46.0,0,705,0,Home & Garden,3,33.5,21.5,59.7,1
+CUST0184,47,Male,90467,High School,Rural,62,Basic,Bank Transfer,0,0.0,0.0,206,0.0,3.9,5.4,9,34.9,21.4,2,4.8,-10.0,1,823,0,Books,2,52.4,45.4,53.8,1
+CUST0185,36,Female,65093,Bachelor,Urban,44,Premium,Debit Card,7,589.26,84.18,10,4.77,3.7,3.2,6,79.4,62.9,2,8.4,64.0,2,836,1,Electronics,4,41.5,9.9,70.7,1
+CUST0186,50,Male,33644,Master,Urban,219,Basic,Bank Transfer,7,426.91,60.99,24,0.96,17.7,4.3,8,59.3,19.7,3,6.8,56.0,2,376,0,Home & Garden,1,36.3,14.5,23.2,0
+CUST0187,47,Female,83299,Master,Urban,635,Premium,Credit Card,44,2567.38,58.35,15,2.08,9.5,1.7,4,59.8,52.9,2,5.2,-21.0,0,0,0,Home & Garden,6,54.4,15.7,61.3,1
+CUST0188,38,Male,62431,High School,Urban,60,Basic,PayPal,0,0.0,0.0,65,0.0,4.0,2.6,9,60.3,49.7,2,4.9,1.0,0,0,2,Clothing,1,61.7,11.6,53.1,1
+CUST0189,27,Male,39979,Bachelor,Urban,55,Premium,Bank Transfer,1,66.7,66.7,64,0.55,9.0,2.1,6,25.2,26.9,1,6.8,16.0,1,0,1,Beauty,3,24.7,19.9,38.5,0
+CUST0190,18,Male,20000,Master,Urban,412,Basic,Credit Card,15,1339.57,89.3,15,1.09,1.7,5.0,3,38.1,31.5,4,5.1,-28.0,0,0,0,Sports,3,9.8,11.3,43.9,0
+CUST0191,33,Male,67922,High School,Rural,87,Basic,Credit Card,0,0.0,0.0,3,0.0,4.0,3.5,8,35.9,18.6,2,9.1,75.0,2,0,1,Beauty,3,52.7,28.5,17.9,0
+CUST0192,52,Female,94723,High School,Suburban,41,Basic,Debit Card,0,0.0,0.0,0,0.0,18.9,1.1,12,40.1,43.9,2,4.9,-2.0,0,0,2,Beauty,2,45.7,28.0,63.0,1
+CUST0193,43,Male,55867,High School,Suburban,73,VIP,Bank Transfer,3,418.09,139.36,25,1.23,5.5,7.5,4,62.9,65.0,2,7.0,58.0,0,123,1,Home & Garden,4,19.5,16.8,41.5,0
+CUST0194,21,Male,34846,Bachelor,Urban,1029,Premium,Debit Card,64,9707.33,151.68,23,1.87,17.3,3.7,11,49.5,60.2,4,6.7,30.0,2,748,0,Clothing,2,30.4,4.2,55.9,1
+CUST0195,42,Male,51335,High School,Urban,689,Basic,Debit Card,12,1613.49,134.46,200,0.52,7.8,9.0,13,26.3,37.8,3,3.3,-43.0,0,0,1,Electronics,2,23.7,9.3,55.9,1
+CUST0196,45,Male,49806,PhD,Urban,174,Basic,Credit Card,12,980.33,81.69,28,2.07,13.6,7.1,7,51.1,,2,2.7,,0,0,0,Electronics,4,35.0,12.6,45.3,0
+CUST0197,26,Male,28989,Bachelor,Suburban,426,VIP,Credit Card,39,2477.39,63.52,13,2.75,3.1,18.4,10,27.2,55.3,2,6.2,16.0,0,997,2,Books,1,16.1,25.1,71.5,1
+CUST0198,42,Male,78846,Bachelor,Rural,308,Basic,PayPal,16,853.91,53.37,99,1.56,12.2,5.0,6,66.9,38.6,1,7.4,-4.0,0,1167,1,Sports,2,13.7,30.5,53.1,1
+CUST0199,40,Female,77047,High School,Urban,452,Basic,Credit Card,20,940.7,47.04,30,1.33,0.8,3.2,5,75.1,17.8,4,,43.0,0,0,0,Sports,2,47.4,6.8,39.0,0
+CUST0200,22,Female,38406,Bachelor,Urban,459,Premium,Debit Card,24,1824.4,76.02,41,1.57,5.9,2.6,11,30.8,43.3,3,4.8,8.0,1,350,1,Clothing,2,55.6,9.9,57.4,1
+CUST0201,45,Female,81376,Bachelor,Suburban,396,VIP,Bank Transfer,34,5085.35,149.57,4,2.58,19.5,8.0,8,48.9,27.5,0,8.4,31.0,2,87,1,Books,1,28.2,42.2,50.8,1
+CUST0202,48,Male,82653,Master,Urban,123,Basic,Credit Card,16,807.5,50.47,21,3.9,8.5,8.5,8,64.2,54.8,2,5.9,11.0,1,464,0,Beauty,6,36.4,11.0,61.6,1
+CUST0203,56,Male,76168,Master,Urban,30,Basic,Debit Card,9,1347.43,149.71,129,9.0,3.8,5.1,8,62.1,32.2,0,9.8,91.0,4,0,1,Sports,3,15.8,27.1,100.0,0
+CUST0204,55,Female,90979,Bachelor,Suburban,243,VIP,Credit Card,24,664.88,27.7,40,2.96,18.4,6.1,8,46.9,28.5,3,5.9,29.0,0,0,0,Books,5,18.3,10.2,49.8,0
+CUST0205,19,Female,36746,Master,Suburban,886,Basic,Debit Card,30,2762.43,92.08,19,1.02,30.8,10.5,5,63.1,47.6,4,4.9,1.0,0,1277,2,Clothing,4,28.1,26.6,58.8,1
+CUST0206,25,Male,47814,Master,Urban,337,Basic,Credit Card,8,828.56,103.57,44,0.71,6.8,8.2,10,13.2,18.6,4,5.4,15.0,0,0,0,Books,1,51.5,43.3,42.6,0
+CUST0207,47,Male,91294,Master,Urban,714,Premium,PayPal,49,2797.69,57.1,108,2.06,1.9,6.4,8,34.8,24.4,1,7.8,44.0,4,0,0,Home & Garden,2,31.3,25.3,71.5,0
+CUST0208,47,Male,84085,High School,Rural,1912,VIP,Credit Card,187,7252.76,38.78,14,2.93,8.6,1.8,9,52.9,82.4,2,10.0,74.0,0,1092,1,Home & Garden,1,26.2,7.8,95.4,1
+CUST0209,47,Male,78732,High School,Urban,71,Basic,Debit Card,0,0.0,0.0,31,0.0,14.2,2.7,9,17.4,51.2,4,5.0,-8.0,0,0,0,Home & Garden,4,38.5,20.2,47.0,0
+CUST0210,80,Male,126802,High School,Urban,470,VIP,Debit Card,40,3282.8,82.07,143,2.55,7.1,3.8,4,43.1,15.7,7,4.9,-3.0,0,5,1,Home & Garden,3,30.3,13.7,75.6,1
+CUST0211,48,Female,74512,Bachelor,Urban,448,Premium,Credit Card,29,8443.7,291.16,8,1.94,1.0,4.0,10,46.7,24.6,1,4.6,9.0,0,2210,0,Electronics,2,59.6,13.5,67.2,1
+CUST0212,57,Female,73832,Bachelor,Urban,1563,Basic,PayPal,46,6939.55,150.86,57,0.88,13.2,2.9,7,64.7,34.4,1,5.7,-8.0,1,1059,0,Beauty,5,62.1,3.4,49.6,0
+CUST0213,54,Female,80744,Bachelor,Urban,1696,VIP,Credit Card,169,25610.12,151.54,42,2.99,4.5,2.6,8,7.3,26.2,1,9.3,100.0,2,2531,1,Electronics,3,47.7,24.3,57.6,1
+CUST0214,49,Female,65166,Master,Suburban,464,Basic,Debit Card,10,106.68,10.67,51,0.65,5.8,4.2,4,28.2,36.6,4,5.4,10.0,3,0,0,Sports,3,28.5,8.6,42.7,0
+CUST0215,35,Female,44372,Master,Urban,111,Basic,Credit Card,0,0.0,0.0,19,0.0,2.0,5.7,12,55.5,33.7,2,4.9,-14.0,0,222,2,Electronics,2,42.0,24.3,28.0,0
+CUST0216,51,Female,76972,Master,Urban,640,Premium,Debit Card,46,1639.42,35.64,16,2.16,0.6,7.2,4,46.6,23.9,1,7.8,45.0,1,0,0,Beauty,2,11.6,19.2,25.6,0
+CUST0217,28,Female,30224,Bachelor,Suburban,45,Basic,Credit Card,2,33.82,16.91,51,1.33,3.0,1.0,5,72.6,61.7,2,5.3,3.0,0,0,0,Books,3,39.9,11.9,40.5,0
+CUST0218,36,Male,51571,Bachelor,Suburban,606,Basic,Debit Card,20,1562.74,78.14,10,0.99,5.4,3.5,7,43.9,26.2,2,8.9,78.0,0,137,0,Books,3,8.7,10.4,25.2,0
+CUST0219,32,Male,20906,High School,Rural,964,Basic,Credit Card,36,4578.78,127.19,24,1.12,5.3,1.2,12,82.6,58.3,0,7.4,48.0,5,564,0,Electronics,3,31.6,26.0,64.3,1
+CUST0220,41,Male,67539,High School,Rural,193,Basic,PayPal,8,331.81,41.48,9,1.24,22.4,5.0,11,33.8,10.8,2,6.8,46.0,1,0,0,Books,4,27.1,25.6,29.0,0
+CUST0221,74,Female,105608,High School,Urban,398,Premium,Credit Card,33,586.41,17.77,0,2.49,3.4,5.0,11,49.9,24.3,1,6.8,27.0,0,0,0,Beauty,1,17.4,36.2,36.6,0
+CUST0222,18,Female,20000,Bachelor,Suburban,224,Premium,PayPal,12,526.53,43.88,157,1.61,16.3,4.7,7,89.4,50.4,3,5.6,14.0,0,512,0,Sports,1,83.1,34.6,92.1,1
+CUST0223,50,Male,87639,Bachelor,Suburban,230,VIP,PayPal,20,1448.53,72.43,25,2.61,9.3,4.2,9,35.9,37.3,0,8.2,59.0,4,0,0,Clothing,3,39.3,7.1,46.1,0
+CUST0224,18,Female,36774,Master,Rural,148,Basic,Credit Card,0,0.0,0.0,156,0.0,24.5,3.6,4,51.1,37.5,3,5.7,39.0,4,0,0,Electronics,3,40.3,9.2,46.4,0
+CUST0225,32,Male,25197,High School,Suburban,574,Basic,Debit Card,16,1288.28,80.52,6,0.84,7.9,4.7,9,55.3,49.4,1,6.0,-6.0,0,0,1,Home & Garden,2,19.7,17.1,34.0,0
+CUST0226,56,Female,74349,Bachelor,Rural,1100,Basic,Credit Card,41,4194.93,102.32,39,1.12,1.1,7.4,9,61.9,35.3,1,7.8,89.0,2,925,1,Books,5,30.1,11.1,62.5,1
+CUST0227,40,Male,51213,Bachelor,Suburban,1130,Basic,Credit Card,44,3489.97,79.32,10,1.17,7.3,3.8,12,73.8,35.6,1,7.1,30.0,0,119,1,Books,3,42.8,17.8,46.5,0
+CUST0228,23,Male,20000,High School,Urban,76,Basic,PayPal,7,918.76,131.25,70,2.76,0.6,1.9,13,52.6,30.9,3,6.5,14.0,0,310,0,Clothing,3,42.3,31.1,45.8,0
+CUST0229,29,Female,56382,Bachelor,Suburban,830,Premium,Debit Card,46,1932.6,42.01,68,1.66,3.0,6.1,10,59.8,36.7,3,8.1,58.0,2,359,1,Sports,2,53.3,12.9,58.4,1
+CUST0230,50,Male,74843,High School,Rural,534,VIP,Debit Card,58,3906.7,67.36,5,3.26,7.4,8.6,2,47.3,44.6,0,9.6,96.0,2,0,0,Books,2,58.9,14.7,50.8,0
+CUST0231,29,Male,39972,Bachelor,Rural,116,VIP,Credit Card,2,224.44,112.22,109,0.52,7.6,1.8,5,50.9,12.0,0,5.4,3.0,0,0,0,Home & Garden,6,61.7,8.5,32.5,0
+CUST0232,43,Male,37402,Bachelor,Urban,30,Basic,Credit Card,5,472.91,94.58,9,5.0,15.9,1.6,10,69.3,24.0,1,2.1,-50.0,1,0,0,Clothing,3,35.9,20.5,73.2,1
+CUST0233,40,Female,72281,High School,Suburban,124,VIP,Credit Card,10,2075.47,207.55,42,2.42,11.5,1.8,8,70.4,50.6,0,10.0,93.0,2,383,1,Books,4,43.6,7.6,59.8,1
+CUST0234,30,Female,27161,High School,Urban,973,Basic,PayPal,35,1513.27,43.24,190,1.08,23.0,4.6,4,46.2,32.1,1,8.0,50.0,5,0,0,Beauty,2,64.5,8.5,53.1,1
+CUST0235,72,Male,104609,Bachelor,Urban,401,Basic,Debit Card,6,680.37,113.39,96,0.45,15.9,14.2,11,74.8,37.3,2,6.7,20.0,1,661,0,Beauty,1,44.2,24.1,50.6,1
+CUST0236,49,Female,80501,Master,Urban,510,VIP,PayPal,56,2964.28,52.93,141,3.29,14.6,12.8,7,41.7,13.8,0,7.1,60.0,2,206,0,Home & Garden,2,33.2,38.2,78.2,1
+CUST0237,18,Female,43120,Bachelor,Urban,118,Premium,Credit Card,0,0.0,0.0,18,0.0,29.2,6.1,3,36.4,37.1,1,3.4,-26.0,0,0,0,Beauty,2,48.6,5.0,40.5,0
+CUST0238,42,Male,46278,Bachelor,Suburban,508,Basic,Credit Card,13,1894.86,145.76,5,0.77,15.4,1.7,7,73.5,55.9,1,3.8,-42.0,0,789,0,Books,3,9.6,29.2,46.9,0
+CUST0239,30,Male,20000,Bachelor,Urban,30,Basic,Credit Card,0,0.0,0.0,9,0.0,20.4,12.7,9,58.3,34.5,3,5.0,-7.0,0,0,0,Home & Garden,1,32.5,36.8,45.5,0
+CUST0240,52,Male,83268,Master,Suburban,188,Basic,Credit Card,0,0.0,0.0,31,0.0,1.7,13.1,10,28.8,24.8,2,6.2,5.0,0,447,1,Beauty,2,64.9,40.8,24.3,0
+CUST0241,28,Male,69118,Master,Urban,394,Premium,Credit Card,26,1446.34,55.63,70,1.98,6.5,2.5,8,68.4,29.8,4,8.0,100.0,3,378,2,Clothing,1,25.0,4.7,59.3,0
+CUST0242,38,Female,78094,Bachelor,Urban,63,Basic,PayPal,11,635.2,57.75,7,5.24,11.1,5.1,12,62.0,41.1,2,6.6,34.0,2,0,0,Sports,2,12.5,7.5,59.5,1
+CUST0243,47,Male,76605,Bachelor,Urban,692,VIP,PayPal,82,2152.71,26.25,48,3.55,8.8,8.5,10,19.7,39.0,0,,63.0,0,0,0,Electronics,5,9.4,22.4,54.4,1
+CUST0244,52,Female,73135,Master,Urban,107,Basic,Debit Card,4,357.03,89.26,17,1.12,4.4,11.6,10,42.6,7.1,5,3.8,-45.0,0,656,0,Beauty,2,52.5,27.5,48.0,0
+CUST0245,21,Female,40847,Bachelor,Urban,422,Basic,Debit Card,19,745.26,39.22,18,1.35,14.7,4.5,9,52.1,29.1,3,5.2,-15.0,1,324,1,Electronics,1,27.4,44.3,63.6,1
+CUST0246,34,Male,38187,Bachelor,Urban,207,Basic,Credit Card,8,586.05,73.26,48,1.16,17.2,9.1,9,75.5,,0,5.0,3.0,0,0,0,Sports,3,30.5,10.2,40.7,0
+CUST0247,32,Female,56455,High School,Suburban,362,Premium,PayPal,26,3410.43,131.17,28,2.15,7.8,6.6,8,74.8,52.2,3,4.2,-42.0,0,463,0,Books,3,29.9,22.1,81.7,1
+CUST0248,30,Male,53332,Master,Urban,45,Basic,Credit Card,0,0.0,0.0,75,0.0,6.8,6.3,5,63.2,,1,4.6,-28.0,0,503,1,Clothing,2,23.0,15.1,44.9,0
+CUST0249,66,Other,113493,Master,Urban,30,Premium,Bank Transfer,2,668.85,334.43,7,2.0,5.5,5.9,9,32.4,27.4,2,5.5,6.0,0,122,1,Home & Garden,2,21.1,2.5,56.4,1
+CUST0250,46,Female,113385,High School,Urban,961,VIP,Debit Card,98,4751.35,48.48,70,3.06,15.1,14.6,5,49.6,24.4,2,5.5,8.0,1,594,0,Clothing,4,40.0,17.8,78.8,1
+CUST0251,21,Female,34626,Bachelor,Rural,125,VIP,Credit Card,9,671.07,74.56,2,2.16,6.7,5.3,6,38.1,57.6,1,5.5,1.0,1,583,1,Sports,5,11.9,40.0,72.4,1
+CUST0252,53,Female,74226,Bachelor,Rural,685,Premium,Bank Transfer,45,4210.26,93.56,9,1.97,8.6,7.1,8,75.8,23.3,1,7.3,41.0,2,1189,1,Books,3,26.5,7.0,61.3,1
+CUST0253,71,Male,102356,High School,Suburban,2000,VIP,Credit Card,199,9433.6,47.41,48,2.98,19.0,14.7,6,72.2,36.0,2,6.4,6.0,1,883,2,Books,3,53.5,3.9,79.0,1
+CUST0254,55,Female,57964,PhD,Urban,95,Premium,Debit Card,10,590.83,59.08,86,3.16,10.3,7.5,14,34.1,31.6,1,8.9,85.0,4,0,0,Sports,1,41.0,34.4,64.2,1
+CUST0255,18,Female,20000,High School,Urban,123,Premium,Debit Card,2,296.91,148.46,13,0.49,8.6,3.4,10,36.7,,1,9.2,54.0,1,0,2,Clothing,2,58.2,12.0,50.1,1
+CUST0256,32,Female,43171,High School,Rural,434,Basic,Credit Card,14,1723.58,123.11,17,0.97,5.1,4.9,9,57.2,69.5,2,7.8,,2,0,1,Electronics,2,51.0,11.2,56.9,1
+CUST0257,59,Female,81679,Bachelor,Urban,1346,Basic,Debit Card,54,3685.56,68.25,34,1.2,8.3,2.7,10,16.8,25.6,0,8.7,,2,0,1,Clothing,1,74.1,15.9,24.0,0
+CUST0258,29,Female,46225,Bachelor,Urban,989,Basic,Debit Card,38,3036.6,79.91,10,1.15,4.5,4.8,7,37.6,29.8,1,7.7,49.0,1,0,0,Beauty,4,18.7,21.4,20.9,0
+CUST0259,46,Male,59654,High School,Urban,279,Basic,PayPal,16,1392.89,87.06,75,1.72,9.9,4.5,12,59.8,25.8,0,8.1,41.0,2,1063,0,Books,4,16.9,39.3,36.2,0
+CUST0260,51,Male,95955,Bachelor,Urban,634,Basic,Credit Card,21,2321.18,110.53,66,0.99,5.7,3.8,9,69.8,54.7,2,6.5,29.0,1,496,1,Books,5,45.6,3.8,39.2,0
+CUST0261,26,Female,38393,Bachelor,Urban,58,VIP,Bank Transfer,7,805.99,115.14,7,3.62,6.3,5.9,5,66.5,,3,5.9,14.0,0,0,3,Beauty,3,13.8,13.0,86.2,1
+CUST0262,39,Male,61000,High School,Suburban,1516,Basic,Credit Card,55,6236.51,113.39,28,1.09,8.3,1.2,6,60.8,47.2,4,3.6,-25.0,0,607,0,Beauty,3,37.0,6.6,58.3,1
+CUST0263,18,Female,20000,High School,Urban,1333,Basic,Credit Card,52,3200.45,61.55,67,1.17,24.9,16.8,9,80.6,21.5,1,7.7,57.0,5,0,0,Sports,2,34.3,12.0,63.3,0
+CUST0264,24,Female,36918,Bachelor,Suburban,71,Premium,Credit Card,0,0.0,0.0,18,0.0,11.0,4.6,7,70.5,63.5,2,6.7,49.0,1,578,1,Clothing,4,11.6,5.1,52.1,1
+CUST0265,36,Male,68566,High School,Urban,142,Basic,Credit Card,0,0.0,0.0,45,0.0,3.0,5.1,11,52.4,48.0,0,7.5,43.0,3,0,1,Electronics,3,12.3,8.2,35.2,0
+CUST0266,21,Male,20000,Master,Urban,42,Basic,Credit Card,7,1708.62,244.09,2,5.0,6.7,12.5,4,76.8,18.1,1,8.4,55.0,1,425,1,Clothing,1,43.5,21.8,76.6,1
+CUST0267,64,Female,85518,Master,Rural,126,Basic,Bank Transfer,2,167.93,83.97,42,0.48,5.3,7.4,8,27.3,42.9,3,7.7,43.0,1,0,1,Beauty,3,51.5,13.2,33.3,0
+CUST0268,18,Male,20000,PhD,Urban,677,Basic,Credit Card,19,1070.46,56.34,7,0.84,5.1,3.7,4,57.4,56.2,0,6.6,22.0,0,0,0,Books,2,40.3,23.4,18.3,0
+CUST0269,33,Female,30872,High School,Suburban,190,Basic,Credit Card,0,0.0,0.0,79,0.0,5.2,4.1,9,52.8,15.3,1,4.8,0.0,0,621,1,Clothing,3,26.0,20.6,37.0,0
+CUST0270,41,Male,52051,PhD,Suburban,37,Premium,Credit Card,0,0.0,0.0,19,0.0,6.8,10.3,9,63.3,73.7,3,7.4,27.0,0,0,1,Books,2,59.7,25.3,38.6,0
+CUST0271,61,Female,84797,Bachelor,Urban,167,Premium,PayPal,4,101.37,25.34,14,0.72,4.6,11.2,7,27.0,36.2,0,8.1,47.0,2,0,0,Books,2,18.8,10.9,42.9,0
+CUST0272,18,Male,35826,Bachelor,Rural,1593,Basic,PayPal,63,7217.47,114.56,82,1.19,4.6,3.4,9,57.8,30.7,0,7.4,49.0,0,1035,0,Home & Garden,1,26.9,4.6,29.9,0
+CUST0273,57,Female,90998,High School,Urban,397,Basic,Credit Card,13,1504.42,115.72,2,0.98,5.3,12.3,7,12.5,32.3,0,6.9,57.0,3,382,2,Electronics,1,32.9,5.3,55.5,0
+CUST0274,40,Male,65654,High School,Rural,215,Basic,Credit Card,6,345.95,57.66,22,0.84,5.1,1.4,12,64.4,32.7,2,5.7,0.0,0,69,0,Sports,2,48.2,22.9,38.9,0
+CUST0275,25,Female,49263,Bachelor,Urban,72,Premium,Credit Card,7,646.35,92.34,20,2.92,4.0,13.4,11,25.7,25.6,2,6.5,36.0,1,312,2,Beauty,2,64.9,12.7,63.6,1
+CUST0276,46,Male,69929,Bachelor,Rural,1712,Basic,Credit Card,61,4249.65,69.67,15,1.07,12.8,6.6,7,79.9,50.8,3,8.9,74.0,0,119,1,Electronics,2,72.2,1.9,48.2,0
+CUST0277,42,Female,71767,High School,Urban,687,Basic,Credit Card,27,833.28,30.86,109,1.18,6.1,12.2,9,59.0,25.3,3,4.7,1.0,0,1049,1,Clothing,5,14.4,1.8,69.3,1
+CUST0278,30,Female,44202,Bachelor,Suburban,132,Premium,Debit Card,14,1536.6,109.76,62,3.18,7.1,8.0,11,70.3,22.4,1,7.2,45.0,0,0,0,Beauty,4,22.0,17.1,51.1,1
+CUST0279,41,Male,68320,High School,Suburban,30,Basic,Credit Card,0,0.0,0.0,2,0.0,6.6,3.6,9,57.1,26.5,1,6.9,38.0,2,581,3,Beauty,1,48.0,26.4,60.4,0
+CUST0280,34,Male,44049,Bachelor,Rural,30,Basic,Debit Card,0,0.0,0.0,56,0.0,4.9,4.8,8,35.4,39.8,1,3.5,9.0,1,94,0,Home & Garden,1,20.4,20.5,43.0,0
+CUST0281,41,Male,27758,Bachelor,Rural,51,Basic,Credit Card,5,1209.79,241.96,33,2.94,3.9,3.7,4,31.1,48.4,2,9.9,100.0,3,429,0,Books,4,38.7,23.6,49.4,1
+CUST0282,49,Female,74326,Master,Suburban,347,VIP,Bank Transfer,32,2570.02,80.31,104,2.77,13.7,2.9,10,57.2,35.4,0,8.0,55.0,0,654,0,Electronics,6,20.6,5.7,43.1,0
+CUST0283,63,Female,115601,Master,Rural,1056,VIP,Bank Transfer,105,2028.48,19.32,16,2.98,4.1,7.2,10,51.9,40.9,2,9.8,,5,480,1,Books,2,24.9,19.2,78.7,1
+CUST0284,21,Female,42633,Bachelor,Urban,274,Premium,Debit Card,20,2873.86,143.69,38,2.19,4.3,1.0,9,40.1,35.3,3,3.5,-27.0,1,0,1,Books,2,41.9,21.3,57.5,1
+CUST0285,71,Male,117221,Bachelor,Urban,740,Basic,Credit Card,28,3504.64,125.17,31,1.14,16.5,4.6,11,74.3,51.9,1,10.0,100.0,1,207,0,Home & Garden,2,32.0,12.7,45.6,1
+CUST0286,18,Male,41252,Bachelor,Urban,236,Premium,Credit Card,6,801.93,133.66,30,0.76,5.3,5.5,8,44.5,35.5,7,3.1,-18.0,0,0,0,Beauty,3,21.8,9.7,81.3,1
+CUST0287,37,Female,59190,Master,Urban,493,VIP,Debit Card,52,2118.12,40.73,27,3.16,8.3,1.0,9,23.1,49.3,2,3.6,-62.0,0,62,0,Beauty,2,14.8,13.1,53.1,1
+CUST0288,48,Female,77870,Bachelor,Urban,526,VIP,PayPal,51,4635.17,90.89,10,2.91,6.4,6.5,10,73.7,41.0,2,4.9,-8.0,3,624,0,Electronics,1,77.5,16.5,93.4,1
+CUST0289,44,Other,59725,High School,Suburban,76,Basic,Debit Card,6,476.96,79.49,63,2.37,8.0,8.0,4,62.0,32.9,5,2.8,-52.0,0,351,1,Home & Garden,2,35.4,16.6,75.0,1
+CUST0290,30,Male,41009,High School,Urban,179,Premium,PayPal,15,1076.71,71.78,27,2.51,21.9,7.2,11,68.8,40.0,1,,1.0,0,303,0,Books,2,53.1,25.6,50.9,1
+CUST0291,36,Female,65427,Bachelor,Suburban,405,Basic,Bank Transfer,21,3467.68,165.13,143,1.56,4.5,7.1,12,53.2,20.7,2,4.5,-33.0,0,0,0,Electronics,4,48.6,22.0,35.8,0
+CUST0292,32,Male,67368,Bachelor,Urban,30,Basic,Credit Card,7,566.89,80.98,13,7.0,12.8,5.6,8,23.1,33.3,1,7.9,54.0,2,0,1,Beauty,4,25.1,22.1,33.1,0
+CUST0293,31,Male,45448,Master,Urban,179,Premium,Debit Card,18,1115.42,61.97,51,3.02,13.6,2.3,7,82.3,59.2,0,7.6,63.0,5,0,0,Books,3,48.8,4.2,79.7,1
+CUST0294,52,Female,73757,High School,Suburban,306,Basic,Credit Card,17,1046.78,61.58,127,1.67,12.9,1.0,5,25.8,41.4,1,7.6,33.0,1,0,0,Books,2,43.1,10.1,52.4,1
+CUST0295,45,Female,70508,Bachelor,Suburban,2000,VIP,Credit Card,200,7722.71,38.61,49,3.0,21.3,4.5,10,35.5,30.5,1,10.0,100.0,1,354,0,Electronics,1,36.7,3.5,43.8,0
+CUST0296,29,Other,52958,Master,Suburban,257,Basic,Debit Card,8,686.11,85.76,92,0.93,1.0,3.6,8,46.7,34.8,2,5.8,22.0,0,69,0,Sports,4,23.0,12.9,32.9,0
+CUST0297,53,Male,60202,Master,Suburban,677,Premium,Credit Card,49,8441.51,172.28,79,2.17,2.3,5.5,6,31.3,45.4,3,4.1,7.0,0,1551,0,Home & Garden,2,28.3,13.3,67.5,1
+CUST0298,44,Male,34547,Bachelor,Urban,226,VIP,PayPal,26,1694.93,65.19,20,3.45,3.8,2.8,4,75.6,34.9,1,4.8,5.0,1,0,0,Clothing,3,43.2,6.9,69.4,1
+CUST0299,52,Female,72252,Bachelor,Suburban,636,VIP,Credit Card,62,5822.1,93.9,41,2.92,5.6,10.6,10,52.6,51.1,0,6.0,19.0,0,17,1,Beauty,3,52.6,17.0,74.4,1
+CUST0300,49,Female,58029,Bachelor,Urban,361,Basic,Debit Card,14,995.19,71.08,7,1.16,10.0,1.3,6,26.7,35.3,1,5.1,8.0,0,0,1,Books,5,44.3,22.4,37.7,0
+CUST0301,27,Male,32638,Master,Urban,870,Basic,Debit Card,28,2123.64,75.84,34,0.97,4.0,3.2,7,26.8,27.4,2,9.1,93.0,1,381,3,Beauty,1,44.0,27.9,53.6,0
+CUST0302,31,Male,45323,High School,Urban,211,Premium,Debit Card,9,1155.37,128.37,11,1.28,4.0,4.3,7,25.8,54.5,1,4.4,-9.0,0,727,1,Home & Garden,4,43.7,27.2,47.9,0
+CUST0303,51,Male,72341,Master,Urban,370,Basic,Credit Card,18,688.76,38.26,61,1.46,8.9,7.2,11,23.2,35.5,4,7.6,63.0,0,25,0,Home & Garden,2,25.4,4.1,37.2,0
+CUST0304,49,Female,98127,Bachelor,Urban,397,VIP,PayPal,39,1063.65,27.27,33,2.95,11.8,7.3,11,28.7,54.2,3,4.7,-11.0,1,0,2,Electronics,1,42.0,4.0,84.3,1
+CUST0305,39,Male,66041,Bachelor,Rural,216,VIP,Debit Card,31,4458.3,143.82,23,4.31,8.1,9.6,5,48.9,61.2,1,5.1,20.0,0,0,1,Electronics,4,44.5,10.2,71.4,1
+CUST0306,41,Male,68847,High School,Rural,62,Basic,Debit Card,0,0.0,0.0,14,0.0,12.2,8.7,6,83.8,39.5,4,5.6,5.0,1,94,0,Electronics,4,45.6,20.7,43.5,0
+CUST0307,59,Male,98873,Bachelor,Urban,39,Basic,Credit Card,0,0.0,0.0,298,0.0,1.9,4.5,6,37.2,30.3,3,7.4,38.0,1,497,1,Home & Garden,1,9.9,28.7,79.9,1
+CUST0308,31,Male,30458,Bachelor,Urban,30,Basic,Debit Card,1,271.15,271.15,3,1.0,4.6,9.2,7,18.4,10.3,4,2.6,-55.0,2,934,0,Electronics,3,55.3,4.7,64.2,1
+CUST0309,48,Male,90497,High School,Urban,827,VIP,PayPal,88,10975.14,124.72,2,3.19,3.7,4.6,8,83.3,,2,7.6,38.0,1,506,0,Clothing,1,24.8,19.9,52.8,1
+CUST0310,36,Female,55054,Bachelor,Urban,107,Basic,Debit Card,5,223.45,44.69,11,1.4,5.3,1.2,7,52.6,39.3,2,7.9,69.0,1,92,2,Home & Garden,3,27.2,9.8,47.5,0
+CUST0311,36,Male,66247,PhD,Rural,95,Basic,PayPal,4,598.11,149.53,159,1.26,7.8,1.4,9,66.3,52.9,2,7.4,25.0,0,0,0,Electronics,3,62.7,18.2,28.5,0
+CUST0312,56,Female,69712,Bachelor,Urban,532,Basic,Debit Card,12,1516.6,126.38,174,0.68,1.5,4.2,9,41.9,27.5,1,4.4,-18.0,0,0,0,Books,3,11.2,11.0,51.2,1
+CUST0313,52,Male,57204,Bachelor,Suburban,154,Premium,Credit Card,4,20.36,5.09,47,0.78,5.3,2.1,9,48.7,23.9,3,,10.0,0,0,2,Home & Garden,1,68.7,13.6,48.5,0
+CUST0314,52,Female,92778,High School,Urban,282,Basic,Credit Card,11,964.28,87.66,95,1.17,4.6,4.8,11,21.7,23.1,4,2.8,-44.0,1,0,1,Sports,3,17.9,9.8,55.8,1
+CUST0315,59,Female,95186,Bachelor,Rural,70,Basic,Credit Card,0,0.0,0.0,10,0.0,2.1,8.9,14,51.8,39.3,1,7.1,41.0,3,0,0,Sports,1,19.9,13.6,39.5,0
+CUST0316,40,Female,49219,High School,Urban,1285,VIP,Debit Card,125,9468.53,75.75,160,2.92,12.4,3.9,7,50.5,39.0,3,8.2,63.0,2,2186,0,Home & Garden,3,15.5,31.6,88.3,1
+CUST0317,50,Female,64705,Bachelor,Suburban,763,VIP,PayPal,78,19072.86,244.52,6,3.07,8.1,1.0,5,52.0,59.7,3,7.9,61.0,3,1677,0,Home & Garden,1,30.7,11.8,67.3,1
+CUST0318,35,Male,71382,Master,Urban,797,Premium,Credit Card,48,6311.14,131.48,4,1.81,5.4,7.6,9,65.2,66.0,2,5.5,-4.0,0,1125,0,Sports,4,50.2,5.6,44.0,0
+CUST0319,44,Male,51149,Bachelor,Suburban,208,Basic,Debit Card,14,1982.84,141.63,5,2.02,23.8,3.6,11,82.3,21.2,1,5.7,7.0,0,0,0,Books,4,29.7,41.1,48.1,0
+CUST0320,38,Female,84150,High School,Urban,574,Basic,Debit Card,25,1779.35,71.17,38,1.31,2.3,4.3,7,88.8,18.6,0,9.0,76.0,2,1294,0,Books,2,38.6,9.3,34.1,0
+CUST0321,41,Other,50831,Bachelor,Urban,62,Premium,Debit Card,0,0.0,0.0,68,0.0,24.7,20.0,5,34.0,19.5,0,8.5,78.0,0,169,0,Books,4,13.3,11.8,24.5,0
+CUST0322,48,Female,84486,Bachelor,Rural,30,Basic,Credit Card,0,0.0,0.0,20,0.0,6.8,9.6,14,40.3,52.3,1,9.0,94.0,2,418,0,Clothing,2,50.1,19.5,15.7,0
+CUST0323,27,Female,35331,Bachelor,Rural,30,VIP,Credit Card,0,0.0,0.0,171,0.0,4.3,11.2,14,49.6,37.0,0,9.1,81.0,1,0,2,Beauty,4,39.3,20.0,34.9,0
+CUST0324,71,Female,111788,Master,Rural,353,Premium,Credit Card,19,2432.76,128.04,25,1.61,5.5,4.0,9,37.7,32.4,5,2.4,-41.0,0,731,1,Beauty,3,27.4,15.0,76.2,1
+CUST0325,24,Male,26428,Master,Suburban,243,Basic,Credit Card,11,1383.95,125.81,7,1.36,6.0,17.2,12,49.0,65.4,0,9.1,82.0,5,305,0,Clothing,2,72.2,8.0,36.8,1
+CUST0326,21,Male,26298,Bachelor,Suburban,291,VIP,Credit Card,27,770.78,28.55,28,2.78,26.9,2.5,10,93.2,42.5,2,6.5,29.0,0,0,0,Books,1,58.2,7.9,57.1,1
+CUST0327,57,Female,87674,Bachelor,Urban,30,VIP,Credit Card,5,1074.72,214.94,51,5.0,10.0,1.3,12,64.3,44.3,2,7.2,56.0,1,0,0,Sports,5,35.8,8.1,88.3,1
+CUST0328,51,Female,64107,High School,Urban,219,Basic,Debit Card,0,0.0,0.0,80,0.0,3.2,19.2,8,26.1,61.3,1,6.0,-2.0,1,0,0,Clothing,4,41.7,42.3,46.0,0
+CUST0329,49,Male,87452,High School,Urban,506,Premium,Credit Card,37,11039.62,298.37,27,2.19,13.6,1.0,10,71.5,36.6,5,3.9,-16.0,0,942,1,Electronics,3,64.9,3.0,77.9,1
+CUST0330,49,Female,68642,Bachelor,Suburban,233,Basic,Bank Transfer,4,520.9,130.23,40,0.52,6.0,3.6,8,12.0,42.6,1,6.2,13.0,0,486,1,Beauty,2,45.9,24.9,36.4,0
+CUST0331,39,Male,57711,Bachelor,Urban,527,Basic,Credit Card,17,2106.39,123.91,13,0.97,0.4,7.6,11,44.8,31.5,6,4.4,4.0,0,94,0,Clothing,3,64.2,12.5,32.8,0
+CUST0332,26,Female,23475,Bachelor,Urban,106,Basic,Credit Card,3,137.99,46.0,46,0.85,13.4,4.0,9,45.1,30.9,2,6.5,20.0,0,0,1,Sports,3,65.6,14.6,44.4,0
+CUST0333,41,Male,25905,Bachelor,Suburban,670,Premium,Credit Card,38,2211.61,58.2,192,1.7,13.6,3.1,8,48.2,60.0,1,8.7,70.0,5,544,0,Sports,1,42.6,7.1,82.4,1
+CUST0334,29,Male,41075,High School,Suburban,355,VIP,Credit Card,29,5952.24,205.25,2,2.45,6.3,5.3,14,45.6,33.3,2,5.0,-23.0,0,1241,0,Home & Garden,5,10.0,21.3,64.5,1
+CUST0335,54,Female,119379,Bachelor,Urban,94,Premium,PayPal,11,2094.02,190.37,97,3.51,4.8,5.1,10,17.2,,2,4.5,-4.0,1,0,0,Sports,1,15.0,4.1,78.4,1
+CUST0336,37,Male,69629,High School,Urban,108,Basic,Credit Card,5,362.06,72.41,37,1.39,14.6,5.8,7,73.2,21.9,2,3.7,-33.0,0,938,1,Books,3,39.0,5.1,47.8,0
+CUST0337,27,Female,39971,High School,Urban,395,Premium,Bank Transfer,31,2128.4,68.66,13,2.35,4.6,11.9,9,69.4,24.0,2,6.3,18.0,0,911,0,Sports,2,47.0,5.5,38.9,0
+CUST0338,35,Female,50557,Master,Urban,708,Basic,PayPal,25,1747.85,69.91,139,1.06,16.9,7.9,8,62.2,16.7,1,5.7,14.0,0,0,2,Clothing,4,49.0,23.6,48.9,0
+CUST0339,46,Female,72327,High School,Urban,214,VIP,Debit Card,22,3302.32,150.11,29,3.08,4.7,4.4,10,41.0,56.9,2,5.9,-6.0,0,0,0,Clothing,2,46.7,1.6,63.2,1
+CUST0340,31,Male,55747,Bachelor,Suburban,119,Basic,Debit Card,0,0.0,0.0,18,0.0,7.4,6.3,10,76.3,50.3,1,6.5,20.0,0,526,1,Clothing,2,19.7,17.1,39.7,0
+CUST0341,27,Male,22548,High School,Suburban,806,Basic,Debit Card,25,2514.1,100.56,9,0.93,10.8,1.0,10,54.8,15.8,3,3.3,-36.0,0,0,0,Sports,3,57.5,2.3,38.6,0
+CUST0342,43,Male,84175,Master,Suburban,442,Basic,Credit Card,14,1225.17,87.51,12,0.95,9.2,4.7,6,92.3,30.6,3,4.9,21.0,0,0,0,Books,1,39.7,12.1,50.3,1
+CUST0343,43,Other,78191,Bachelor,Urban,237,Premium,Debit Card,25,1797.5,71.9,80,3.16,4.4,6.7,12,25.4,73.1,2,7.0,44.0,10,0,0,Beauty,4,41.0,8.4,84.2,1
+CUST0344,32,Female,60083,High School,Suburban,267,Basic,Credit Card,12,3420.61,285.05,42,1.35,10.4,2.8,6,47.7,54.0,2,6.3,33.0,2,345,0,Books,6,15.7,26.4,34.0,0
+CUST0345,32,Female,55887,Bachelor,Urban,91,Premium,Credit Card,13,402.04,30.93,110,4.29,13.1,3.7,4,56.5,38.6,4,4.7,-5.0,0,772,0,Home & Garden,2,18.1,6.3,84.2,1
+CUST0346,43,Female,67754,Bachelor,Suburban,394,Basic,Debit Card,16,1007.04,62.94,11,1.22,3.3,9.6,14,70.8,17.7,3,5.8,66.0,5,288,2,Electronics,2,38.0,9.6,59.0,1
+CUST0347,18,Female,32803,PhD,Suburban,177,Basic,Debit Card,2,193.01,96.5,5,0.34,11.0,2.1,13,25.9,40.0,1,6.1,36.0,3,528,0,Books,3,22.9,3.9,37.1,0
+CUST0348,18,Female,31587,High School,Urban,2000,Basic,PayPal,67,1778.77,26.55,0,1.0,7.2,9.8,9,57.1,20.0,0,6.8,6.0,0,1,0,Beauty,3,58.0,31.7,24.5,0
+CUST0349,29,Male,38629,Master,Urban,261,VIP,Credit Card,27,1504.13,55.71,31,3.1,3.5,14.8,10,53.1,46.6,1,5.3,9.0,0,199,0,Beauty,4,46.3,5.8,49.3,0
+CUST0350,36,Female,47586,Master,Rural,266,VIP,PayPal,21,5097.74,242.75,287,2.37,10.0,3.8,4,26.1,54.5,1,10.0,100.0,2,0,0,Clothing,2,31.7,24.3,73.7,1
+CUST0351,44,Male,70518,Master,Urban,333,Basic,Credit Card,9,1228.93,136.55,53,0.81,14.2,2.1,8,37.5,50.8,4,6.1,,0,74,0,Home & Garden,4,12.3,7.1,33.2,0
+CUST0352,62,Female,116345,Bachelor,Suburban,994,Basic,Credit Card,32,1773.36,55.42,16,0.97,5.1,2.9,4,54.7,57.0,1,8.8,77.0,1,0,0,Beauty,2,32.9,15.9,21.0,0
+CUST0353,52,Female,61923,Bachelor,Urban,645,Basic,Credit Card,29,1575.71,54.33,94,1.35,10.4,14.1,6,57.4,42.1,5,,12.0,0,77,0,Books,3,83.6,18.3,47.1,1
+CUST0354,37,Female,35847,Bachelor,Suburban,239,Premium,Debit Card,5,155.49,31.1,68,0.63,6.0,2.0,11,15.0,68.3,1,8.7,61.0,3,0,1,Books,2,34.8,7.6,50.3,0
+CUST0355,39,Male,63611,Master,Urban,507,Basic,Credit Card,22,1330.76,60.49,0,1.3,12.3,2.1,5,20.5,63.9,0,8.3,86.0,4,0,0,Electronics,3,52.8,35.7,36.9,1
+CUST0356,24,Male,35353,Bachelor,Urban,352,VIP,Debit Card,30,3336.49,111.22,76,2.56,16.0,1.0,11,41.9,26.7,1,3.9,-31.0,0,1387,1,Electronics,2,47.1,14.1,65.9,1
+CUST0357,39,Male,63740,Bachelor,Suburban,271,VIP,PayPal,20,2005.27,100.26,16,2.21,9.7,3.6,7,59.5,28.1,0,6.1,13.0,0,1084,0,Electronics,2,44.6,0.5,52.6,1
+CUST0358,35,Male,58159,Bachelor,Urban,85,Basic,Debit Card,8,500.32,62.54,7,2.82,13.1,5.9,12,34.7,45.4,6,4.5,-23.0,0,758,0,Books,2,42.2,16.6,63.1,1
+CUST0359,44,Male,65642,Bachelor,Urban,249,Basic,Debit Card,11,473.01,43.0,11,1.33,14.7,12.8,5,50.9,58.0,1,7.0,24.0,2,944,1,Beauty,4,12.4,27.0,50.1,1
+CUST0360,27,Female,62608,Master,Urban,112,VIP,PayPal,17,1212.22,71.31,28,4.55,5.1,3.9,3,82.1,33.1,6,4.5,-17.0,0,830,1,Books,3,67.2,5.6,84.0,1
+CUST0361,47,Female,49446,High School,Urban,985,Premium,PayPal,69,4853.03,70.33,24,2.1,5.9,7.5,8,76.4,35.8,1,6.2,15.0,0,474,0,Clothing,3,25.8,12.8,59.9,1
+CUST0362,62,Male,80683,Master,Urban,163,Basic,Debit Card,15,1898.72,126.58,15,2.76,10.6,3.0,9,39.6,35.7,0,6.5,11.0,2,127,0,Sports,3,59.0,24.3,58.6,1
+CUST0363,38,Male,57961,Bachelor,Urban,1216,Basic,Credit Card,43,3949.26,91.84,8,1.06,18.5,1.8,6,82.4,32.2,2,7.2,44.0,0,512,2,Electronics,3,25.1,39.6,45.2,0
+CUST0364,46,Male,47342,Master,Rural,304,Basic,PayPal,9,761.62,84.62,64,0.89,2.8,11.7,5,37.4,35.4,3,5.7,-23.0,0,0,0,Clothing,2,50.6,15.0,38.2,0
+CUST0365,50,Female,75112,Bachelor,Urban,399,Basic,Debit Card,15,2364.61,157.64,207,1.13,11.5,5.8,5,13.1,40.1,3,7.0,41.0,2,0,0,Clothing,2,32.6,35.8,58.2,1
+CUST0366,33,Female,75982,Bachelor,Suburban,313,Basic,Credit Card,16,3030.09,189.38,67,1.53,17.5,7.9,9,89.3,26.9,2,4.7,9.0,0,451,2,Beauty,3,22.0,9.6,60.0,1
+CUST0367,43,Female,67773,Master,Urban,55,Basic,Credit Card,0,0.0,0.0,15,0.0,7.0,5.7,7,52.4,50.8,2,6.7,27.0,1,0,1,Home & Garden,1,27.0,2.7,41.7,0
+CUST0368,40,Female,66211,High School,Urban,188,Premium,PayPal,9,909.05,101.01,12,1.44,8.0,1.2,6,29.6,26.2,0,,32.0,1,159,0,Clothing,2,60.4,18.3,26.7,0
+CUST0369,41,Other,45438,Master,Rural,41,Basic,Credit Card,0,0.0,0.0,11,0.0,7.8,9.6,9,76.3,45.8,0,6.5,26.0,0,0,0,Electronics,3,18.3,17.4,29.0,0
+CUST0370,28,Female,32865,Bachelor,Urban,390,Basic,Bank Transfer,2,91.18,45.59,6,0.15,7.5,2.8,10,40.7,,1,6.5,64.0,2,0,0,Sports,1,13.6,26.8,44.1,0
+CUST0371,40,Male,57122,Bachelor,Rural,236,Basic,Credit Card,8,1059.19,132.4,36,1.02,4.3,7.2,6,26.2,33.5,2,3.6,-14.0,0,201,1,Clothing,1,35.2,31.8,36.6,0
+CUST0372,47,Female,68694,Bachelor,Urban,602,Premium,PayPal,30,3537.59,117.92,41,1.5,7.3,1.9,8,36.0,39.3,3,6.3,13.0,1,177,2,Books,5,5.0,20.0,59.5,1
+CUST0373,61,Male,111165,Bachelor,Suburban,99,VIP,Credit Card,10,781.68,78.17,55,3.03,4.4,2.0,6,20.2,35.5,3,7.6,71.0,1,0,0,Books,5,56.9,40.5,48.6,0
+CUST0374,54,Female,91555,Bachelor,Suburban,71,Basic,Debit Card,6,552.08,92.01,51,2.54,12.5,3.0,3,76.4,29.8,2,4.3,22.0,1,0,1,Clothing,2,53.5,15.8,61.3,1
+CUST0375,72,Male,87038,High School,Rural,208,Basic,PayPal,4,606.88,151.72,15,0.58,1.6,2.4,11,67.8,30.5,0,9.9,94.0,1,289,1,Electronics,3,13.0,7.3,36.1,0
+CUST0376,28,Female,45808,High School,Suburban,1044,VIP,Debit Card,112,18617.05,166.22,18,3.22,14.3,1.7,5,43.8,25.3,3,,43.0,1,1582,3,Beauty,1,58.2,1.9,80.2,1
+CUST0377,53,Female,89333,High School,Suburban,495,Basic,Debit Card,9,99.66,11.07,51,0.55,15.8,18.9,7,40.2,56.4,1,7.6,66.0,0,290,0,Beauty,2,61.6,22.6,39.3,0
+CUST0378,42,Female,83012,PhD,Urban,217,Basic,Credit Card,13,689.57,53.04,19,1.8,9.2,5.1,13,59.5,34.8,2,4.3,-31.0,0,73,0,Sports,4,63.4,4.3,55.2,1
+CUST0379,72,Female,127418,PhD,Urban,291,Basic,Credit Card,13,1014.16,78.01,10,1.34,23.5,1.0,7,56.0,,0,10.0,72.0,1,2,0,Sports,4,78.9,4.3,5.6,0
+CUST0380,27,Male,25034,Bachelor,Rural,35,Basic,Credit Card,0,0.0,0.0,21,0.0,10.9,1.8,5,43.1,29.0,1,4.9,1.0,0,173,0,Electronics,2,49.3,39.6,25.9,0
+CUST0381,27,Male,28097,Bachelor,Urban,1668,Basic,Debit Card,69,6449.22,93.47,14,1.24,10.0,2.5,5,37.6,20.8,0,8.7,61.0,5,307,2,Books,2,32.5,7.1,33.1,0
+CUST0382,31,Male,28676,Bachelor,Urban,439,VIP,Credit Card,43,2360.07,54.89,4,2.94,1.5,3.4,3,77.0,36.9,3,5.6,8.0,0,436,3,Books,3,9.4,12.1,84.0,1
+CUST0383,18,Male,20000,Bachelor,Suburban,134,Premium,Credit Card,4,381.39,95.35,79,0.9,16.5,8.3,5,66.0,48.9,2,6.0,35.0,2,0,1,Beauty,3,22.5,19.6,73.2,1
+CUST0384,32,Female,56305,Master,Urban,352,Basic,Debit Card,4,223.88,55.97,86,0.34,3.9,5.9,9,47.4,55.8,5,4.7,3.0,0,1290,1,Beauty,6,16.8,10.1,62.7,1
+CUST0385,28,Male,56920,Master,Rural,46,VIP,Debit Card,3,172.57,57.52,11,1.96,3.5,5.0,7,44.7,30.4,1,6.1,30.0,0,0,1,Home & Garden,3,14.8,16.4,59.8,1
+CUST0386,42,Other,64771,Bachelor,Suburban,1350,Basic,PayPal,44,4176.25,94.91,3,0.98,9.4,1.3,10,30.6,20.9,0,6.9,35.0,0,239,0,Clothing,2,54.1,5.0,18.9,0
+CUST0387,45,Female,65702,Master,Suburban,76,Basic,Credit Card,3,407.13,135.71,60,1.18,4.4,7.4,6,22.0,42.3,4,5.0,-10.0,0,0,1,Beauty,1,32.3,25.3,55.5,1
+CUST0388,68,Female,101986,High School,Rural,417,Premium,Credit Card,26,2963.32,113.97,10,1.87,7.0,1.2,10,56.5,22.3,1,6.9,28.0,0,0,0,Clothing,2,32.3,32.5,45.3,0
+CUST0389,54,Male,70663,PhD,Urban,112,Premium,Bank Transfer,10,784.18,78.42,22,2.68,17.4,4.3,11,23.1,18.7,4,5.7,40.0,1,441,0,Beauty,2,26.3,26.5,69.7,1
+CUST0390,31,Female,78883,High School,Urban,505,Basic,Credit Card,14,289.18,20.66,2,0.83,21.7,6.2,8,21.3,35.4,4,6.0,54.0,0,0,1,Books,1,41.0,20.0,39.8,0
+CUST0391,26,Female,20000,Bachelor,Suburban,599,Basic,PayPal,10,566.26,56.63,11,0.5,5.1,6.4,11,27.1,51.0,3,6.9,55.0,3,0,1,Clothing,2,56.7,14.4,28.6,0
+CUST0392,47,Female,76231,Bachelor,Urban,447,Premium,PayPal,29,1527.75,52.68,70,1.95,7.2,5.6,7,72.9,41.5,1,7.9,54.0,3,500,1,Electronics,2,37.3,19.5,53.0,1
+CUST0393,20,Female,57104,Bachelor,Suburban,381,Premium,PayPal,13,1586.91,122.07,73,1.02,31.7,5.8,10,47.1,46.6,0,7.5,32.0,2,0,0,Sports,5,37.3,9.5,34.2,0
+CUST0394,67,Female,98762,High School,Rural,891,Premium,Credit Card,61,5366.39,87.97,10,2.05,21.6,5.5,7,53.9,36.9,0,7.8,98.0,1,484,0,Beauty,2,50.6,11.8,38.3,0
+CUST0395,57,Male,84209,Master,Urban,32,Basic,PayPal,0,0.0,0.0,18,0.0,14.9,1.5,8,78.6,65.0,1,4.2,,0,338,0,Home & Garden,4,4.3,13.7,57.3,1
+CUST0396,32,Female,43948,High School,Urban,160,Basic,PayPal,6,282.05,47.01,6,1.12,4.4,1.4,9,16.9,19.9,2,6.4,34.0,4,0,0,Electronics,2,20.5,12.1,50.3,1
+CUST0397,18,Male,20004,Bachelor,Rural,114,Basic,Debit Card,10,1700.06,170.01,3,2.63,5.2,8.9,5,50.4,43.9,4,6.8,28.0,0,0,0,Electronics,4,25.6,8.4,47.9,0
+CUST0398,60,Male,111343,High School,Urban,1769,Basic,Credit Card,54,4836.88,89.57,218,0.92,14.8,9.0,7,16.0,,1,6.4,39.0,2,1716,0,Electronics,2,41.1,22.8,66.6,1
+CUST0399,38,Male,26332,Bachelor,Suburban,197,VIP,Credit Card,25,1128.16,45.13,47,3.81,1.3,2.0,13,69.8,55.4,3,5.0,-3.0,1,0,0,Clothing,1,33.1,14.3,86.4,1
+CUST0400,58,Male,111312,Bachelor,Urban,527,Basic,Credit Card,15,709.83,47.32,35,0.85,16.7,5.7,4,73.2,37.0,4,7.3,29.0,0,0,0,Sports,2,11.1,22.2,50.7,1
+CUST0401,18,Male,20000,Bachelor,Rural,461,Basic,Debit Card,24,2337.9,97.41,65,1.56,19.5,6.6,9,42.9,45.7,2,8.9,73.0,3,0,1,Home & Garden,2,16.0,3.2,35.3,0
+CUST0402,31,Male,43540,High School,Suburban,95,Premium,Debit Card,4,175.92,43.98,82,1.26,6.4,5.0,9,47.2,48.8,1,5.3,13.0,1,912,1,Books,2,30.6,5.5,75.0,1
+CUST0403,40,Other,56311,High School,Suburban,109,Basic,Credit Card,0,0.0,0.0,73,0.0,21.9,9.8,7,79.5,31.5,2,9.8,100.0,3,0,1,Electronics,3,39.8,14.6,42.0,0
+CUST0404,40,Female,71578,Bachelor,Suburban,132,Basic,Debit Card,7,260.87,37.27,0,1.59,11.3,3.5,9,42.7,31.4,1,7.3,22.0,0,146,0,Electronics,3,7.2,23.5,34.0,0
+CUST0405,33,Other,27088,Master,Urban,211,Premium,Credit Card,11,1336.45,121.5,9,1.56,3.0,3.8,8,40.0,53.4,1,8.1,44.0,2,0,0,Electronics,4,6.5,12.8,54.1,1
+CUST0406,49,Male,83273,Master,Urban,106,VIP,Debit Card,6,268.11,44.68,47,1.7,8.8,9.9,6,61.4,45.8,1,6.1,15.0,0,328,0,Books,5,20.0,14.4,60.8,1
+CUST0407,23,Male,63025,High School,Suburban,30,Premium,Bank Transfer,0,0.0,0.0,21,0.0,4.8,1.6,7,21.1,27.4,0,7.4,34.0,2,0,1,Beauty,3,69.6,17.2,27.5,0
+CUST0408,37,Female,37412,Bachelor,Urban,846,Basic,Credit Card,27,2824.82,104.62,182,0.96,9.7,8.7,8,37.3,38.1,2,,44.0,0,409,0,Clothing,4,17.2,21.6,44.1,1
+CUST0409,41,Male,67186,High School,Suburban,1347,Premium,Credit Card,96,3567.85,37.17,49,2.14,2.8,13.2,12,69.0,52.7,1,7.1,34.0,5,1000,1,Clothing,1,39.5,16.8,82.9,1
+CUST0410,47,Male,63530,High School,Rural,167,Premium,Credit Card,1,113.37,113.37,141,0.18,23.0,7.2,2,36.9,69.9,0,9.5,92.0,2,231,0,Sports,1,25.1,29.1,38.6,0
+CUST0411,50,Female,84138,Bachelor,Suburban,165,Basic,Debit Card,5,850.87,170.17,10,0.91,12.3,4.8,8,28.7,44.8,2,6.0,23.0,1,0,0,Clothing,2,20.6,13.7,28.7,0
+CUST0412,23,Male,32947,Bachelor,Suburban,30,Basic,PayPal,4,305.4,76.35,89,4.0,5.9,1.6,6,48.4,47.1,4,4.3,,0,186,0,Clothing,2,29.5,13.1,70.0,0
+CUST0413,18,Female,20000,High School,Suburban,456,VIP,Bank Transfer,46,8346.16,181.44,17,3.03,9.8,5.7,5,36.0,27.6,4,4.2,-19.0,0,2043,0,Home & Garden,3,20.7,8.4,78.0,1
+CUST0414,59,Female,96858,High School,Suburban,698,Basic,Credit Card,29,3067.75,105.78,205,1.25,8.1,2.7,6,33.6,17.4,1,7.9,46.0,2,589,1,Home & Garden,4,45.3,19.4,47.6,0
+CUST0415,44,Male,96055,High School,Urban,63,Premium,Bank Transfer,3,164.77,54.92,7,1.43,23.6,4.0,8,28.3,47.6,1,6.9,56.0,2,92,1,Clothing,2,24.6,14.9,62.2,1
+CUST0416,28,Male,39246,Master,Urban,69,Basic,Credit Card,1,244.9,244.9,32,0.43,7.9,6.5,12,57.3,41.1,1,5.1,-9.0,0,0,1,Home & Garden,2,17.9,4.7,41.9,0
+CUST0417,63,Female,105056,PhD,Urban,624,Basic,Debit Card,23,700.89,30.47,70,1.11,9.4,2.4,7,40.7,35.4,3,6.2,16.0,0,432,0,Beauty,1,46.7,21.8,21.3,0
+CUST0418,41,Male,44941,High School,Suburban,383,Basic,Credit Card,13,848.25,65.25,25,1.02,2.4,1.9,7,36.4,29.5,4,6.0,6.0,0,520,0,Sports,2,46.6,4.0,42.7,0
+CUST0419,57,Male,72713,High School,Suburban,30,Premium,PayPal,0,0.0,0.0,28,0.0,9.6,3.2,5,56.1,39.4,2,5.4,8.0,0,156,2,Clothing,2,44.9,23.5,60.1,1
+CUST0420,41,Other,71426,Master,Suburban,389,Basic,Debit Card,15,3327.65,221.84,193,1.16,11.0,12.2,7,91.6,56.4,3,6.4,25.0,2,389,1,Home & Garden,2,28.6,11.2,79.0,1
+CUST0421,70,Male,124012,Master,Urban,147,Premium,Debit Card,6,738.73,123.12,24,1.22,3.4,6.6,6,47.1,32.3,4,5.1,25.0,0,1490,4,Books,2,26.3,10.8,73.3,1
+CUST0422,66,Female,102924,Bachelor,Suburban,184,Premium,PayPal,9,1002.32,111.37,41,1.47,13.5,2.7,12,48.6,46.2,3,5.4,7.0,0,527,0,Home & Garden,4,37.8,39.0,47.8,0
+CUST0423,36,Other,51494,High School,Urban,587,Premium,Credit Card,36,1783.2,49.53,2,1.84,1.1,2.9,11,74.1,42.5,5,3.8,-4.0,1,798,0,Home & Garden,1,45.2,13.5,70.1,1
+CUST0424,54,Male,83179,High School,Suburban,666,VIP,Credit Card,73,5444.59,74.58,83,3.29,7.1,10.8,3,86.5,26.8,4,6.8,58.0,2,577,2,Books,2,35.7,14.7,93.9,1
+CUST0425,49,Male,57584,Bachelor,Suburban,204,Premium,PayPal,0,0.0,0.0,47,0.0,2.3,1.4,12,27.5,27.0,2,2.9,-48.0,1,0,0,Sports,5,33.1,6.9,55.3,1
+CUST0426,60,Male,99818,Bachelor,Urban,1176,Basic,Credit Card,41,4477.35,109.2,23,1.05,8.5,12.1,2,48.4,20.2,2,9.0,77.0,2,763,0,Books,3,55.0,7.0,37.4,0
+CUST0427,25,Male,49735,High School,Urban,208,VIP,Credit Card,20,3100.97,155.05,0,2.88,6.1,2.3,10,77.0,64.5,1,8.7,65.0,3,243,0,Sports,4,35.2,1.1,74.7,1
+CUST0428,50,Male,70969,Bachelor,Suburban,591,Premium,Debit Card,30,8286.46,276.22,40,1.52,11.5,11.7,8,66.3,58.1,2,5.1,-17.0,1,803,0,Beauty,4,53.1,23.5,74.3,1
+CUST0429,55,Female,77449,High School,Suburban,264,Basic,Debit Card,10,598.51,59.85,0,1.14,7.9,8.9,5,42.6,16.3,1,4.5,26.0,0,291,1,Books,2,24.9,13.7,40.1,0
+CUST0430,18,Male,26698,Master,Urban,911,Basic,Credit Card,32,954.95,29.84,0,1.05,11.3,2.1,10,64.2,71.8,0,9.4,79.0,4,0,1,Sports,1,43.0,9.1,32.1,0
+CUST0431,22,Female,24159,Bachelor,Rural,953,Premium,Credit Card,66,4352.16,65.94,43,2.08,8.7,8.0,7,16.9,53.1,0,8.1,48.0,2,545,2,Sports,2,35.0,6.5,65.2,1
+CUST0432,18,Other,21718,High School,Suburban,36,Basic,Credit Card,0,0.0,0.0,9,0.0,17.2,1.1,4,49.4,67.3,3,5.6,-4.0,1,40,1,Electronics,3,22.8,13.5,49.5,0
+CUST0433,35,Female,85996,Bachelor,Rural,1102,Premium,Debit Card,80,3645.01,45.56,9,2.18,15.6,10.1,13,82.6,30.7,1,8.1,53.0,1,848,3,Electronics,2,22.5,41.2,59.2,1
+CUST0434,50,Female,74045,Bachelor,Urban,698,Basic,PayPal,19,1522.85,80.15,47,0.82,4.6,2.1,12,45.8,46.3,4,3.4,-36.0,0,0,0,Home & Garden,2,46.4,22.1,47.1,0
+CUST0435,62,Male,87735,PhD,Suburban,626,Basic,Bank Transfer,24,2692.66,112.19,2,1.15,16.4,10.1,8,37.5,48.2,6,5.7,,3,0,0,Books,4,39.8,12.1,41.5,0
+CUST0436,41,Female,54627,Bachelor,Rural,89,Premium,Debit Card,9,545.72,60.64,16,3.03,10.9,1.5,12,89.3,41.6,1,7.4,74.0,0,0,0,Sports,1,46.2,6.2,33.2,0
+CUST0437,64,Female,106553,High School,Suburban,654,Basic,Credit Card,17,1562.26,91.9,7,0.78,18.3,2.2,4,75.9,22.4,1,6.9,6.0,0,354,1,Electronics,2,20.2,11.5,27.6,0
+CUST0438,19,Male,22022,Bachelor,Suburban,759,Basic,Bank Transfer,28,1193.52,42.63,39,1.11,3.5,14.1,7,33.0,14.0,3,2.7,-23.0,1,601,0,Home & Garden,2,16.3,18.7,29.6,1
+CUST0439,18,Male,20000,High School,Urban,136,Premium,Debit Card,7,1128.23,161.18,48,1.54,2.8,7.1,6,52.1,31.7,3,6.4,53.0,4,0,0,Home & Garden,2,40.7,7.5,64.9,1
+CUST0440,39,Female,80960,Master,Urban,1216,Basic,Credit Card,30,2072.78,69.09,57,0.74,2.8,2.4,12,49.5,43.6,3,6.7,24.0,1,478,2,Home & Garden,2,13.5,9.9,53.1,1
+CUST0441,45,Male,91794,Bachelor,Urban,30,Premium,Bank Transfer,7,632.17,90.31,13,7.0,21.9,6.1,8,68.4,53.7,2,6.0,6.0,1,630,0,Electronics,2,31.4,9.4,74.4,1
+CUST0442,39,Male,52134,Bachelor,Urban,64,Premium,PayPal,0,0.0,0.0,4,0.0,18.6,6.0,8,96.5,36.2,3,6.9,47.0,2,375,0,Beauty,5,29.6,33.7,60.1,1
+CUST0443,18,Male,20000,High School,Urban,308,Premium,PayPal,16,618.2,38.64,3,1.56,15.6,4.2,9,51.8,26.2,2,8.0,51.0,0,0,0,Clothing,2,45.0,16.7,23.8,0
+CUST0444,38,Male,74623,Bachelor,Urban,343,Basic,PayPal,9,1263.68,140.41,24,0.79,2.5,6.0,9,49.4,35.6,1,7.2,66.0,1,0,3,Beauty,2,38.8,17.9,59.5,1
+CUST0445,20,Female,20000,Master,Rural,414,Basic,Credit Card,15,901.34,60.09,131,1.09,15.7,10.9,3,34.8,18.4,1,4.5,-2.0,0,307,1,Beauty,2,57.5,12.1,44.9,0
+CUST0446,50,Female,89609,Master,Urban,30,Premium,Credit Card,1,44.1,44.1,11,1.0,2.7,8.7,5,88.2,46.8,4,3.1,-49.0,0,817,1,Home & Garden,1,18.5,14.7,75.3,1
+CUST0447,45,Female,40948,High School,Suburban,1291,VIP,Debit Card,131,3680.15,28.09,13,3.04,0.4,7.3,6,88.3,12.3,3,7.1,46.0,2,375,0,Clothing,2,21.6,16.2,59.6,1
+CUST0448,25,Male,49889,High School,Suburban,30,Premium,Credit Card,0,0.0,0.0,4,0.0,6.0,2.3,8,60.4,35.8,3,5.1,4.0,0,0,1,Clothing,1,25.0,4.1,48.2,0
+CUST0449,32,Male,31142,Master,Suburban,61,Premium,Debit Card,0,0.0,0.0,41,0.0,7.3,1.5,15,89.1,55.6,2,7.3,16.0,0,0,1,Clothing,4,42.3,28.1,49.2,0
+CUST0450,24,Female,45551,Master,Urban,30,Basic,PayPal,0,0.0,0.0,51,0.0,20.1,4.7,4,48.0,32.8,0,7.5,35.0,1,0,0,Home & Garden,2,32.3,20.8,24.3,0
+CUST0451,39,Male,61354,High School,Suburban,334,Basic,PayPal,20,3906.29,195.31,46,1.8,3.5,8.9,12,67.2,20.1,2,6.2,13.0,1,33,0,Sports,5,36.6,13.3,40.3,0
+CUST0452,54,Male,68881,Bachelor,Suburban,1076,Basic,Debit Card,35,2285.2,65.29,88,0.98,33.2,1.0,6,35.1,48.9,0,8.6,79.0,2,242,3,Clothing,4,32.4,7.4,53.3,1
+CUST0453,25,Female,30394,Bachelor,Suburban,438,Basic,PayPal,20,602.12,30.11,29,1.37,9.6,3.4,10,75.4,34.0,3,4.7,3.0,0,0,0,Electronics,3,39.5,39.1,40.7,0
+CUST0454,47,Male,83755,Master,Suburban,691,Basic,PayPal,23,1909.34,83.01,6,1.0,7.7,7.0,11,46.8,18.0,5,5.9,36.0,0,26,0,Electronics,4,57.6,24.2,19.5,0
+CUST0455,32,Female,50898,High School,Rural,30,VIP,Debit Card,0,0.0,0.0,15,0.0,7.6,11.9,3,39.1,23.5,5,4.8,-14.0,0,0,3,Clothing,4,15.6,21.2,66.4,1
+CUST0456,28,Male,50876,High School,Suburban,312,Basic,Credit Card,9,756.43,84.05,48,0.87,2.8,4.7,10,68.9,36.9,1,7.5,27.0,1,545,1,Clothing,4,45.0,22.0,55.4,1
+CUST0457,38,Male,89157,Master,Urban,246,Basic,Credit Card,7,1069.34,152.76,42,0.85,6.4,3.2,10,17.1,28.5,2,7.4,,2,0,0,Clothing,3,15.4,13.3,15.4,0
+CUST0458,24,Male,20000,High School,Suburban,276,Basic,Credit Card,12,371.49,30.96,34,1.3,10.1,5.0,6,71.0,70.4,1,6.7,23.0,0,0,1,Electronics,5,35.5,6.6,45.5,0
+CUST0459,31,Other,71798,Bachelor,Urban,30,VIP,Credit Card,9,439.79,48.87,51,9.0,15.9,7.3,2,55.1,43.6,1,3.7,-38.0,0,185,1,Books,4,8.5,28.6,100.0,1
+CUST0460,22,Female,32275,Bachelor,Rural,461,Premium,Credit Card,32,4341.0,135.66,45,2.08,6.2,1.0,7,78.9,49.6,2,5.7,13.0,0,207,0,Sports,1,25.7,16.9,64.1,1
+CUST0461,69,Female,87258,Bachelor,Urban,279,Premium,Credit Card,24,2141.09,89.21,95,2.58,9.5,2.2,4,30.0,50.5,5,6.2,34.0,3,1393,0,Books,2,28.3,10.8,77.8,1
+CUST0462,40,Female,42795,Bachelor,Urban,579,VIP,Debit Card,53,4000.83,75.49,39,2.75,14.3,2.5,14,50.3,22.8,2,6.2,18.0,0,865,0,Electronics,3,72.7,18.1,56.3,1
+CUST0463,29,Male,41103,Bachelor,Suburban,265,Basic,Bank Transfer,6,909.43,151.57,67,0.68,6.1,3.8,15,41.8,53.7,1,5.6,20.0,0,99,1,Electronics,3,32.6,41.8,29.2,0
+CUST0464,43,Female,81285,High School,Suburban,64,Premium,Credit Card,0,0.0,0.0,12,0.0,16.6,10.4,7,51.9,15.6,0,7.1,56.0,1,184,0,Home & Garden,2,6.9,7.3,32.6,1
+CUST0465,38,Male,57597,Bachelor,Urban,417,Basic,PayPal,15,1359.82,90.65,51,1.08,12.4,2.0,11,46.1,10.2,1,8.4,69.0,1,0,1,Books,3,28.2,19.3,27.4,0
+CUST0466,36,Female,78857,Master,Suburban,75,Basic,Debit Card,0,0.0,0.0,104,0.0,14.9,2.9,7,66.2,48.5,3,6.2,7.0,0,615,0,Clothing,1,36.1,10.8,36.3,0
+CUST0467,49,Male,54572,Master,Rural,823,Premium,Credit Card,58,4692.06,80.9,21,2.11,1.4,1.4,11,42.7,39.3,2,9.8,91.0,0,725,0,Beauty,3,55.0,16.9,41.5,0
+CUST0468,51,Female,78959,High School,Urban,379,Premium,Bank Transfer,20,2077.79,103.89,67,1.58,6.7,3.8,9,56.3,71.8,2,7.0,55.0,0,171,0,Clothing,2,24.4,10.6,41.1,0
+CUST0469,32,Male,30524,High School,Rural,68,Basic,Debit Card,2,43.63,21.81,58,0.88,5.0,4.1,11,25.4,65.9,2,6.6,41.0,2,287,2,Electronics,4,38.0,14.5,53.9,1
+CUST0470,31,Male,52994,High School,Urban,1311,Basic,Credit Card,47,4786.28,101.84,2,1.08,1.1,4.3,8,83.0,83.1,2,6.6,16.0,0,822,1,Home & Garden,3,8.1,20.1,57.0,1
+CUST0471,35,Female,67803,Bachelor,Suburban,292,Premium,PayPal,9,1399.32,155.48,39,0.92,15.7,20.7,8,24.0,35.6,2,3.9,-5.0,1,0,1,Books,1,74.6,14.0,39.8,0
+CUST0472,18,Male,20000,Bachelor,Suburban,30,Basic,Credit Card,11,888.85,80.8,6,11.0,2.0,8.8,12,43.4,10.4,1,6.9,34.0,1,278,0,Home & Garden,2,56.9,17.8,90.0,1
+CUST0473,18,Male,20000,Bachelor,Urban,394,Basic,Debit Card,11,448.1,40.74,153,0.84,20.6,4.9,3,64.9,,0,7.3,30.0,0,569,0,Sports,3,67.4,15.8,43.7,0
+CUST0474,60,Male,93734,High School,Urban,116,Basic,Credit Card,0,0.0,0.0,75,0.0,8.0,7.2,11,77.0,23.9,4,6.0,19.0,0,227,0,Home & Garden,2,46.6,9.0,52.3,1
+CUST0475,64,Male,101941,High School,Urban,651,Basic,PayPal,22,2266.6,103.03,5,1.01,11.6,3.1,13,32.1,29.9,4,5.9,-5.0,0,100,1,Sports,3,18.2,27.3,38.6,0
+CUST0476,36,Female,62254,Bachelor,Suburban,681,Premium,Debit Card,45,1080.26,24.01,5,1.98,5.1,18.1,4,66.4,,2,7.3,56.0,2,256,0,Books,5,28.8,21.6,72.3,1
+CUST0477,48,Female,93447,Bachelor,Suburban,1544,Basic,Debit Card,51,5864.31,114.99,40,0.99,16.6,9.1,7,17.2,47.5,2,8.7,92.0,2,1277,0,Clothing,1,46.4,14.1,51.9,1
+CUST0478,44,Female,52924,High School,Suburban,278,Basic,Credit Card,14,2946.62,210.47,19,1.51,7.8,8.2,12,59.4,49.1,2,5.9,3.0,0,686,0,Sports,1,15.2,8.1,43.4,0
+CUST0479,80,Female,120953,Bachelor,Urban,242,Premium,Debit Card,19,957.37,50.39,1,2.36,12.0,12.2,8,79.8,19.0,0,8.6,70.0,0,0,1,Clothing,2,44.0,11.1,42.3,0
+CUST0480,56,Male,103678,High School,Urban,560,VIP,PayPal,57,3999.97,70.17,35,3.05,17.8,15.2,7,74.5,33.0,2,9.1,95.0,1,693,1,Home & Garden,3,31.1,21.3,43.9,0
+CUST0481,38,Female,32831,Master,Urban,56,Basic,Debit Card,4,869.0,217.25,22,2.14,13.2,2.1,14,29.7,29.9,0,6.2,5.0,0,313,0,Home & Garden,2,32.3,17.6,32.5,0
+CUST0482,25,Male,41295,Master,Urban,316,Basic,Debit Card,10,868.42,86.84,4,0.95,6.1,11.2,8,64.7,67.3,2,5.6,-7.0,0,668,0,Books,1,36.5,16.4,46.4,1
+CUST0483,18,Male,20000,High School,Suburban,316,Basic,Debit Card,19,1149.01,60.47,72,1.8,7.9,6.9,6,41.6,48.8,1,5.7,11.0,0,131,1,Clothing,2,54.7,7.1,47.1,0
+CUST0484,43,Female,66237,High School,Rural,37,Premium,PayPal,0,0.0,0.0,110,0.0,15.2,6.2,8,24.8,33.5,2,4.0,-25.0,0,0,1,Books,3,56.8,25.2,55.6,1
+CUST0485,28,Male,47325,Bachelor,Suburban,216,Premium,Debit Card,15,939.25,62.62,63,2.08,6.8,14.0,9,41.0,40.3,3,8.6,72.0,0,0,2,Sports,4,27.4,42.6,63.2,1
+CUST0486,18,Female,20000,High School,Urban,767,Premium,PayPal,51,2456.7,48.17,77,1.99,8.4,2.3,6,42.4,49.9,1,10.0,98.0,0,0,0,Home & Garden,5,60.2,13.8,36.0,0
+CUST0487,30,Male,35614,Bachelor,Rural,775,VIP,PayPal,81,9230.89,113.96,10,3.14,10.4,4.9,5,41.7,14.6,3,7.4,29.0,1,1527,0,Home & Garden,4,19.0,16.5,67.3,1
+CUST0488,23,Female,33172,Master,Suburban,41,Premium,Debit Card,0,0.0,0.0,13,0.0,5.1,4.4,10,58.2,60.4,2,5.5,-14.0,0,98,1,Home & Garden,2,30.6,31.5,43.6,0
+CUST0489,65,Female,80191,Bachelor,Rural,38,Premium,Credit Card,0,0.0,0.0,10,0.0,7.7,6.8,10,38.7,44.7,6,6.6,12.0,0,0,0,Beauty,2,17.1,18.7,31.0,0
+CUST0490,53,Female,65573,Master,Suburban,121,Basic,Debit Card,4,364.8,91.2,65,0.99,9.6,7.0,6,26.8,23.4,4,6.0,27.0,0,684,0,Home & Garden,5,31.3,14.0,58.2,0
+CUST0491,39,Female,71331,Bachelor,Urban,831,Basic,PayPal,29,2090.98,72.1,132,1.05,9.4,10.9,13,50.3,24.8,2,5.4,23.0,0,753,2,Home & Garden,3,11.1,21.0,47.7,1
+CUST0492,62,Female,75878,High School,Urban,55,VIP,Credit Card,12,952.96,79.41,56,6.55,9.2,5.3,5,74.8,50.8,1,5.4,7.0,0,0,0,Sports,3,23.0,7.9,82.5,1
+CUST0493,41,Male,74335,Bachelor,Suburban,509,Basic,Debit Card,10,410.16,41.02,95,0.59,6.3,14.7,7,56.5,24.4,2,7.4,59.0,2,641,2,Sports,2,42.6,18.0,61.9,1
+CUST0494,27,Female,47199,Bachelor,Urban,42,Basic,PayPal,7,833.17,119.02,45,5.0,9.9,7.4,6,55.6,37.7,7,4.2,-25.0,0,0,0,Books,2,55.7,8.4,70.4,1
+CUST0495,62,Male,67223,Bachelor,Urban,390,Premium,Credit Card,37,6861.17,185.44,22,2.85,19.8,2.1,19,46.6,66.0,3,,53.0,0,915,1,Electronics,3,19.1,26.5,67.8,1
+CUST0496,48,Female,64747,High School,Suburban,176,Basic,Debit Card,3,141.61,47.2,24,0.51,7.8,3.2,5,39.8,49.4,4,6.1,36.0,0,184,0,Home & Garden,4,16.4,10.4,47.8,0
+CUST0497,24,Female,52502,High School,Suburban,622,Premium,Credit Card,35,4163.85,118.97,3,1.69,9.8,8.2,11,49.8,13.2,1,5.4,14.0,1,991,1,Home & Garden,2,60.1,13.2,56.4,1
+CUST0498,37,Female,43143,PhD,Suburban,106,Premium,Credit Card,5,706.18,141.24,1,1.42,7.7,7.0,11,50.0,42.3,5,3.4,-29.0,1,261,0,Electronics,3,36.7,15.8,67.1,1
+CUST0499,26,Male,31424,High School,Urban,407,Basic,PayPal,13,1180.39,90.8,53,0.96,19.1,6.7,8,64.4,31.7,2,4.9,-3.0,0,0,0,Books,1,35.9,12.9,48.0,0
+CUST0500,19,Male,31671,PhD,Urban,107,Premium,Credit Card,9,1044.55,116.06,25,2.52,6.8,16.2,13,56.8,25.6,3,6.0,3.0,0,21,1,Sports,5,64.5,12.0,49.6,0
+CUST0501,53,Female,93611,PhD,Suburban,500,Basic,Credit Card,13,662.17,50.94,36,0.78,3.9,10.1,4,39.6,44.5,2,6.1,23.0,1,1412,0,Home & Garden,5,30.4,4.4,29.6,0
+CUST0502,68,Male,95937,Master,Rural,827,Basic,PayPal,35,6285.04,179.57,36,1.27,13.5,3.7,9,54.1,51.2,2,6.0,25.0,0,669,0,Books,2,49.4,9.7,63.0,1
+CUST0503,19,Male,20000,Bachelor,Suburban,54,Premium,Credit Card,0,0.0,0.0,14,0.0,6.5,4.5,12,19.4,32.9,0,6.5,64.0,0,298,0,Electronics,2,29.5,13.8,33.0,0
+CUST0504,48,Male,96246,Bachelor,Rural,805,Premium,Bank Transfer,44,7044.57,160.1,29,1.64,13.0,3.5,11,60.1,39.0,4,6.9,37.0,1,0,2,Sports,1,31.4,11.4,54.3,1
+CUST0505,30,Female,71833,Master,Suburban,360,Premium,Bank Transfer,29,1051.7,36.27,28,2.42,5.7,2.5,6,17.3,38.1,1,6.8,31.0,1,0,0,Sports,1,38.6,23.9,66.7,1
+CUST0506,32,Female,63993,High School,Suburban,54,Basic,Credit Card,0,0.0,0.0,22,0.0,3.2,16.9,3,26.3,30.6,0,6.0,24.0,1,259,0,Books,3,71.8,8.6,11.2,0
+CUST0507,31,Male,48820,Bachelor,Urban,223,Premium,Credit Card,13,694.92,53.46,77,1.75,8.0,7.0,6,91.2,51.1,3,3.8,-2.0,0,0,0,Clothing,3,12.8,27.3,60.4,1
+CUST0508,27,Male,28136,Bachelor,Suburban,70,Basic,PayPal,17,3200.15,188.24,26,7.29,2.3,1.8,5,37.6,38.9,1,5.5,15.0,0,594,0,Clothing,2,38.6,8.9,62.8,1
+CUST0509,40,Male,50293,Bachelor,Suburban,482,VIP,Debit Card,48,2298.31,47.88,41,2.99,10.3,13.8,8,38.2,55.5,2,8.6,69.0,1,0,0,Beauty,2,25.7,29.2,68.6,1
+CUST0510,27,Female,48098,Bachelor,Suburban,568,Basic,Credit Card,13,1209.02,93.0,101,0.69,14.7,2.8,7,66.1,45.8,0,6.3,,0,0,0,Beauty,3,20.0,18.3,35.4,0
+CUST0511,44,Female,75266,Bachelor,Suburban,44,Premium,PayPal,2,34.18,17.09,90,1.36,27.2,6.1,4,70.9,41.7,1,9.3,73.0,4,0,2,Clothing,5,38.3,29.4,65.1,1
+CUST0512,39,Male,82164,Bachelor,Suburban,282,Basic,Credit Card,9,834.44,92.72,99,0.96,5.5,5.4,5,27.4,50.1,1,,64.0,1,847,0,Electronics,1,57.0,10.9,27.2,0
+CUST0513,36,Male,65947,Master,Urban,674,Basic,PayPal,23,841.07,36.57,14,1.02,4.5,1.3,11,55.0,43.2,1,5.7,10.0,1,250,1,Clothing,3,35.2,8.6,42.1,0
+CUST0514,26,Male,20000,High School,Suburban,1100,Basic,Credit Card,39,4323.68,110.86,1,1.06,14.5,1.0,16,34.4,23.5,2,5.9,47.0,2,0,0,Books,1,63.2,16.9,34.3,0
+CUST0515,31,Female,63319,Master,Urban,288,VIP,Credit Card,23,1689.12,73.44,13,2.4,13.8,8.9,11,16.7,54.1,2,3.3,-33.0,1,556,0,Sports,2,52.3,20.2,51.9,1
+CUST0516,51,Female,64169,Bachelor,Suburban,1200,Premium,Credit Card,88,5614.32,63.8,14,2.2,14.4,11.7,7,59.4,30.5,3,6.6,39.0,3,976,0,Books,2,51.2,50.0,64.0,1
+CUST0517,47,Male,67700,Master,Urban,306,VIP,Bank Transfer,31,5918.8,190.93,108,3.04,27.4,6.4,17,51.9,32.6,1,10.0,92.0,3,401,0,Books,1,37.2,39.8,58.1,1
+CUST0518,25,Male,40253,Bachelor,Urban,200,Basic,Debit Card,10,2544.85,254.48,47,1.5,8.4,24.2,9,47.4,67.5,2,8.6,61.0,1,734,0,Home & Garden,1,10.1,32.5,57.6,1
+CUST0519,41,Male,94275,Master,Urban,754,Basic,PayPal,21,612.44,29.16,3,0.84,31.1,3.0,10,60.9,39.5,6,,48.0,6,564,0,Electronics,2,61.4,3.5,62.9,1
+CUST0520,51,Other,125789,High School,Suburban,271,Basic,Credit Card,15,976.76,65.12,6,1.66,6.3,1.0,10,37.9,35.1,1,7.7,72.0,0,523,1,Sports,1,29.3,11.7,50.4,1
+CUST0521,18,Male,31811,Master,Urban,255,Premium,Credit Card,15,1949.03,129.94,7,1.76,4.8,7.1,7,26.5,39.3,0,7.0,26.0,0,0,0,Home & Garden,2,24.3,47.3,19.8,0
+CUST0522,48,Female,72162,High School,Urban,269,Basic,Credit Card,10,1003.8,100.38,44,1.12,4.5,2.2,14,29.5,43.6,2,6.3,16.0,0,0,0,Electronics,1,31.3,14.8,24.1,0
+CUST0523,30,Female,53768,Master,Suburban,750,VIP,Debit Card,70,8809.16,125.85,59,2.8,4.2,4.9,10,37.1,61.1,2,8.2,54.0,1,34,0,Sports,2,54.6,11.5,52.0,1
+CUST0524,48,Male,88225,PhD,Urban,713,VIP,Debit Card,66,5064.91,76.74,88,2.78,28.3,10.3,7,56.6,46.3,8,4.3,-4.0,0,178,0,Home & Garden,3,61.1,18.8,77.0,1
+CUST0525,28,Male,37300,High School,Rural,206,VIP,Debit Card,24,3693.1,153.88,127,3.5,18.5,3.3,10,63.9,,4,4.3,-9.0,1,185,0,Beauty,3,21.3,23.4,91.9,1
+CUST0526,18,Male,49638,High School,Rural,162,Premium,Credit Card,8,724.81,90.6,10,1.48,26.7,4.9,8,63.7,15.8,1,6.6,30.0,0,0,0,Clothing,4,23.2,6.3,37.5,1
+CUST0527,18,Female,26161,Master,Suburban,270,Premium,Bank Transfer,13,1350.44,103.88,16,1.44,1.3,11.3,17,45.2,29.6,4,3.2,,0,111,1,Books,2,31.2,18.0,51.9,1
+CUST0528,40,Female,70216,High School,Urban,340,Premium,Credit Card,19,695.39,36.6,12,1.68,2.6,4.4,8,20.8,57.6,4,6.3,50.0,2,936,0,Beauty,5,44.5,24.9,87.1,1
+CUST0529,43,Female,77449,Master,Suburban,108,Basic,Bank Transfer,7,595.91,85.13,19,1.94,6.5,7.1,6,62.2,43.8,2,4.8,10.0,0,0,0,Clothing,2,33.9,27.8,49.4,0
+CUST0530,26,Female,44714,High School,Urban,631,Premium,Credit Card,38,4968.27,130.74,110,1.81,5.8,7.8,10,82.2,15.4,3,7.1,12.0,1,472,4,Sports,1,15.2,2.2,60.0,1
+CUST0531,49,Male,88924,High School,Suburban,266,Basic,Debit Card,8,776.98,97.12,38,0.9,9.8,4.5,4,44.0,34.1,1,5.0,14.0,0,0,0,Beauty,5,41.1,13.7,43.2,0
+CUST0532,18,Other,20000,PhD,Urban,162,Basic,Credit Card,5,437.12,87.42,60,0.93,8.6,4.6,9,67.2,29.6,1,6.4,23.0,1,1157,1,Beauty,3,41.9,20.6,75.4,1
+CUST0533,39,Female,52765,Bachelor,Rural,45,Basic,Debit Card,0,0.0,0.0,30,0.0,3.4,5.1,9,66.9,63.2,3,5.9,9.0,0,0,0,Home & Garden,2,20.6,15.6,45.9,1
+CUST0534,21,Male,20000,Master,Urban,109,Basic,Debit Card,0,0.0,0.0,1,0.0,5.3,3.0,11,75.3,40.8,2,5.8,27.0,0,0,1,Home & Garden,4,60.2,7.8,27.6,0
+CUST0535,30,Other,52343,Bachelor,Suburban,1192,Basic,Debit Card,41,3211.06,78.32,2,1.03,6.8,6.9,10,77.2,34.3,3,7.3,51.0,1,668,0,Home & Garden,4,39.3,6.1,37.0,0
+CUST0536,40,Female,74434,Bachelor,Suburban,145,Basic,Debit Card,1,133.08,133.08,34,0.21,3.0,3.1,11,34.9,34.0,1,7.2,45.0,3,136,0,Books,4,18.5,3.7,41.1,0
+CUST0537,27,Female,47127,Bachelor,Suburban,73,Premium,PayPal,10,750.21,75.02,57,4.11,7.5,3.4,10,43.6,32.4,3,5.1,-12.0,1,896,0,Home & Garden,2,23.5,16.6,63.6,1
+CUST0538,34,Female,77907,Bachelor,Urban,246,Basic,Debit Card,13,454.81,34.99,10,1.59,3.1,2.2,5,74.1,48.3,4,4.4,3.0,0,405,2,Electronics,4,76.6,4.4,60.5,1
+CUST0539,55,Female,84416,Bachelor,Rural,146,Premium,PayPal,13,2419.09,186.08,57,2.67,7.4,12.0,9,21.8,42.5,3,4.8,-23.0,0,201,0,Electronics,3,33.3,50.0,52.2,0
+CUST0540,31,Female,57571,Bachelor,Suburban,30,Basic,Credit Card,10,545.23,54.52,74,10.0,3.9,1.5,5,73.1,30.4,1,5.5,21.0,0,576,0,Electronics,3,52.1,24.9,96.9,1
+CUST0541,52,Male,64134,Bachelor,Suburban,156,Premium,Debit Card,9,252.73,28.08,23,1.73,15.7,16.4,4,17.6,29.9,1,9.8,98.0,3,605,0,Beauty,2,13.1,40.4,50.8,1
+CUST0542,23,Male,26854,High School,Urban,314,Premium,Debit Card,24,2772.34,115.51,61,2.29,11.2,4.7,10,40.2,23.4,3,5.0,0.0,0,0,0,Clothing,2,51.0,49.0,71.9,1
+CUST0543,47,Female,83893,Master,Suburban,320,Premium,Credit Card,18,3590.83,199.49,23,1.69,11.0,3.7,15,21.9,69.3,3,7.5,42.0,4,840,0,Sports,2,40.5,26.8,71.1,1
+CUST0544,61,Male,104677,High School,Urban,176,Premium,Debit Card,23,2693.58,117.11,51,3.92,13.6,2.3,1,30.7,24.8,1,7.2,47.0,2,158,0,Clothing,3,3.4,24.7,72.7,1
+CUST0545,18,Male,20000,Bachelor,Urban,237,Basic,Credit Card,17,2911.38,171.26,64,2.15,11.7,2.5,13,79.9,37.0,3,5.3,-14.0,0,239,0,Beauty,3,55.5,14.2,70.6,1
+CUST0546,28,Male,41036,High School,Urban,1346,Premium,Credit Card,89,3948.11,44.36,216,1.98,15.7,3.1,10,56.8,43.5,1,8.6,90.0,4,466,2,Clothing,2,65.0,15.0,66.7,1
+CUST0547,48,Male,52142,Bachelor,Suburban,189,Basic,Credit Card,8,282.73,35.34,19,1.27,9.2,28.4,6,53.0,43.1,2,6.5,25.0,1,0,0,Books,3,38.0,16.4,31.4,0
+CUST0548,36,Female,50835,Bachelor,Urban,119,Basic,Credit Card,10,649.67,64.97,23,2.52,13.5,3.1,7,65.9,39.0,1,4.1,-29.0,0,0,2,Beauty,3,49.2,31.9,52.1,1
+CUST0549,45,Female,83856,High School,Urban,111,Premium,Debit Card,6,884.77,147.46,8,1.62,10.8,7.2,7,37.3,24.0,0,7.0,37.0,3,580,0,Clothing,3,56.0,0.8,47.4,0
+CUST0550,30,Male,54378,High School,Suburban,244,Basic,Debit Card,4,444.37,111.09,10,0.49,10.7,4.3,8,42.2,23.4,3,5.6,6.0,0,0,0,Books,2,46.7,9.6,25.8,0
+CUST0551,41,Male,71850,High School,Suburban,570,Premium,Bank Transfer,42,4867.72,115.9,53,2.21,2.1,17.3,11,32.4,38.0,2,6.3,46.0,3,0,0,Electronics,2,66.9,13.2,53.5,1
+CUST0552,37,Male,58607,Bachelor,Urban,92,Premium,PayPal,6,524.35,87.39,112,1.96,3.5,6.0,10,61.0,61.0,6,1.0,-100.0,0,389,0,Electronics,4,35.3,8.6,94.7,1
+CUST0553,57,Female,87166,Master,Suburban,494,Basic,Credit Card,17,1118.17,65.77,22,1.03,9.9,1.8,6,55.0,55.1,0,6.8,36.0,3,75,0,Clothing,4,21.8,32.7,48.4,0
+CUST0554,43,Female,57555,High School,Urban,30,Basic,PayPal,0,0.0,0.0,8,0.0,4.5,3.5,7,84.6,40.7,3,7.9,82.0,1,495,1,Clothing,3,41.7,15.3,36.7,0
+CUST0555,45,Male,80982,Bachelor,Urban,217,Basic,PayPal,0,0.0,0.0,15,0.0,7.8,21.7,8,74.4,47.8,3,6.3,28.0,1,178,1,Electronics,6,14.7,26.7,53.7,1
+CUST0556,33,Female,57375,Bachelor,Urban,598,VIP,Debit Card,60,3773.88,62.9,27,3.01,5.4,9.1,15,37.6,52.5,5,4.1,-15.0,0,0,0,Home & Garden,1,33.6,25.5,76.2,1
+CUST0557,32,Female,56690,Bachelor,Suburban,165,Premium,Debit Card,15,1529.92,101.99,15,2.73,5.6,4.9,10,49.9,41.8,2,7.6,52.0,2,184,1,Electronics,2,53.4,41.2,64.6,1
+CUST0558,33,Female,43169,Master,Urban,331,Basic,Bank Transfer,9,621.99,69.11,11,0.82,8.5,2.3,10,57.0,58.5,1,5.0,-9.0,0,329,0,Home & Garden,2,35.8,28.5,47.5,0
+CUST0559,45,Female,38200,Bachelor,Urban,91,Basic,Debit Card,10,952.2,95.22,59,3.3,6.7,2.6,12,44.0,37.3,2,6.6,40.0,1,212,0,Electronics,3,18.5,6.7,26.1,0
+CUST0560,33,Male,67517,Bachelor,Urban,541,Premium,Bank Transfer,32,598.85,18.71,0,1.77,20.4,2.0,8,54.6,25.7,5,5.6,8.0,0,0,0,Sports,2,56.5,48.8,46.9,0
+CUST0561,44,Female,61807,High School,Suburban,30,Premium,Credit Card,0,0.0,0.0,34,0.0,2.3,1.2,10,12.7,31.6,2,5.4,11.0,0,0,0,Books,2,72.9,22.0,25.5,0
+CUST0562,71,Male,89798,High School,Urban,765,Basic,Credit Card,25,1721.03,68.84,71,0.98,12.3,8.7,11,88.1,41.4,1,8.6,80.0,2,0,0,Books,2,8.0,7.1,41.4,0
+CUST0563,53,Female,92262,High School,Urban,88,Basic,Debit Card,2,352.92,176.46,13,0.68,14.0,7.6,5,42.3,45.6,4,6.2,30.0,1,0,0,Sports,2,38.8,4.5,46.0,0
+CUST0564,35,Female,48620,High School,Urban,829,VIP,Debit Card,86,2333.71,27.14,41,3.11,21.3,5.7,7,73.1,30.6,3,,23.0,5,0,0,Home & Garden,1,27.3,8.9,76.5,1
+CUST0565,58,Female,104209,Bachelor,Urban,173,Basic,PayPal,1,86.6,86.6,49,0.17,8.7,13.1,13,14.5,34.7,3,5.1,15.0,1,203,0,Clothing,5,48.4,19.0,27.8,1
+CUST0566,33,Female,60315,Bachelor,Suburban,513,Basic,Bank Transfer,23,3027.93,131.65,47,1.35,13.1,8.5,4,60.6,25.9,1,5.7,29.0,1,0,1,Clothing,4,34.3,10.8,24.6,0
+CUST0567,18,Male,32964,Bachelor,Suburban,153,VIP,Credit Card,25,1880.81,75.23,26,4.9,20.2,1.4,4,34.3,50.4,1,6.1,35.0,1,475,0,Books,4,54.9,22.2,76.7,1
+CUST0568,24,Female,20000,High School,Urban,945,Premium,Credit Card,62,4177.7,67.38,19,1.97,5.1,5.1,7,26.8,14.0,0,9.2,100.0,0,120,1,Clothing,2,79.5,8.7,21.9,0
+CUST0569,18,Other,40889,High School,Urban,54,Basic,PayPal,8,1051.13,131.39,81,4.44,3.9,9.4,7,61.5,48.1,2,6.1,43.0,3,0,0,Home & Garden,2,24.3,13.0,71.8,1
+CUST0570,34,Female,56709,Bachelor,Urban,78,Basic,Debit Card,0,0.0,0.0,63,0.0,9.0,5.1,9,48.6,46.8,2,7.5,33.0,2,0,0,Clothing,5,26.7,24.7,28.1,0
+CUST0571,40,Male,57211,PhD,Urban,271,Basic,Credit Card,14,1600.52,114.32,17,1.55,7.0,5.5,9,44.3,28.7,2,3.9,20.0,0,1207,2,Electronics,5,34.6,9.1,63.4,0
+CUST0572,65,Male,98651,High School,Urban,34,Basic,Debit Card,6,377.87,62.98,4,5.29,13.3,1.1,5,24.9,31.6,3,6.0,23.0,1,0,1,Sports,5,18.3,8.9,64.1,1
+CUST0573,44,Male,42346,Master,Suburban,87,VIP,PayPal,13,754.34,58.03,3,4.48,2.5,3.1,11,58.1,52.9,4,6.5,26.0,0,398,0,Books,3,34.4,36.9,58.0,1
+CUST0574,36,Female,62320,Bachelor,Rural,1151,Basic,PayPal,38,3620.99,95.29,4,0.99,19.3,7.3,11,22.4,40.8,1,7.4,51.0,4,446,0,Clothing,2,54.7,24.2,47.9,0
+CUST0575,52,Female,65069,Bachelor,Rural,1500,Premium,Debit Card,85,11700.2,137.65,39,1.7,10.0,4.5,6,56.2,50.4,5,4.2,-39.0,0,467,1,Home & Garden,3,50.4,13.9,72.4,1
+CUST0576,18,Male,20000,Bachelor,Rural,188,VIP,Credit Card,15,477.66,31.84,2,2.39,6.8,1.3,8,89.0,21.0,3,4.2,-12.0,1,772,0,Clothing,3,34.9,16.2,85.2,1
+CUST0577,43,Female,44625,High School,Suburban,1027,Basic,Bank Transfer,31,2383.57,76.89,18,0.91,8.3,9.3,11,33.8,40.3,2,8.0,48.0,2,114,0,Sports,5,5.6,9.2,18.8,0
+CUST0578,51,Female,95830,High School,Suburban,314,Basic,Debit Card,5,298.54,59.71,62,0.48,16.4,4.4,7,44.0,47.7,2,,7.0,2,0,0,Electronics,2,51.5,12.7,33.1,1
+CUST0579,18,Female,20000,Bachelor,Urban,125,Premium,Debit Card,8,660.78,82.6,15,1.92,11.8,5.5,7,55.5,18.1,1,5.5,12.0,0,0,0,Beauty,2,56.3,9.4,41.6,0
+CUST0580,57,Female,110066,Bachelor,Suburban,484,VIP,Credit Card,46,5731.95,124.61,64,2.85,8.2,1.4,8,56.4,44.6,2,6.4,19.0,0,470,2,Books,2,12.5,17.3,74.7,1
+CUST0581,45,Female,62463,Master,Suburban,430,Premium,PayPal,24,1134.5,47.27,61,1.67,7.1,1.0,11,47.5,71.3,1,6.6,5.0,2,488,0,Books,2,49.0,9.6,54.5,1
+CUST0582,33,Female,25450,Bachelor,Suburban,1808,Basic,Credit Card,54,6301.33,116.69,12,0.9,7.3,5.7,3,30.9,32.4,2,8.9,81.0,0,289,1,Home & Garden,3,50.6,6.2,8.3,0
+CUST0583,49,Male,59592,High School,Suburban,123,Premium,Credit Card,4,257.33,64.33,58,0.98,12.9,12.0,8,50.3,38.0,2,3.5,-31.0,0,1335,1,Electronics,4,46.1,27.3,69.7,1
+CUST0584,74,Female,124127,Bachelor,Urban,445,Premium,Debit Card,35,5250.59,150.02,61,2.36,6.7,9.2,13,41.7,49.8,2,7.6,54.0,0,56,1,Clothing,2,45.6,34.8,53.3,1
+CUST0585,42,Female,63572,High School,Urban,30,VIP,Credit Card,0,0.0,0.0,22,0.0,12.2,8.3,10,76.7,68.2,1,8.7,67.0,0,305,0,Clothing,1,49.1,40.5,42.8,0
+CUST0586,43,Female,59236,Bachelor,Rural,48,Basic,Debit Card,0,0.0,0.0,10,0.0,4.0,6.1,15,59.4,43.1,1,7.9,49.0,3,0,0,Beauty,2,54.5,22.8,33.7,0
+CUST0587,33,Female,53460,Bachelor,Urban,30,Premium,Credit Card,0,0.0,0.0,33,0.0,4.6,1.7,6,22.7,,3,9.0,76.0,0,0,0,Beauty,3,15.3,18.9,30.1,0
+CUST0588,27,Female,47787,Master,Suburban,2000,VIP,Debit Card,200,18310.09,91.55,114,3.0,8.1,1.0,4,66.9,33.1,1,9.8,98.0,3,2014,3,Beauty,3,34.1,12.9,89.4,1
+CUST0589,52,Male,97271,Master,Rural,648,Basic,Credit Card,23,2716.44,118.11,45,1.06,7.0,23.6,6,48.9,39.1,2,7.8,66.0,1,0,1,Home & Garden,3,29.1,24.4,31.6,1
+CUST0590,27,Male,61987,Bachelor,Suburban,618,Basic,Credit Card,5,250.05,50.01,8,0.24,4.9,4.4,10,59.6,26.9,1,6.5,17.0,0,774,1,Electronics,2,46.7,4.6,21.6,0
+CUST0591,41,Male,58943,Bachelor,Suburban,285,Basic,Credit Card,14,205.61,14.69,51,1.47,3.1,3.2,8,44.1,26.5,1,6.0,32.0,6,237,0,Home & Garden,5,44.3,17.1,64.5,1
+CUST0592,32,Male,29419,Master,Urban,142,Basic,Bank Transfer,11,670.76,60.98,25,2.32,4.3,5.4,4,45.9,30.4,3,2.4,-42.0,0,0,1,Sports,2,34.1,21.6,49.8,0
+CUST0593,47,Female,67258,High School,Urban,65,Basic,PayPal,0,0.0,0.0,40,0.0,22.5,2.2,5,43.1,62.6,4,4.3,-6.0,0,211,1,Sports,2,28.0,11.0,35.8,0
+CUST0594,45,Other,74404,High School,Rural,134,VIP,Credit Card,8,537.87,67.23,59,1.79,4.8,3.5,5,39.3,38.3,1,8.3,93.0,1,0,1,Clothing,5,28.1,2.8,54.2,1
+CUST0595,55,Male,70044,High School,Suburban,188,Basic,PayPal,4,229.46,57.37,32,0.64,8.6,16.2,13,45.2,34.6,1,4.0,-46.0,0,648,1,Sports,4,36.4,20.4,51.1,1
+CUST0596,32,Male,34953,High School,Suburban,564,Basic,Debit Card,15,1987.89,132.53,75,0.8,4.8,6.6,8,37.1,31.2,2,9.4,100.0,2,706,1,Home & Garden,4,37.3,7.4,52.4,1
+CUST0597,35,Female,59657,Bachelor,Urban,310,Premium,Bank Transfer,21,3332.07,158.67,57,2.03,6.5,7.8,4,88.5,49.2,1,7.5,41.0,2,519,0,Books,1,47.8,18.7,52.1,1
+CUST0598,25,Male,35770,Bachelor,Urban,32,Basic,Credit Card,0,0.0,0.0,42,0.0,15.0,4.7,6,34.3,60.9,2,4.3,-10.0,0,305,0,Sports,4,13.3,28.8,32.7,0
+CUST0599,33,Female,51552,Bachelor,Rural,30,Basic,Debit Card,0,0.0,0.0,7,0.0,6.9,11.0,6,28.6,40.9,6,4.3,-12.0,1,0,1,Home & Garden,2,23.4,16.9,49.7,0
+CUST0600,45,Female,59123,High School,Urban,43,Premium,Credit Card,10,1153.21,115.32,81,6.98,6.3,10.8,10,41.0,21.8,1,7.7,35.0,2,848,0,Books,2,27.9,21.4,85.5,1
+CUST0601,51,Female,75684,Bachelor,Suburban,211,VIP,Credit Card,16,713.65,44.6,123,2.27,5.1,4.3,10,53.6,54.1,0,6.6,40.0,0,21,1,Books,6,40.0,2.5,59.7,1
+CUST0602,26,Male,24527,Bachelor,Urban,1082,Premium,Bank Transfer,78,6127.24,78.55,6,2.16,6.7,5.1,7,32.0,48.4,1,7.1,55.0,3,1125,0,Beauty,1,64.2,32.6,64.0,0
+CUST0603,53,Male,95213,Bachelor,Suburban,405,Premium,Debit Card,28,2443.76,87.28,30,2.07,10.8,12.2,6,31.2,23.7,3,9.0,87.0,3,619,1,Beauty,5,87.0,7.6,48.7,0
+CUST0604,60,Female,106279,Bachelor,Rural,647,Basic,Credit Card,12,1167.89,97.32,13,0.56,1.5,5.4,9,19.9,10.2,1,6.2,2.0,1,621,0,Sports,1,22.4,13.8,29.8,0
+CUST0605,46,Female,44297,Bachelor,Suburban,251,VIP,Credit Card,28,2697.15,96.33,63,3.35,2.7,3.9,10,11.1,46.1,1,6.8,18.0,0,0,0,Electronics,2,37.6,12.3,42.8,0
+CUST0606,68,Male,85767,High School,Urban,179,Basic,PayPal,5,416.32,83.26,57,0.84,11.0,4.1,11,50.9,23.0,2,8.1,51.0,1,0,0,Beauty,1,51.2,6.4,36.4,0
+CUST0607,28,Female,20000,High School,Suburban,45,Premium,Debit Card,0,0.0,0.0,6,0.0,8.5,3.5,8,28.6,48.6,1,6.4,47.0,1,1124,0,Sports,5,52.1,1.6,44.3,0
+CUST0608,21,Male,20000,Master,Suburban,834,Basic,Credit Card,29,2721.13,93.83,94,1.04,5.3,5.3,2,56.9,30.1,2,7.7,56.0,0,0,1,Sports,1,25.9,15.7,43.9,0
+CUST0609,18,Female,21458,Master,Urban,611,VIP,Bank Transfer,63,5903.49,93.71,8,3.09,11.4,3.6,8,55.2,42.6,3,6.1,-9.0,0,41,0,Electronics,3,57.1,31.7,46.1,0
+CUST0610,62,Male,71365,Bachelor,Rural,73,Premium,Credit Card,8,417.85,52.23,71,3.29,6.1,5.3,1,35.9,42.3,3,4.6,23.0,0,63,0,Sports,3,83.5,24.8,60.9,0
+CUST0611,49,Female,62512,High School,Suburban,287,Premium,Credit Card,25,946.4,37.86,27,2.61,14.9,2.8,5,46.4,43.2,0,8.1,84.0,2,117,0,Home & Garden,4,60.0,24.7,53.0,1
+CUST0612,39,Male,46081,Bachelor,Rural,267,Basic,Bank Transfer,10,976.07,97.61,17,1.12,5.1,6.7,10,39.8,52.2,2,4.7,-22.0,1,0,0,Electronics,3,24.5,3.8,33.5,0
+CUST0613,44,Male,72099,Bachelor,Suburban,392,Basic,Credit Card,6,376.04,62.67,7,0.46,3.9,7.4,10,60.2,43.3,3,6.2,18.0,0,345,1,Home & Garden,1,34.0,16.2,53.9,1
+CUST0614,23,Male,33700,Master,Urban,1168,Premium,Credit Card,75,4037.25,53.83,8,1.93,36.1,8.4,9,23.6,43.0,3,5.6,8.0,0,854,1,Books,2,17.3,13.0,78.6,1
+CUST0615,76,Male,96564,High School,Urban,346,Premium,Debit Card,37,4434.19,119.84,48,3.21,12.9,7.5,13,54.4,16.5,3,6.8,45.0,1,434,1,Electronics,2,36.1,4.4,55.1,1
+CUST0616,41,Female,66992,High School,Urban,310,Basic,PayPal,13,1027.87,79.07,35,1.26,4.4,10.4,7,80.1,49.8,0,,85.0,4,0,0,Books,5,56.0,13.5,48.4,0
+CUST0617,41,Other,56140,Bachelor,Rural,30,VIP,Credit Card,14,2403.7,171.69,5,14.0,6.1,5.6,7,74.5,41.6,2,3.3,-44.0,0,229,0,Beauty,4,52.9,38.3,100.0,1
+CUST0618,50,Male,73675,Bachelor,Suburban,30,VIP,Bank Transfer,9,1013.89,112.65,5,9.0,5.1,5.3,12,31.5,58.2,5,4.1,1.0,0,0,1,Clothing,3,48.1,12.2,100.0,1
+CUST0619,47,Male,98562,High School,Suburban,82,Basic,PayPal,3,150.4,50.13,3,1.1,1.9,3.2,2,65.8,30.2,3,2.6,-21.0,0,0,0,Clothing,2,8.4,14.9,47.1,0
+CUST0620,43,Female,87567,High School,Urban,30,Premium,Credit Card,3,362.05,120.68,61,3.0,6.4,8.9,9,80.4,54.8,0,,32.0,2,186,1,Home & Garden,4,61.2,13.6,67.1,1
+CUST0621,28,Female,22616,Bachelor,Urban,544,Premium,PayPal,36,3717.76,103.27,55,1.99,9.1,3.3,6,54.9,39.3,0,8.2,56.0,1,754,0,Books,1,42.4,19.1,44.0,0
+CUST0622,47,Female,85906,Master,Suburban,513,Basic,Credit Card,8,391.16,48.89,2,0.47,19.7,1.0,10,53.0,,3,5.1,27.0,1,0,0,Books,2,26.4,13.2,43.5,0
+CUST0623,68,Male,111881,PhD,Suburban,58,Basic,Debit Card,2,115.88,57.94,36,1.03,7.6,3.0,14,24.0,34.0,1,3.3,-66.0,0,0,0,Electronics,3,33.8,10.7,23.1,0
+CUST0624,60,Male,73526,Bachelor,Urban,723,Premium,PayPal,54,6342.78,117.46,3,2.24,5.7,9.4,12,63.2,23.3,1,8.9,65.0,5,348,1,Clothing,3,53.4,8.4,52.0,1
+CUST0625,63,Female,106542,Bachelor,Suburban,67,Premium,Bank Transfer,1,23.01,23.01,105,0.45,21.3,8.1,5,13.7,67.9,0,4.8,11.0,0,455,0,Home & Garden,3,22.7,20.5,48.4,0
+CUST0626,32,Male,72379,High School,Urban,143,Basic,Credit Card,6,99.28,16.55,106,1.26,18.4,6.2,9,43.8,20.7,1,7.9,78.0,1,0,1,Home & Garden,2,40.2,17.0,35.7,0
+CUST0627,25,Female,20000,Bachelor,Urban,114,Premium,Debit Card,11,996.83,90.62,53,2.89,9.0,20.6,5,30.8,51.0,2,5.1,-3.0,0,447,0,Electronics,1,35.2,4.9,70.3,1
+CUST0628,38,Male,45747,Bachelor,Suburban,186,Premium,Debit Card,7,606.71,86.67,117,1.13,8.4,6.7,7,47.9,19.5,0,5.8,51.0,2,0,0,Electronics,1,33.1,14.9,57.8,0
+CUST0629,40,Female,78015,Bachelor,Urban,117,Premium,Credit Card,5,476.96,95.39,75,1.28,10.7,2.6,14,30.7,31.4,2,6.1,-14.0,0,38,2,Beauty,2,31.2,11.4,44.6,0
+CUST0630,56,Male,89862,Bachelor,Rural,268,Basic,Credit Card,3,260.46,86.82,79,0.34,5.1,2.4,10,25.8,14.1,0,8.7,90.0,2,0,0,Home & Garden,2,32.2,17.7,22.7,0
+CUST0631,18,Female,30982,High School,Urban,209,VIP,Credit Card,16,1686.19,105.39,37,2.3,8.2,7.5,12,56.5,36.9,2,9.3,86.0,1,0,1,Electronics,4,51.5,5.8,64.4,1
+CUST0632,62,Female,98219,High School,Urban,1724,Basic,Debit Card,51,8154.26,159.89,16,0.89,4.9,13.5,8,44.5,56.6,2,6.4,21.0,0,1532,0,Beauty,2,35.6,10.0,44.6,1
+CUST0633,37,Female,63720,Bachelor,Urban,30,Basic,Debit Card,0,0.0,0.0,11,0.0,18.8,5.2,9,16.8,49.7,1,4.5,4.0,1,407,1,Books,4,53.6,35.1,39.1,0
+CUST0634,33,Male,31163,High School,Suburban,61,Basic,Credit Card,9,270.02,30.0,17,4.43,4.1,6.9,5,35.9,32.7,0,7.7,48.0,1,349,3,Home & Garden,1,37.3,31.3,60.5,1
+CUST0635,24,Female,50300,High School,Urban,30,Basic,PayPal,0,0.0,0.0,44,0.0,9.6,7.1,7,66.4,40.6,2,4.0,-36.0,0,454,0,Sports,2,41.9,12.0,54.9,0
+CUST0636,18,Female,40254,PhD,Suburban,393,VIP,PayPal,39,2580.07,66.16,8,2.98,9.9,21.1,11,42.8,29.6,2,7.9,60.0,1,509,0,Clothing,1,58.7,17.1,44.2,0
+CUST0637,52,Female,77069,Bachelor,Urban,30,Basic,Debit Card,0,0.0,0.0,13,0.0,19.8,10.0,8,68.3,23.3,0,7.7,52.0,2,472,1,Clothing,3,34.6,8.6,53.2,1
+CUST0638,41,Female,63688,Bachelor,Urban,724,Premium,Credit Card,54,1823.01,33.76,28,2.24,5.6,11.7,8,16.9,66.0,3,8.6,61.0,2,0,2,Sports,1,78.4,10.1,59.8,1
+CUST0639,20,Female,20000,Master,Urban,286,Basic,Debit Card,16,224.57,14.04,11,1.68,4.7,2.5,6,32.5,39.4,2,7.9,49.0,2,711,0,Sports,4,54.9,19.2,57.0,1
+CUST0640,20,Female,34464,PhD,Suburban,299,Basic,Credit Card,14,884.18,63.16,39,1.4,12.4,3.3,9,75.2,41.1,1,7.0,34.0,4,732,0,Books,1,77.4,10.6,53.0,1
+CUST0641,34,Male,61371,Bachelor,Rural,329,VIP,Credit Card,34,6763.33,198.92,115,3.1,11.4,3.1,9,40.8,22.2,2,6.7,10.0,0,866,0,Home & Garden,2,66.8,32.2,94.6,1
+CUST0642,65,Female,95567,Master,Urban,74,Premium,PayPal,3,308.73,102.91,62,1.22,27.1,4.4,8,46.5,38.2,3,4.2,-41.0,0,0,1,Electronics,2,19.0,4.9,52.4,1
+CUST0643,36,Female,73055,Bachelor,Suburban,88,Basic,Credit Card,0,0.0,0.0,49,0.0,9.2,5.5,8,37.8,29.3,2,4.6,7.0,1,0,1,Clothing,2,52.0,27.0,44.2,0
+CUST0644,18,Male,20000,Bachelor,Rural,153,Premium,Credit Card,19,1403.59,73.87,39,3.73,18.6,6.5,5,43.0,23.0,5,4.8,-25.0,0,254,1,Sports,3,42.6,5.8,79.1,1
+CUST0645,36,Male,64659,Bachelor,Urban,360,Basic,Credit Card,8,528.69,66.09,30,0.67,17.2,4.9,14,45.9,45.6,1,5.0,1.0,0,895,0,Home & Garden,2,27.6,14.6,47.9,0
+CUST0646,35,Male,39205,Bachelor,Suburban,94,Basic,Credit Card,6,653.56,108.93,9,1.91,4.7,3.1,10,36.1,26.7,1,6.2,-4.0,0,0,0,Electronics,1,21.4,18.8,25.0,0
+CUST0647,18,Female,22357,Bachelor,Urban,49,Premium,Credit Card,8,293.01,36.63,101,4.9,2.2,2.1,6,38.2,17.9,2,5.5,32.0,2,538,0,Clothing,4,35.8,16.9,61.9,1
+CUST0648,39,Female,58525,Bachelor,Rural,1404,Premium,Bank Transfer,90,20509.91,227.89,12,1.92,6.5,7.0,7,74.5,40.6,2,8.7,70.0,1,1815,2,Home & Garden,3,58.2,2.1,55.7,1
+CUST0649,36,Female,59570,High School,Suburban,30,Basic,Credit Card,6,231.43,38.57,4,6.0,14.5,8.5,11,35.5,70.4,3,5.6,28.0,0,0,0,Clothing,1,23.9,12.7,60.8,0
+CUST0650,50,Female,72207,Bachelor,Rural,649,VIP,Credit Card,68,7791.97,114.59,62,3.14,20.0,4.5,9,40.5,50.4,0,9.9,100.0,1,191,2,Books,3,38.0,16.8,61.6,0
+CUST0651,67,Male,96688,High School,Suburban,620,Premium,Credit Card,49,2011.92,41.06,8,2.37,0.1,1.1,4,85.7,72.6,1,,21.0,0,0,0,Clothing,2,32.8,32.9,55.9,1
+CUST0652,56,Male,98181,Bachelor,Urban,141,Basic,Bank Transfer,2,176.22,88.11,20,0.43,4.1,9.9,9,44.4,35.0,2,4.3,-24.0,0,341,0,Books,5,37.2,27.9,46.8,0
+CUST0653,35,Male,47949,Bachelor,Rural,58,Premium,Debit Card,0,0.0,0.0,1,0.0,10.7,4.4,8,57.7,21.0,0,7.8,70.0,1,385,0,Books,3,27.9,27.5,32.0,1
+CUST0654,23,Male,20000,Bachelor,Urban,62,Premium,Credit Card,1,25.84,25.84,6,0.48,12.8,1.6,10,39.6,52.7,3,5.3,-3.0,1,120,0,Books,3,11.7,5.8,26.4,0
+CUST0655,78,Male,135354,Master,Urban,478,Premium,PayPal,32,1413.79,44.18,8,2.01,3.6,5.2,9,66.1,49.3,4,5.2,9.0,0,0,0,Electronics,1,11.8,3.7,65.9,1
+CUST0656,40,Male,83472,Master,Suburban,411,Basic,Credit Card,13,600.16,46.17,2,0.95,4.9,10.4,8,18.9,40.2,3,,4.0,0,0,0,Beauty,5,77.9,1.7,44.2,0
+CUST0657,40,Female,43366,Bachelor,Suburban,610,Premium,Credit Card,38,2643.43,69.56,48,1.87,1.8,3.8,8,35.7,19.9,4,5.7,-20.0,0,295,0,Electronics,1,37.6,2.6,54.4,1
+CUST0658,39,Female,71486,Bachelor,Rural,1108,Basic,Credit Card,27,2554.95,94.63,81,0.73,23.0,1.0,13,5.1,42.9,3,5.6,27.0,0,73,0,Books,2,27.2,16.8,33.7,0
+CUST0659,42,Other,58365,Bachelor,Urban,470,Premium,Credit Card,33,6638.85,201.18,21,2.11,9.6,4.2,7,24.0,34.1,2,7.4,47.0,0,769,0,Home & Garden,3,66.5,11.7,46.5,0
+CUST0660,37,Female,61812,High School,Suburban,67,Premium,Credit Card,14,806.62,57.62,93,6.27,4.8,2.9,9,38.1,42.1,1,7.9,40.0,4,0,0,Beauty,2,36.0,21.3,91.0,1
+CUST0661,31,Female,51953,High School,Suburban,111,Basic,Debit Card,6,1164.28,194.05,10,1.62,17.8,5.9,9,33.3,55.7,1,6.1,44.0,1,0,0,Beauty,4,25.4,10.8,26.2,0
+CUST0662,31,Male,44024,High School,Urban,738,Premium,Credit Card,52,5242.93,100.83,17,2.11,9.6,5.3,5,48.5,33.4,0,10.0,89.0,0,603,0,Books,4,34.5,12.3,28.6,0
+CUST0663,39,Female,49384,Bachelor,Urban,93,VIP,Debit Card,12,452.01,37.67,7,3.87,19.8,3.5,7,67.6,47.3,1,5.9,6.0,0,221,0,Home & Garden,1,42.2,11.8,60.1,1
+CUST0664,31,Female,37182,Bachelor,Urban,30,VIP,Credit Card,4,296.33,74.08,43,4.0,21.7,3.3,12,62.0,24.8,1,6.6,5.0,1,641,1,Clothing,3,31.1,6.5,63.1,1
+CUST0665,29,Male,30197,Master,Urban,485,Basic,Credit Card,20,607.63,30.38,24,1.24,3.6,12.5,8,42.1,39.7,0,5.0,8.0,0,0,1,Electronics,1,32.2,6.3,65.9,1
+CUST0666,41,Male,51863,High School,Rural,206,Basic,Debit Card,8,529.43,66.18,42,1.17,18.5,7.5,8,77.7,26.7,2,6.0,21.0,0,325,0,Home & Garden,3,27.2,22.1,44.7,0
+CUST0667,36,Female,55182,High School,Suburban,1010,Premium,Bank Transfer,65,4118.5,63.36,64,1.93,18.0,7.3,9,32.3,46.6,4,6.0,-6.0,0,1313,1,Beauty,3,41.6,12.0,53.9,1
+CUST0668,62,Male,82374,PhD,Suburban,420,Basic,Credit Card,10,889.76,88.98,35,0.71,11.4,9.5,6,49.2,40.9,2,6.1,26.0,0,375,0,Home & Garden,2,18.8,13.9,23.0,0
+CUST0669,18,Female,32941,High School,Rural,37,VIP,Debit Card,2,229.62,114.81,44,1.62,12.1,4.3,7,42.3,35.9,3,7.0,53.0,2,605,0,Home & Garden,4,25.0,5.1,69.6,1
+CUST0670,56,Female,108099,Bachelor,Urban,1181,Basic,Credit Card,40,3105.39,77.63,123,1.02,9.1,14.7,4,14.1,18.6,3,8.8,83.0,2,0,0,Sports,3,40.4,6.2,46.8,0
+CUST0671,58,Male,79609,Bachelor,Suburban,119,Basic,Credit Card,2,81.37,40.69,15,0.5,3.0,6.6,8,77.5,46.1,1,8.2,84.0,4,0,0,Electronics,3,68.3,24.5,51.4,1
+CUST0672,18,Male,26301,Bachelor,Urban,164,Basic,Credit Card,7,1199.01,171.29,20,1.28,2.8,5.7,11,57.6,56.9,3,5.5,1.0,0,40,1,Sports,2,35.8,10.7,66.9,1
+CUST0673,34,Male,60285,High School,Rural,205,Basic,Credit Card,9,1875.64,208.4,56,1.32,23.6,6.5,9,16.9,50.9,0,7.5,76.0,2,161,1,Clothing,1,52.8,6.3,34.4,0
+CUST0674,34,Male,59870,High School,Urban,30,Premium,Credit Card,6,438.53,73.09,42,6.0,9.6,4.2,6,60.6,53.0,2,8.4,68.0,2,579,0,Home & Garden,3,38.8,14.6,62.1,1
+CUST0675,18,Male,23849,High School,Rural,274,Basic,Credit Card,15,1473.81,98.25,8,1.64,6.8,3.1,10,21.3,18.0,1,5.3,,0,0,1,Electronics,1,33.2,31.1,63.8,1
+CUST0676,28,Female,53250,Bachelor,Urban,52,Basic,PayPal,2,141.28,70.64,21,1.15,12.6,11.1,6,48.4,21.3,3,6.7,54.0,1,0,1,Beauty,3,13.4,6.8,34.6,0
+CUST0677,23,Male,39894,Bachelor,Urban,204,Basic,Credit Card,0,0.0,0.0,28,0.0,4.7,1.9,8,39.1,61.7,2,,33.0,0,537,0,Electronics,3,64.7,11.9,44.6,0
+CUST0678,66,Female,79025,High School,Suburban,172,Premium,Debit Card,9,829.94,92.22,24,1.57,5.9,2.1,9,47.4,21.5,1,8.4,52.0,0,190,0,Electronics,2,75.1,4.3,26.9,1
+CUST0679,54,Male,96227,Bachelor,Urban,592,Basic,Credit Card,19,648.61,34.14,8,0.96,8.5,4.8,6,32.1,37.7,1,6.7,22.0,0,59,0,Home & Garden,2,20.7,17.4,38.8,0
+CUST0680,59,Female,102849,Master,Suburban,650,Premium,Debit Card,34,2276.45,66.95,116,1.57,5.3,2.6,10,56.7,59.4,3,4.9,0.0,0,346,0,Beauty,2,37.6,25.3,52.7,1
+CUST0681,50,Male,66301,High School,Urban,66,Premium,Debit Card,11,1576.39,143.31,64,5.0,11.7,1.1,6,40.7,29.1,2,5.2,-1.0,1,0,0,Books,3,66.3,20.6,96.3,1
+CUST0682,23,Male,33229,Bachelor,Suburban,182,Premium,Credit Card,12,1636.31,136.36,29,1.98,7.5,2.0,6,61.6,33.4,2,5.5,-2.0,0,0,0,Books,4,16.8,28.0,57.1,0
+CUST0683,32,Female,59560,Bachelor,Urban,186,VIP,Credit Card,20,1323.8,66.19,51,3.23,11.7,2.6,8,27.1,31.5,5,6.3,4.0,0,0,0,Books,2,37.4,2.0,50.3,1
+CUST0684,47,Female,70320,High School,Urban,65,VIP,PayPal,13,1212.26,93.25,102,6.0,12.5,6.8,6,69.0,33.1,2,8.3,67.0,0,224,0,Sports,2,23.7,11.4,57.2,1
+CUST0685,21,Male,44835,Bachelor,Urban,640,VIP,PayPal,60,4159.26,69.32,6,2.81,17.5,4.5,8,40.5,61.2,2,6.6,44.0,0,875,1,Home & Garden,2,41.8,9.5,65.6,1
+CUST0686,50,Female,113208,Bachelor,Suburban,491,Basic,Credit Card,19,2229.29,117.33,12,1.16,6.5,9.8,7,67.4,53.4,0,6.1,27.0,0,605,1,Clothing,2,1.9,7.8,53.8,1
+CUST0687,36,Male,44400,Master,Urban,84,Basic,Credit Card,2,51.34,25.67,35,0.71,3.5,1.9,6,68.9,35.4,2,9.1,57.0,1,576,0,Sports,3,62.0,3.7,28.7,1
+CUST0688,34,Female,32074,Master,Urban,182,Basic,PayPal,5,545.49,109.1,72,0.82,19.8,2.2,4,58.0,9.4,2,7.3,22.0,0,781,0,Electronics,3,47.6,4.8,49.0,0
+CUST0689,50,Male,82307,Bachelor,Urban,44,VIP,Credit Card,0,0.0,0.0,1,0.0,1.6,6.1,11,44.1,39.6,1,5.3,8.0,0,72,2,Books,2,24.5,7.4,42.6,0
+CUST0690,46,Male,82813,Bachelor,Urban,395,VIP,Debit Card,47,2437.56,51.86,186,3.57,37.5,3.0,8,57.4,26.0,0,8.5,66.0,1,211,0,Electronics,3,21.6,22.3,77.8,1
+CUST0691,34,Female,49327,Bachelor,Suburban,51,VIP,Credit Card,3,493.02,164.34,27,1.76,5.1,4.0,3,38.3,21.7,3,4.9,-6.0,0,787,0,Sports,3,16.4,13.2,57.6,1
+CUST0692,57,Female,108859,Bachelor,Rural,1705,Basic,Credit Card,60,5760.25,96.0,20,1.06,7.6,2.0,10,37.2,39.3,1,5.8,11.0,0,225,1,Beauty,3,52.9,29.4,47.4,0
+CUST0693,23,Male,20000,Bachelor,Urban,606,VIP,Debit Card,51,3953.32,77.52,15,2.52,3.0,1.9,5,66.7,26.8,0,7.6,44.0,3,0,1,Books,2,53.5,1.8,54.8,0
+CUST0694,49,Female,86734,High School,Suburban,197,Basic,Debit Card,12,790.47,65.87,8,1.83,9.0,2.9,8,30.9,52.3,2,4.2,-14.0,0,0,1,Home & Garden,1,61.8,15.7,41.9,1
+CUST0695,48,Female,65822,Bachelor,Suburban,345,Basic,Credit Card,16,2680.99,167.56,70,1.39,5.3,10.2,9,64.4,40.2,1,6.1,39.0,3,40,1,Books,3,52.6,7.6,41.2,0
+CUST0696,35,Male,80291,Bachelor,Urban,969,Basic,Debit Card,32,2222.72,69.46,139,0.99,3.1,1.5,4,73.1,46.1,3,5.6,-3.0,1,246,0,Books,3,48.4,7.5,67.9,1
+CUST0697,44,Female,98878,Bachelor,Suburban,323,Basic,PayPal,9,1733.19,192.58,24,0.84,2.5,11.0,10,44.5,39.7,4,4.4,-6.0,0,0,0,Beauty,2,48.2,13.6,38.1,0
+CUST0698,21,Male,20000,Master,Urban,76,Premium,Debit Card,7,1262.37,180.34,137,2.76,4.4,9.6,13,41.6,51.6,5,6.0,21.0,1,311,1,Books,4,15.4,12.8,72.4,1
+CUST0699,53,Female,73617,High School,Suburban,190,Basic,Credit Card,17,1022.07,60.12,78,2.68,13.4,3.5,8,30.2,31.9,1,7.4,22.0,0,0,1,Sports,3,67.8,5.4,37.6,0
+CUST0700,37,Female,70754,Bachelor,Urban,740,Basic,Debit Card,15,1089.91,72.66,29,0.61,11.8,5.2,11,50.0,58.5,5,,-33.0,1,723,1,Books,2,61.8,6.8,65.0,1
+CUST0701,32,Female,43503,High School,Suburban,413,Premium,PayPal,31,619.71,19.99,50,2.25,3.7,6.4,9,62.3,,1,7.6,52.0,1,0,1,Beauty,1,22.0,26.3,32.9,0
+CUST0702,55,Male,83819,Master,Suburban,420,VIP,PayPal,37,2925.12,79.06,25,2.64,6.3,8.2,15,24.2,56.3,0,9.7,100.0,1,222,1,Sports,2,40.2,9.6,37.7,0
+CUST0703,29,Male,44321,Bachelor,Urban,806,Premium,Debit Card,53,4509.39,85.08,36,1.97,15.6,2.2,5,68.0,75.3,3,5.3,-5.0,0,283,1,Electronics,4,25.3,19.1,80.5,1
+CUST0704,18,Male,20000,Bachelor,Urban,897,Basic,Credit Card,28,4252.86,151.89,2,0.94,6.5,8.9,9,43.0,61.6,1,5.1,-7.0,0,540,1,Home & Garden,2,66.7,1.8,44.4,0
+CUST0705,18,Male,22502,Bachelor,Rural,1009,Premium,PayPal,65,12075.47,185.78,53,1.93,20.2,5.6,11,54.3,34.8,1,6.2,30.0,0,1670,1,Books,3,43.3,5.3,55.0,1
+CUST0706,49,Male,65994,Bachelor,Urban,39,VIP,Debit Card,3,370.98,123.66,2,2.31,31.8,2.4,9,56.8,39.6,2,6.6,31.0,1,170,1,Sports,3,45.7,22.0,73.2,0
+CUST0707,20,Female,20000,Master,Suburban,314,Basic,Credit Card,4,579.8,144.95,76,0.38,4.4,5.6,8,31.7,34.8,4,7.3,27.0,1,0,1,Books,3,52.9,2.7,42.8,0
+CUST0708,66,Male,119244,Bachelor,Rural,539,Premium,Debit Card,41,2977.62,72.62,78,2.28,4.9,2.4,7,26.1,27.7,0,9.1,,0,643,0,Books,4,53.7,22.7,54.2,1
+CUST0709,18,Male,20000,Bachelor,Suburban,565,Basic,Credit Card,9,321.2,35.69,12,0.48,22.2,5.1,5,11.6,24.1,0,9.1,54.0,0,453,2,Beauty,4,21.4,10.6,17.4,0
+CUST0710,65,Female,108698,Master,Suburban,373,Basic,Debit Card,15,1438.5,95.9,17,1.21,6.4,3.6,8,37.7,44.6,3,2.5,-37.0,0,278,1,Books,3,15.4,23.5,46.8,0
+CUST0711,43,Male,63276,High School,Suburban,72,Premium,Credit Card,3,451.37,150.46,29,1.25,16.4,5.8,8,58.8,46.2,1,5.3,-9.0,0,238,0,Clothing,1,29.5,9.7,34.4,1
+CUST0712,38,Female,55314,High School,Rural,638,VIP,Debit Card,57,521.62,9.15,40,2.68,9.5,6.1,8,21.6,32.5,3,,35.0,4,375,0,Home & Garden,1,67.0,1.4,84.2,1
+CUST0713,31,Male,59396,Bachelor,Suburban,509,Basic,Bank Transfer,17,1487.73,87.51,15,1.0,7.1,12.0,5,47.1,10.6,2,7.2,36.0,2,0,0,Home & Garden,5,31.6,12.1,44.7,0
+CUST0714,45,Female,75601,PhD,Suburban,36,Premium,PayPal,0,0.0,0.0,40,0.0,12.9,7.9,8,18.0,54.2,2,,26.0,0,0,0,Sports,1,39.4,14.9,44.8,1
+CUST0715,39,Male,69699,Bachelor,Urban,249,VIP,Bank Transfer,25,1228.34,49.13,15,3.01,22.4,7.0,9,86.3,21.7,2,2.0,-77.0,0,310,1,Electronics,4,23.7,19.3,73.0,1
+CUST0716,56,Male,100313,High School,Rural,76,VIP,Bank Transfer,0,0.0,0.0,2,0.0,18.1,1.1,12,73.4,37.8,1,7.6,56.0,3,0,0,Electronics,3,48.8,2.6,34.0,0
+CUST0717,41,Female,59370,Bachelor,Suburban,164,Basic,Credit Card,7,1312.27,187.47,0,1.28,7.9,10.0,6,50.9,20.9,7,5.4,29.0,0,0,0,Electronics,1,22.3,18.9,54.8,1
+CUST0718,42,Male,56726,Bachelor,Urban,30,VIP,Debit Card,0,0.0,0.0,4,0.0,9.7,3.8,8,60.0,67.0,0,10.0,95.0,4,187,0,Books,5,54.1,22.6,48.7,0
+CUST0719,34,Female,36513,High School,Rural,204,Basic,Debit Card,4,476.34,119.09,70,0.59,16.5,2.0,5,48.6,20.5,1,6.8,20.0,0,246,0,Beauty,5,37.2,23.6,23.9,0
+CUST0720,39,Male,48759,Bachelor,Suburban,319,Premium,PayPal,22,2097.75,95.35,146,2.07,10.2,18.4,7,49.5,47.7,2,7.4,42.0,1,443,0,Sports,3,15.0,16.6,67.6,1
+CUST0721,44,Male,113226,PhD,Urban,386,Basic,Credit Card,9,460.05,51.12,25,0.7,24.5,2.9,14,61.3,41.6,3,4.0,-24.0,2,0,1,Books,2,47.0,14.5,74.1,1
+CUST0722,18,Female,41380,Bachelor,Suburban,435,Basic,Bank Transfer,14,1490.12,106.44,32,0.97,0.8,12.9,6,65.1,31.2,4,2.8,-58.0,1,0,1,Beauty,3,52.9,17.6,56.2,1
+CUST0723,19,Male,20000,Bachelor,Urban,723,Premium,Debit Card,40,1400.18,35.0,7,1.66,4.6,6.5,16,77.9,54.1,2,8.7,98.0,2,542,0,Clothing,3,37.5,6.2,50.5,1
+CUST0724,51,Female,59303,Bachelor,Rural,97,Basic,PayPal,6,489.77,81.63,36,1.86,12.2,7.5,12,63.6,65.2,0,7.9,59.0,1,0,0,Sports,3,55.6,9.4,47.8,0
+CUST0725,42,Other,73138,High School,Urban,51,Basic,Credit Card,10,1657.92,165.79,7,5.88,5.8,5.1,5,67.3,56.3,1,8.6,,2,0,2,Sports,3,35.1,2.2,80.6,1
+CUST0726,37,Female,66069,Master,Suburban,762,Basic,Credit Card,39,3552.59,91.09,42,1.54,22.9,2.4,4,31.3,30.1,0,7.4,64.0,2,0,0,Beauty,1,36.4,13.0,34.5,0
+CUST0727,40,Female,70983,Bachelor,Suburban,68,Premium,PayPal,4,381.51,95.38,121,1.76,4.9,8.6,5,46.4,51.0,5,8.1,88.0,4,613,0,Sports,1,54.6,15.5,53.4,0
+CUST0728,45,Male,66676,Bachelor,Urban,1471,Basic,Credit Card,52,3438.18,66.12,9,1.06,9.0,6.2,5,72.2,59.6,1,8.0,41.0,3,449,0,Beauty,2,63.6,21.3,54.8,0
+CUST0729,31,Male,45658,Bachelor,Rural,739,Premium,PayPal,40,1083.5,27.09,65,1.62,4.4,6.1,6,49.6,40.3,3,5.2,13.0,1,279,1,Clothing,2,20.5,34.4,59.7,1
+CUST0730,28,Male,47028,Bachelor,Suburban,277,Basic,Credit Card,16,1134.35,70.9,1,1.73,7.7,5.5,10,39.9,,1,6.3,19.0,0,458,0,Sports,3,15.0,19.3,39.3,0
+CUST0731,42,Female,67198,Bachelor,Urban,1594,Basic,Debit Card,57,7550.63,132.47,21,1.07,1.5,4.3,12,41.3,25.9,3,4.2,-17.0,0,733,1,Beauty,1,28.5,22.8,61.5,1
+CUST0732,25,Other,20000,High School,Suburban,40,Basic,Credit Card,0,0.0,0.0,5,0.0,2.4,8.6,5,36.3,51.7,2,,-24.0,0,506,1,Beauty,3,16.7,12.4,46.9,0
+CUST0733,46,Male,68543,Master,Rural,144,Basic,Debit Card,10,364.68,36.47,19,2.08,30.6,7.4,9,68.1,50.2,2,5.6,47.0,0,0,0,Clothing,1,11.6,11.6,46.6,0
+CUST0734,18,Female,20000,Master,Urban,406,Basic,Debit Card,12,256.29,21.36,8,0.89,8.4,9.3,9,75.1,20.1,3,8.1,50.0,4,0,0,Electronics,2,66.8,39.5,45.7,0
+CUST0735,55,Male,87128,Bachelor,Urban,172,Basic,Credit Card,3,152.17,50.72,21,0.52,6.2,4.4,13,75.1,43.6,3,5.5,19.0,0,0,0,Beauty,5,28.0,16.1,33.8,0
+CUST0736,47,Female,118239,PhD,Urban,1054,VIP,Credit Card,107,7633.49,71.34,24,3.05,3.0,4.1,7,33.6,37.6,3,9.3,66.0,1,974,2,Beauty,4,58.7,16.6,71.3,1
+CUST0737,43,Male,72972,High School,Urban,30,Premium,Credit Card,0,0.0,0.0,16,0.0,3.6,3.4,7,51.0,26.7,4,4.9,-7.0,1,253,1,Sports,5,20.6,32.5,44.9,0
+CUST0738,54,Other,78487,Bachelor,Suburban,318,Basic,Debit Card,15,1126.52,75.1,48,1.42,28.3,5.6,7,58.6,33.3,0,5.8,,0,0,0,Books,3,34.5,38.8,48.2,0
+CUST0739,64,Female,109217,Bachelor,Suburban,357,Basic,Debit Card,6,491.12,81.85,113,0.5,8.8,1.1,6,40.7,49.2,3,6.4,34.0,2,0,0,Home & Garden,3,17.1,22.4,57.1,1
+CUST0740,55,Male,91740,Bachelor,Urban,423,VIP,PayPal,37,3866.65,104.5,23,2.62,17.8,24.3,12,67.1,12.8,3,5.0,-15.0,1,1020,1,Clothing,4,32.8,19.6,76.9,1
+CUST0741,18,Male,29011,Bachelor,Urban,118,Basic,Debit Card,0,0.0,0.0,9,0.0,5.2,3.1,8,53.1,49.6,1,5.9,7.0,0,0,1,Electronics,1,44.3,25.8,28.6,1
+CUST0742,20,Male,35853,Bachelor,Urban,181,Basic,Debit Card,9,392.62,43.62,14,1.49,25.7,11.8,7,63.6,27.7,3,8.7,77.0,2,186,0,Electronics,5,21.3,10.0,21.2,0
+CUST0743,30,Male,76598,High School,Rural,742,Premium,Credit Card,46,5129.45,111.51,86,1.86,5.5,3.7,11,68.6,74.0,0,8.8,76.0,2,170,1,Home & Garden,2,36.7,3.4,49.6,1
+CUST0744,40,Male,45787,Bachelor,Urban,86,Premium,Credit Card,0,0.0,0.0,38,0.0,3.4,7.8,14,64.7,43.3,3,4.3,-34.0,0,547,1,Sports,3,51.8,32.7,52.3,0
+CUST0745,47,Female,80564,High School,Rural,701,Premium,Credit Card,43,2455.69,57.11,27,1.84,11.4,15.6,5,58.3,,0,9.0,73.0,2,559,1,Books,3,57.0,14.9,49.3,0
+CUST0746,29,Female,30044,Bachelor,Suburban,330,Basic,Bank Transfer,10,2287.61,228.76,7,0.91,2.0,7.5,6,67.4,32.6,0,5.8,14.0,0,0,0,Home & Garden,3,32.3,31.1,25.4,0
+CUST0747,42,Female,74243,High School,Urban,574,Basic,PayPal,13,2364.48,181.88,26,0.68,1.6,15.0,5,44.7,19.7,1,4.1,-9.0,0,106,0,Sports,4,32.7,14.4,44.7,1
+CUST0748,28,Male,28330,High School,Rural,500,Premium,Credit Card,27,1034.79,38.33,14,1.62,22.9,11.3,7,64.8,36.0,2,8.2,79.0,3,0,0,Beauty,2,13.0,4.8,63.8,0
+CUST0749,30,Female,39489,Bachelor,Suburban,93,Basic,Debit Card,13,294.01,22.62,129,4.19,4.3,2.3,7,42.9,33.6,1,7.2,54.0,1,479,0,Sports,3,24.5,40.7,62.4,1
+CUST0750,18,Female,20000,Bachelor,Suburban,336,Premium,PayPal,18,1318.66,73.26,96,1.61,13.0,8.6,7,81.4,30.0,6,4.1,-14.0,0,1155,0,Clothing,2,9.0,11.7,62.3,1
+CUST0751,26,Male,53027,Master,Rural,809,Premium,Debit Card,52,4978.66,95.74,3,1.93,29.1,6.7,9,46.4,68.8,3,4.0,-14.0,0,0,2,Books,3,47.2,16.6,44.8,1
+CUST0752,19,Female,38517,Bachelor,Urban,226,Basic,Credit Card,5,1134.46,226.89,32,0.66,8.6,2.9,7,22.8,37.0,5,4.1,-10.0,1,0,1,Books,2,67.3,7.3,50.0,0
+CUST0753,25,Female,20000,Bachelor,Urban,1359,VIP,Credit Card,133,29613.21,222.66,11,2.94,12.7,10.7,12,35.5,36.0,2,8.9,93.0,1,3044,1,Clothing,4,41.8,8.3,66.7,1
+CUST0754,55,Male,85324,Master,Suburban,240,Premium,Debit Card,19,2265.74,119.25,23,2.38,1.5,1.9,7,32.6,34.1,3,4.1,8.0,0,217,0,Sports,2,32.2,25.2,47.0,0
+CUST0755,25,Male,25856,Bachelor,Urban,61,Premium,Bank Transfer,8,513.23,64.15,94,3.93,4.0,10.2,14,15.6,33.4,4,5.2,-10.0,1,0,0,Sports,3,33.4,27.3,66.3,1
+CUST0756,79,Female,91062,High School,Urban,197,Basic,Debit Card,5,778.08,155.62,33,0.76,25.4,8.7,5,54.9,30.4,1,8.9,72.0,1,0,1,Books,2,39.5,13.6,56.8,1
+CUST0757,47,Male,70205,Bachelor,Urban,1212,Basic,Credit Card,34,2987.34,87.86,18,0.84,6.2,5.7,5,29.2,21.6,4,6.0,36.0,1,460,0,Books,3,23.4,10.1,56.6,1
+CUST0758,42,Female,61283,Master,Urban,154,Basic,Credit Card,11,359.81,32.71,10,2.14,2.4,3.2,7,46.1,62.8,0,8.1,47.0,4,479,0,Books,3,36.6,23.8,64.9,0
+CUST0759,27,Female,76661,Bachelor,Suburban,810,Basic,PayPal,26,874.08,33.62,72,0.96,12.2,8.6,8,68.9,51.8,1,6.4,8.0,0,1510,0,Books,5,30.1,16.9,43.9,0
+CUST0760,50,Female,84244,High School,Urban,852,VIP,PayPal,93,5991.65,64.43,44,3.27,20.5,1.0,6,73.3,49.8,0,7.3,36.0,2,1252,0,Sports,1,13.8,12.5,69.7,0
+CUST0761,31,Male,26876,High School,Suburban,172,Basic,Debit Card,0,0.0,0.0,28,0.0,5.5,2.7,9,79.6,36.6,3,4.7,-6.0,0,0,1,Books,1,47.2,8.0,55.5,1
+CUST0762,41,Male,55868,High School,Suburban,34,Basic,Debit Card,2,81.24,40.62,11,1.76,12.3,5.2,8,42.1,40.0,2,7.6,45.0,2,2,0,Beauty,3,21.2,27.0,40.4,0
+CUST0763,78,Female,124431,Bachelor,Urban,515,Basic,Credit Card,26,1672.77,64.34,18,1.51,16.0,5.7,5,78.1,54.7,2,6.4,33.0,1,463,0,Sports,4,50.4,5.8,52.9,0
+CUST0764,38,Female,90837,Bachelor,Urban,149,Premium,PayPal,8,1448.01,181.0,144,1.61,7.2,2.8,8,45.4,37.7,2,5.9,13.0,0,0,0,Clothing,3,25.1,21.7,44.4,0
+CUST0765,57,Male,63270,High School,Suburban,611,Basic,PayPal,19,1946.0,102.42,33,0.93,6.3,2.9,7,43.5,41.5,4,4.6,-13.0,1,584,0,Beauty,5,6.4,2.1,52.7,1
+CUST0766,29,Female,20000,Master,Urban,233,Basic,Credit Card,9,985.31,109.48,23,1.16,28.4,7.7,16,59.0,28.2,1,4.8,-30.0,0,450,0,Electronics,1,39.7,22.0,26.5,0
+CUST0767,39,Female,89204,Master,Suburban,265,Basic,PayPal,6,864.8,144.13,33,0.68,2.7,2.4,8,82.8,33.6,3,7.7,62.0,3,705,0,Clothing,3,25.3,5.0,24.3,0
+CUST0768,66,Male,103434,Bachelor,Rural,601,VIP,Credit Card,58,3780.13,65.17,67,2.9,9.2,3.9,7,23.6,61.0,2,6.8,,2,779,0,Clothing,4,55.6,17.8,65.9,1
+CUST0769,30,Male,32726,Master,Urban,192,Basic,Credit Card,4,751.57,187.89,18,0.62,7.7,1.9,6,38.9,15.9,0,6.3,23.0,0,217,0,Home & Garden,5,41.4,7.5,34.5,0
+CUST0770,67,Female,106679,High School,Suburban,234,VIP,Credit Card,20,2426.14,121.31,8,2.56,7.6,5.4,12,58.1,27.0,1,7.0,43.0,2,0,0,Clothing,3,18.7,9.0,61.5,1
+CUST0771,50,Male,38214,Bachelor,Suburban,188,Premium,Credit Card,18,1367.9,75.99,39,2.87,15.3,4.5,3,24.3,,0,6.6,34.0,3,0,0,Home & Garden,2,19.3,24.6,56.5,1
+CUST0772,31,Male,47591,Bachelor,Urban,183,Basic,Credit Card,8,1345.79,168.22,49,1.31,12.9,1.0,5,23.7,,0,7.6,68.0,0,244,1,Home & Garden,5,35.3,13.7,9.7,0
+CUST0773,49,Male,81257,Master,Rural,298,Premium,Debit Card,21,2483.35,118.25,56,2.11,10.4,1.5,6,73.6,36.5,2,5.4,11.0,0,46,0,Home & Garden,4,59.8,14.3,41.2,0
+CUST0774,54,Male,97054,Master,Rural,661,Basic,Debit Card,26,2098.02,80.69,96,1.18,1.6,12.3,11,62.1,35.6,3,6.2,4.0,1,56,0,Beauty,2,15.8,9.8,45.5,0
+CUST0775,49,Female,61132,High School,Urban,179,VIP,Debit Card,16,1781.71,111.36,20,2.68,3.7,3.0,6,50.2,48.1,2,6.2,53.0,1,739,0,Clothing,3,9.7,6.7,61.6,1
+CUST0776,18,Female,23995,Master,Suburban,297,Premium,Credit Card,15,695.51,46.37,3,1.52,6.8,6.8,6,67.3,51.0,2,9.1,100.0,2,754,1,Electronics,2,21.4,6.3,52.6,1
+CUST0777,29,Male,30059,High School,Rural,444,Basic,Credit Card,11,1715.22,155.93,143,0.74,9.0,2.2,5,26.6,25.3,8,6.1,22.0,1,0,0,Beauty,3,34.9,9.8,71.7,1
+CUST0778,36,Female,60021,Master,Rural,125,Basic,Debit Card,4,898.97,224.74,25,0.96,25.2,13.5,6,45.4,38.6,1,7.8,58.0,1,0,0,Home & Garden,3,28.4,4.3,31.1,0
+CUST0779,38,Female,46080,PhD,Suburban,130,Basic,Credit Card,0,0.0,0.0,43,0.0,8.8,1.1,9,45.2,24.8,0,6.9,42.0,0,0,0,Books,1,17.4,15.0,37.1,0
+CUST0780,49,Female,70218,High School,Suburban,1083,VIP,Credit Card,105,5952.25,56.69,49,2.91,14.8,11.5,5,43.1,18.5,2,9.3,75.0,0,752,0,Books,4,28.3,12.2,45.8,0
+CUST0781,42,Male,50973,Bachelor,Urban,514,Basic,PayPal,14,751.03,53.65,35,0.82,7.9,5.7,8,56.7,38.7,3,6.9,55.0,2,0,1,Sports,2,47.0,12.4,24.3,1
+CUST0782,19,Male,34507,High School,Rural,344,Premium,PayPal,33,4148.02,125.7,10,2.88,13.9,8.4,9,78.7,34.3,1,6.5,44.0,2,0,0,Books,2,11.6,16.7,69.5,1
+CUST0783,45,Other,83377,Bachelor,Urban,417,Basic,PayPal,0,0.0,0.0,63,0.0,8.4,12.4,6,70.2,32.5,0,4.5,-11.0,0,0,1,Books,2,40.8,5.6,54.2,1
+CUST0784,49,Female,72821,Bachelor,Suburban,30,VIP,Debit Card,2,124.65,62.33,73,2.0,3.1,6.3,8,69.6,40.2,2,3.2,-26.0,2,405,0,Home & Garden,1,18.3,19.8,94.5,1
+CUST0785,48,Male,75484,Bachelor,Urban,385,Basic,Credit Card,21,1437.6,68.46,36,1.64,12.7,15.9,9,53.6,36.4,1,6.7,50.0,1,181,0,Beauty,2,37.7,26.4,31.7,0
+CUST0786,56,Male,64061,Master,Urban,284,Premium,Debit Card,19,1115.58,58.71,30,2.01,11.7,12.2,9,59.7,42.4,2,5.6,16.0,0,447,0,Clothing,3,24.4,50.0,52.2,1
+CUST0787,52,Male,76015,Bachelor,Urban,315,Basic,Credit Card,14,1635.18,116.8,5,1.33,2.1,8.2,4,46.0,44.3,1,6.0,4.0,0,262,1,Beauty,1,36.4,6.6,33.9,0
+CUST0788,46,Female,71237,Bachelor,Rural,178,Premium,Debit Card,12,1103.07,91.92,3,2.02,7.9,11.0,8,32.0,59.9,1,5.5,21.0,0,748,1,Beauty,2,40.8,1.3,58.5,1
+CUST0789,38,Female,98822,Master,Urban,33,Basic,Credit Card,0,0.0,0.0,18,0.0,7.8,5.3,9,41.9,15.0,2,4.7,-5.0,0,742,0,Books,5,32.3,5.5,23.9,0
+CUST0790,18,Female,20000,PhD,Suburban,85,Basic,PayPal,0,0.0,0.0,16,0.0,5.0,2.5,9,82.2,40.2,3,6.5,13.0,0,0,0,Clothing,2,49.0,11.6,38.7,0
+CUST0791,46,Male,93953,High School,Urban,1204,Basic,Credit Card,41,6965.01,169.88,138,1.02,2.9,22.1,4,51.3,33.4,1,2.8,-29.0,0,1138,0,Electronics,5,44.4,13.8,67.4,1
+CUST0792,43,Female,82413,PhD,Urban,210,Premium,Bank Transfer,10,1536.94,153.69,68,1.43,9.9,5.5,7,56.9,26.2,2,7.1,45.0,2,407,1,Beauty,1,4.5,34.9,68.2,1
+CUST0793,44,Female,73200,High School,Urban,251,Basic,PayPal,4,470.33,117.58,48,0.48,23.6,6.5,8,76.1,45.3,2,5.7,10.0,0,1299,0,Beauty,4,36.6,13.9,37.2,0
+CUST0794,20,Male,53129,Master,Suburban,30,Premium,Debit Card,0,0.0,0.0,32,0.0,13.5,1.6,10,22.3,31.3,4,7.2,74.0,3,0,1,Books,2,47.8,9.4,58.2,1
+CUST0795,23,Female,38242,High School,Urban,30,Basic,PayPal,9,296.55,32.95,8,9.0,1.8,12.9,6,48.0,19.4,1,7.1,33.0,1,0,0,Electronics,1,45.2,6.8,69.9,1
+CUST0796,55,Other,90337,High School,Urban,505,VIP,Debit Card,62,2502.49,40.36,172,3.68,22.3,6.4,6,54.0,62.7,1,5.1,-11.0,2,0,0,Electronics,4,65.9,28.2,81.6,1
+CUST0797,39,Male,60343,Bachelor,Urban,308,VIP,PayPal,31,1157.68,37.34,21,3.02,20.1,7.7,7,56.4,14.3,2,3.8,-21.0,1,0,0,Sports,1,59.7,12.1,78.8,0
+CUST0798,50,Female,96104,Bachelor,Urban,284,Premium,Debit Card,16,1315.25,82.2,5,1.69,5.3,8.4,8,51.9,25.1,0,5.6,10.0,0,324,0,Clothing,2,35.1,19.2,44.5,0
+CUST0799,40,Male,79197,Bachelor,Rural,111,Basic,PayPal,0,0.0,0.0,30,0.0,1.9,2.9,9,51.7,28.1,1,6.9,30.0,1,102,1,Clothing,3,63.5,10.1,48.0,0
+CUST0800,40,Female,53365,High School,Rural,546,Basic,Debit Card,20,1257.87,62.89,93,1.1,5.4,12.7,15,71.7,42.0,1,4.3,8.0,0,396,0,Sports,2,37.2,7.0,60.3,1
+CUST0801,54,Female,63401,Bachelor,Urban,73,Basic,Bank Transfer,11,1746.57,158.78,98,4.52,5.8,6.9,8,54.0,44.0,0,7.4,31.0,2,434,0,Home & Garden,2,32.0,23.0,68.4,0
+CUST0802,32,Female,46265,Master,Suburban,84,Basic,Debit Card,1,56.61,56.61,0,0.36,2.1,1.0,5,34.4,36.7,4,6.1,26.0,0,0,1,Sports,1,67.5,4.0,35.4,0
+CUST0803,41,Female,52339,Bachelor,Rural,247,Premium,Debit Card,4,301.71,75.43,97,0.49,9.8,11.0,6,35.8,26.2,1,5.8,17.0,1,0,0,Beauty,4,20.8,27.2,32.5,1
+CUST0804,33,Male,50107,High School,Urban,134,Premium,PayPal,12,749.25,62.44,14,2.69,4.1,4.9,12,48.9,41.8,5,3.4,-32.0,0,0,0,Sports,2,50.6,3.7,49.5,0
+CUST0805,33,Female,69622,Bachelor,Suburban,113,VIP,PayPal,16,1150.46,71.9,1,4.25,2.6,3.2,10,37.6,42.5,2,3.1,-21.0,1,0,1,Sports,1,44.3,3.6,100.0,1
+CUST0806,35,Female,47640,High School,Rural,414,Basic,Debit Card,5,384.02,76.8,84,0.36,6.6,1.2,4,7.0,47.0,2,8.4,,5,10,0,Electronics,1,54.8,16.1,45.4,0
+CUST0807,43,Male,66818,Master,Urban,421,Premium,Credit Card,28,618.3,22.08,89,2.0,23.1,3.9,5,68.3,10.3,2,9.3,86.0,5,160,0,Clothing,2,13.3,22.6,74.0,1
+CUST0808,32,Female,50180,Master,Urban,696,Basic,Debit Card,25,2519.11,100.76,40,1.08,15.5,3.6,14,26.7,40.1,4,7.3,60.0,3,607,0,Home & Garden,2,22.9,21.6,48.5,0
+CUST0809,58,Female,101036,Bachelor,Rural,216,Premium,Bank Transfer,14,1059.93,75.71,38,1.94,11.4,11.8,5,32.8,45.0,0,6.9,38.0,1,410,0,Books,3,20.9,45.8,48.3,0
+CUST0810,26,Male,20000,Bachelor,Suburban,30,Basic,PayPal,0,0.0,0.0,75,0.0,5.3,3.4,15,25.8,54.9,0,6.9,40.0,2,778,1,Books,5,24.6,28.0,43.4,0
+CUST0811,37,Female,48759,Master,Urban,127,Basic,PayPal,9,1028.34,114.26,69,2.13,2.1,1.4,7,26.8,53.5,4,6.2,31.0,1,0,0,Books,1,45.3,24.5,52.8,1
+CUST0812,33,Female,54229,Bachelor,Urban,1564,Basic,Credit Card,50,4910.27,98.21,99,0.96,3.0,7.8,8,76.7,65.0,1,7.7,57.0,4,374,0,Home & Garden,2,27.6,19.8,56.1,1
+CUST0813,61,Male,109941,Master,Urban,362,Premium,Debit Card,16,2902.8,181.43,36,1.33,14.8,12.2,5,39.9,48.4,4,1.0,-94.0,0,0,0,Books,3,69.2,8.3,80.6,1
+CUST0814,42,Other,58531,Bachelor,Suburban,494,VIP,Debit Card,39,6676.73,171.2,154,2.37,4.1,4.2,6,37.4,44.4,2,8.2,83.0,2,1306,0,Home & Garden,1,22.0,28.0,83.1,1
+CUST0815,55,Male,56352,Master,Suburban,30,Basic,PayPal,7,1346.52,192.36,250,7.0,9.2,17.9,13,78.2,35.3,2,8.0,66.0,1,0,0,Books,1,48.6,9.6,88.8,1
+CUST0816,18,Male,32006,Bachelor,Rural,292,Basic,Credit Card,12,706.45,58.87,5,1.23,11.5,10.9,10,29.0,23.9,0,8.8,76.0,1,648,0,Books,1,63.3,8.5,32.5,0
+CUST0817,44,Male,59460,Bachelor,Urban,30,Basic,PayPal,1,36.69,36.69,85,1.0,1.7,12.9,5,61.6,24.3,2,6.7,25.0,0,730,0,Home & Garden,4,35.6,6.6,51.6,1
+CUST0818,53,Female,64015,PhD,Suburban,336,Premium,Debit Card,20,443.5,22.17,31,1.79,8.2,7.6,11,30.5,33.3,2,7.8,61.0,3,251,0,Clothing,3,18.4,1.4,51.8,0
+CUST0819,41,Female,54975,Bachelor,Suburban,1014,Basic,Credit Card,31,4446.52,143.44,22,0.92,10.8,7.0,6,65.3,22.9,2,4.5,-14.0,0,591,1,Beauty,2,39.6,6.8,53.7,1
+CUST0820,55,Male,81732,Bachelor,Urban,1382,Premium,Credit Card,86,1670.13,19.42,42,1.87,27.2,3.3,10,62.6,38.6,3,7.1,44.0,0,186,1,Beauty,5,48.7,13.9,63.6,1
+CUST0821,32,Male,40239,High School,Urban,311,VIP,Credit Card,28,2596.59,92.74,2,2.7,9.0,15.4,4,49.9,43.8,3,5.1,-2.0,1,101,0,Home & Garden,5,28.8,37.6,75.6,1
+CUST0822,61,Female,58857,Bachelor,Rural,245,VIP,Debit Card,13,362.51,27.89,31,1.59,14.3,13.7,6,56.1,55.9,3,7.9,46.0,3,0,0,Home & Garden,2,37.1,12.6,61.8,1
+CUST0823,74,Male,119046,Bachelor,Rural,1160,Basic,Credit Card,34,5282.46,155.37,92,0.88,5.4,15.6,9,49.1,60.1,4,6.0,43.0,1,454,0,Sports,3,32.7,21.2,61.0,1
+CUST0824,34,Female,71913,High School,Suburban,447,VIP,Credit Card,43,4689.11,109.05,10,2.89,16.9,5.3,10,65.2,27.5,2,6.6,18.0,0,1381,0,Electronics,2,39.9,26.9,55.9,1
+CUST0825,33,Female,60833,High School,Suburban,30,Premium,PayPal,5,774.3,154.86,25,5.0,2.4,4.2,6,71.1,18.4,3,4.1,-30.0,1,0,0,Electronics,2,30.3,23.4,78.3,1
+CUST0826,61,Female,74875,Bachelor,Urban,250,Basic,Credit Card,8,751.34,93.92,126,0.96,11.7,9.2,6,61.0,53.8,2,4.6,2.0,0,177,0,Clothing,4,26.4,18.3,52.8,1
+CUST0827,63,Other,91238,Master,Suburban,109,Premium,Credit Card,11,478.59,43.51,25,3.03,9.4,3.8,3,82.8,27.5,1,5.0,5.0,1,403,0,Clothing,3,54.1,7.3,70.5,1
+CUST0828,32,Male,49212,Bachelor,Suburban,253,Premium,Debit Card,23,1412.35,61.41,19,2.73,19.1,5.3,13,24.4,44.6,4,6.6,,2,0,1,Clothing,2,50.6,12.7,55.0,1
+CUST0829,33,Other,60042,High School,Suburban,243,Basic,Debit Card,13,1759.93,135.38,26,1.6,11.5,1.0,10,64.4,18.1,4,,31.0,4,384,0,Electronics,1,41.2,27.3,52.4,1
+CUST0830,35,Female,64525,Bachelor,Rural,349,Basic,PayPal,13,338.3,26.02,32,1.12,6.9,6.6,8,27.4,34.9,5,5.1,-9.0,0,0,1,Clothing,4,55.0,12.8,38.4,1
+CUST0831,19,Female,20000,High School,Suburban,176,Basic,Debit Card,5,291.27,58.25,44,0.85,16.9,8.2,14,19.2,33.1,3,6.8,46.0,1,691,2,Beauty,2,44.4,7.4,53.4,1
+CUST0832,26,Male,39620,Bachelor,Urban,71,Premium,PayPal,0,0.0,0.0,72,0.0,11.4,13.1,7,58.5,33.6,4,3.8,-34.0,0,565,0,Clothing,1,36.0,2.9,38.8,0
+CUST0833,24,Female,41449,High School,Suburban,280,Basic,Debit Card,13,1006.76,77.44,27,1.39,3.3,9.4,12,33.8,60.6,1,4.0,-4.0,1,51,1,Home & Garden,1,38.4,29.3,42.4,0
+CUST0834,28,Male,63947,High School,Urban,709,VIP,Credit Card,79,9201.45,116.47,76,3.34,7.3,10.5,9,77.7,36.1,2,8.6,57.0,1,480,0,Beauty,3,11.1,15.1,48.2,0
+CUST0835,39,Male,71708,High School,Urban,436,Premium,Credit Card,30,4578.71,152.62,34,2.06,3.0,17.2,12,80.1,66.4,3,6.0,8.0,0,854,0,Beauty,3,52.7,4.4,55.6,1
+CUST0836,43,Male,79296,Bachelor,Urban,165,Premium,Debit Card,20,627.8,31.39,18,3.64,10.7,2.8,3,73.0,53.2,1,8.1,52.0,0,0,0,Home & Garden,2,31.2,12.8,53.1,0
+CUST0837,63,Female,95517,High School,Urban,1096,Basic,Credit Card,28,1275.58,45.56,48,0.77,11.6,2.4,7,22.2,42.3,1,7.7,59.0,1,0,1,Electronics,1,59.9,6.4,44.9,0
+CUST0838,25,Female,57657,Bachelor,Suburban,973,Premium,PayPal,59,2010.97,34.08,56,1.82,24.5,6.2,7,70.6,48.3,2,7.1,41.0,1,174,0,Home & Garden,4,18.2,20.7,69.2,0
+CUST0839,54,Female,89336,Bachelor,Suburban,93,Basic,Debit Card,7,555.38,79.34,36,2.26,7.1,2.1,8,44.9,52.0,2,6.4,31.0,0,814,0,Clothing,1,41.8,13.3,32.3,0
+CUST0840,36,Female,43274,Bachelor,Suburban,30,Basic,Credit Card,2,74.22,37.11,2,2.0,6.2,6.9,8,48.6,64.1,3,7.7,51.0,4,327,0,Home & Garden,1,18.0,7.6,47.5,1
+CUST0841,39,Male,82191,Bachelor,Suburban,540,Premium,Credit Card,42,4212.35,100.29,8,2.33,1.9,2.2,9,34.2,29.0,2,6.4,27.0,0,97,0,Beauty,3,36.0,8.7,48.7,0
+CUST0842,50,Female,88219,Master,Urban,703,Basic,Credit Card,23,3781.89,164.43,15,0.98,7.1,2.6,7,53.4,21.3,3,7.1,34.0,1,0,2,Sports,2,44.4,15.0,42.3,0
+CUST0843,23,Male,26014,High School,Suburban,1375,Premium,Debit Card,87,1982.6,22.79,14,1.9,6.5,1.2,4,23.4,54.3,1,8.7,51.0,3,219,0,Home & Garden,3,31.7,21.9,37.5,0
+CUST0844,45,Female,63308,Bachelor,Urban,882,Basic,Debit Card,28,1305.82,46.64,50,0.95,8.9,6.5,9,68.7,51.3,1,4.5,-30.0,0,256,0,Electronics,2,35.1,25.3,28.9,0
+CUST0845,42,Female,70359,High School,Urban,367,Basic,Debit Card,4,774.02,193.51,0,0.33,6.4,1.7,12,57.6,32.2,0,5.1,-10.0,1,41,0,Clothing,2,36.8,21.4,22.4,0
+CUST0846,47,Female,80408,High School,Suburban,302,Basic,Credit Card,4,364.88,91.22,63,0.4,6.4,7.9,7,70.4,50.8,2,6.0,16.0,0,939,0,Beauty,1,58.3,20.5,58.3,1
+CUST0847,44,Female,71949,Bachelor,Urban,30,VIP,Debit Card,7,412.28,58.9,13,7.0,8.9,8.8,9,52.6,40.7,5,3.9,0.0,0,0,1,Beauty,1,29.0,7.2,100.0,1
+CUST0848,76,Male,112060,Bachelor,Urban,113,Premium,PayPal,11,3373.67,306.7,16,2.92,7.6,3.1,7,55.0,42.2,0,5.8,1.0,0,0,1,Clothing,3,21.7,9.5,81.9,0
+CUST0849,30,Male,71249,Master,Suburban,246,Premium,Credit Card,18,1229.37,68.3,33,2.2,6.3,9.6,11,60.9,26.1,1,8.5,53.0,3,0,1,Electronics,4,61.7,8.4,63.8,1
+CUST0850,32,Female,65383,Bachelor,Suburban,396,Basic,Debit Card,4,455.3,113.83,10,0.3,6.2,8.9,8,80.4,20.0,1,4.3,-41.0,0,272,1,Home & Garden,3,25.9,20.8,34.0,0
+CUST0851,30,Male,48610,PhD,Urban,325,Basic,Bank Transfer,9,432.17,48.02,97,0.83,29.5,11.3,8,35.0,17.7,1,,35.0,4,236,2,Clothing,3,21.9,1.4,60.0,1
+CUST0852,31,Male,61660,High School,Rural,542,VIP,Credit Card,48,2037.17,42.44,4,2.66,6.1,2.8,9,67.9,50.6,2,5.6,10.0,0,115,0,Clothing,2,25.1,50.0,72.0,1
+CUST0853,30,Female,30262,High School,Suburban,131,Basic,Debit Card,10,1177.37,117.74,26,2.29,6.8,2.7,3,34.1,60.7,3,7.9,39.0,3,0,0,Sports,4,22.7,4.4,53.0,1
+CUST0854,57,Female,93029,High School,Rural,332,Basic,Credit Card,8,1627.07,203.38,85,0.72,1.5,8.5,8,73.6,43.2,2,9.9,98.0,4,0,0,Electronics,3,36.2,40.3,44.6,0
+CUST0855,61,Male,119080,High School,Urban,36,Premium,Debit Card,0,0.0,0.0,43,0.0,17.0,6.2,9,14.6,38.6,0,6.5,22.0,0,42,0,Beauty,3,29.0,17.4,27.1,0
+CUST0856,31,Male,44269,Bachelor,Suburban,213,Basic,Credit Card,7,282.09,40.3,15,0.99,0.6,6.6,6,55.4,33.4,2,7.4,68.0,3,0,1,Beauty,2,25.0,17.7,50.2,1
+CUST0857,27,Female,27545,Bachelor,Rural,554,Premium,Bank Transfer,33,4687.35,142.04,24,1.79,3.5,13.4,9,78.2,28.4,1,9.1,71.0,2,593,0,Home & Garden,2,50.6,7.2,39.5,1
+CUST0858,47,Female,63679,High School,Suburban,472,Premium,PayPal,38,2316.09,60.95,55,2.42,12.4,10.1,7,56.4,25.5,2,8.1,88.0,2,477,0,Home & Garden,5,60.4,17.1,66.3,1
+CUST0859,31,Male,31196,Master,Suburban,1868,Basic,PayPal,58,5864.04,101.1,162,0.93,1.3,8.9,8,12.8,26.4,3,7.8,60.0,2,1206,0,Clothing,2,33.6,8.0,37.1,0
+CUST0860,49,Male,64569,Master,Urban,130,Basic,PayPal,0,0.0,0.0,100,0.0,4.6,8.2,8,66.0,50.9,2,3.3,-39.0,1,0,0,Books,3,34.3,15.2,39.9,0
+CUST0861,43,Male,61902,High School,Urban,275,Basic,Debit Card,0,0.0,0.0,18,0.0,8.0,10.7,9,68.2,63.4,2,7.8,51.0,5,0,0,Sports,1,48.1,17.4,41.5,0
+CUST0862,18,Male,20000,High School,Suburban,159,VIP,Debit Card,15,680.86,45.39,284,2.83,7.5,4.7,9,41.5,31.2,1,7.3,51.0,2,0,0,Sports,2,24.7,16.9,85.0,1
+CUST0863,63,Male,94494,High School,Urban,232,Premium,PayPal,12,1434.67,119.56,0,1.55,4.5,2.1,8,72.9,43.2,0,6.9,34.0,1,0,0,Sports,4,52.6,40.7,57.5,0
+CUST0864,66,Female,111124,High School,Rural,777,Basic,Bank Transfer,18,1851.72,102.87,1,0.69,14.4,3.4,8,61.5,26.1,1,6.7,21.0,1,0,0,Beauty,5,46.1,6.8,35.4,0
+CUST0865,30,Female,32134,High School,Urban,461,Basic,Debit Card,21,2116.21,100.77,78,1.37,15.0,3.0,8,29.8,46.0,1,7.3,56.0,3,934,2,Clothing,3,61.6,22.4,52.2,1
+CUST0866,34,Female,75579,Bachelor,Rural,856,Premium,Bank Transfer,60,3082.43,51.37,10,2.1,12.6,1.0,7,53.5,35.7,0,7.8,71.0,0,382,0,Electronics,3,24.3,6.1,38.4,0
+CUST0867,44,Male,76652,High School,Rural,91,Premium,Debit Card,5,488.22,97.64,2,1.65,5.5,8.2,9,49.1,46.5,5,4.1,-3.0,0,1035,0,Electronics,5,32.0,10.8,58.0,1
+CUST0868,45,Female,85959,Bachelor,Urban,826,Basic,Debit Card,34,7442.38,218.89,12,1.23,9.2,4.3,6,40.5,14.8,3,4.7,-8.0,2,742,1,Sports,4,55.1,23.4,64.2,1
+CUST0869,49,Male,66472,PhD,Urban,30,Basic,Debit Card,4,161.96,40.49,24,4.0,5.0,4.8,6,74.5,49.4,3,6.3,43.0,5,0,1,Beauty,4,29.5,19.1,79.1,0
+CUST0870,70,Other,114568,Bachelor,Rural,877,Basic,Credit Card,25,1206.3,48.25,59,0.86,36.1,3.5,6,54.3,29.6,0,7.3,50.0,3,0,2,Books,4,12.2,41.4,65.5,1
+CUST0871,37,Female,41481,Master,Rural,159,Premium,Credit Card,5,250.07,50.01,44,0.94,10.4,5.4,7,37.5,36.7,1,5.4,4.0,0,537,2,Beauty,2,40.7,10.1,62.8,1
+CUST0872,28,Male,55464,High School,Urban,151,VIP,Credit Card,19,1644.24,86.54,12,3.77,5.5,14.8,8,23.2,63.8,4,5.5,2.0,0,0,2,Books,3,60.8,19.3,75.4,1
+CUST0873,19,Female,27318,Bachelor,Urban,287,Basic,Debit Card,11,422.46,38.41,31,1.15,31.8,1.2,10,32.3,48.1,0,7.3,59.0,1,321,0,Home & Garden,2,56.6,18.6,31.3,0
+CUST0874,29,Male,52239,Bachelor,Suburban,1129,Premium,Credit Card,76,8294.38,109.14,117,2.02,6.1,16.6,9,26.8,30.0,3,7.8,30.0,1,651,1,Books,3,35.0,10.7,60.5,1
+CUST0875,39,Female,43506,High School,Suburban,30,Basic,Debit Card,0,0.0,0.0,75,0.0,10.1,6.4,8,96.0,37.5,2,6.0,40.0,0,0,1,Sports,3,48.0,21.3,47.0,0
+CUST0876,66,Male,84164,High School,Urban,173,Basic,Bank Transfer,8,1023.6,127.95,17,1.39,14.6,3.7,8,27.6,50.1,2,7.1,44.0,3,795,1,Home & Garden,1,61.3,18.9,57.7,1
+CUST0877,32,Male,58268,Bachelor,Suburban,776,Basic,Credit Card,22,2193.2,99.69,181,0.85,5.2,4.1,3,75.8,55.7,2,6.0,12.0,0,0,0,Sports,1,23.5,24.4,58.6,0
+CUST0878,43,Female,53235,Bachelor,Urban,201,Premium,Debit Card,12,2592.89,216.07,55,1.79,4.8,2.6,9,70.1,65.1,4,4.9,-12.0,0,0,1,Beauty,1,27.9,21.5,63.4,1
+CUST0879,39,Male,68088,Bachelor,Urban,88,Basic,Credit Card,10,418.05,41.8,2,3.41,16.4,1.0,11,37.6,70.1,1,7.1,,1,2,1,Beauty,3,56.8,3.2,69.3,0
+CUST0880,57,Female,66553,Bachelor,Urban,221,Premium,Credit Card,11,1598.23,145.29,1,1.49,14.5,2.2,12,59.6,45.9,2,6.8,47.0,1,0,1,Electronics,1,26.2,21.9,55.0,1
+CUST0881,77,Male,120983,Bachelor,Urban,194,Basic,PayPal,0,0.0,0.0,8,0.0,14.5,5.4,5,43.3,16.9,0,8.8,81.0,1,1107,0,Sports,3,27.1,7.3,12.0,0
+CUST0882,32,Female,30822,High School,Urban,988,Basic,Debit Card,27,1804.78,66.84,58,0.82,11.7,4.5,8,63.1,33.8,4,7.1,35.0,0,710,1,Home & Garden,4,39.1,35.0,56.6,1
+CUST0883,32,Female,57594,Bachelor,Suburban,574,Basic,PayPal,24,969.95,40.41,9,1.25,29.3,7.5,11,84.1,29.1,2,6.4,20.0,1,0,2,Sports,5,65.8,5.7,40.3,0
+CUST0884,55,Female,93884,High School,Urban,281,Premium,Credit Card,20,1199.23,59.96,32,2.14,8.6,3.6,12,76.6,31.6,4,3.3,-30.0,0,0,0,Clothing,2,34.6,9.8,68.2,1
+CUST0885,50,Male,67298,High School,Urban,1781,Basic,Debit Card,58,3579.09,61.71,4,0.98,4.1,3.2,1,49.8,39.8,3,7.7,95.0,2,0,0,Beauty,3,38.9,40.4,39.1,0
+CUST0886,67,Male,107390,PhD,Urban,250,Premium,Credit Card,14,392.34,28.02,114,1.68,2.7,20.3,7,31.0,23.2,4,6.1,62.0,2,107,0,Home & Garden,4,46.6,34.7,63.2,1
+CUST0887,48,Male,78817,Bachelor,Rural,30,Basic,Credit Card,3,297.22,99.07,18,3.0,6.0,2.6,12,43.9,43.1,0,7.4,63.0,1,0,0,Books,5,41.9,38.4,33.6,0
+CUST0888,34,Male,44707,Bachelor,Urban,121,Basic,Credit Card,0,0.0,0.0,107,0.0,0.1,2.8,5,56.9,61.4,4,6.2,12.0,0,44,0,Electronics,2,20.0,3.2,42.3,0
+CUST0889,48,Female,59782,Bachelor,Urban,229,Basic,Credit Card,9,1022.03,113.56,130,1.18,20.9,10.6,7,49.7,53.7,3,5.1,14.0,0,0,1,Books,2,48.0,22.2,56.2,1
+CUST0890,56,Female,56351,Bachelor,Suburban,68,Basic,Credit Card,0,0.0,0.0,0,0.0,11.2,8.9,6,49.3,25.9,1,4.1,-29.0,1,0,0,Sports,2,31.9,4.1,33.0,0
+CUST0891,52,Female,85755,High School,Rural,1179,Basic,Credit Card,34,4445.63,130.75,28,0.87,4.0,3.9,8,76.5,57.1,1,5.9,14.0,0,1293,0,Books,2,27.1,17.3,64.9,1
+CUST0892,47,Female,49988,High School,Urban,582,Basic,Bank Transfer,16,2709.79,169.36,1,0.82,17.3,9.4,12,57.7,,5,1.0,-60.0,1,298,0,Home & Garden,4,35.6,10.3,55.7,1
+CUST0893,56,Female,87220,High School,Suburban,124,Premium,Credit Card,6,420.28,70.05,107,1.45,2.7,5.9,9,48.5,53.2,1,7.3,42.0,3,0,1,Clothing,2,85.4,17.8,64.8,1
+CUST0894,57,Female,83108,Master,Suburban,357,Premium,Credit Card,23,975.05,42.39,32,1.93,3.4,3.6,12,68.8,40.0,0,7.4,43.0,2,87,1,Books,2,61.6,22.9,43.2,0
+CUST0895,60,Male,100937,Bachelor,Suburban,511,Basic,Credit Card,18,1509.51,83.86,3,1.06,8.8,8.5,8,49.3,51.5,2,7.7,45.0,3,118,0,Sports,2,72.8,17.0,19.7,0
+CUST0896,49,Female,71809,Bachelor,Urban,1133,Basic,Debit Card,19,1549.1,81.53,5,0.5,22.8,5.4,8,54.5,22.7,3,7.0,28.0,0,1250,1,Books,1,8.6,10.6,37.4,0
+CUST0897,37,Female,52918,Bachelor,Suburban,853,Basic,Credit Card,24,1736.01,72.33,21,0.84,11.1,1.0,14,91.0,29.2,2,5.7,11.0,0,7,1,Books,3,17.8,20.6,60.5,1
+CUST0898,42,Female,76888,Master,Urban,289,Basic,PayPal,7,795.98,113.71,126,0.73,3.5,8.5,9,41.1,34.5,3,4.4,-1.0,0,0,0,Home & Garden,3,67.5,13.6,35.2,0
+CUST0899,58,Male,93336,High School,Suburban,596,Basic,Bank Transfer,27,1750.1,64.82,53,1.36,4.1,4.9,8,50.1,48.2,2,5.4,17.0,0,185,0,Sports,2,14.1,7.1,50.2,1
+CUST0900,27,Male,45002,High School,Suburban,330,VIP,Credit Card,27,1082.89,40.11,90,2.45,9.7,14.0,5,31.9,29.4,2,9.4,93.0,1,206,0,Sports,1,53.0,19.6,66.0,1
+CUST0901,45,Male,77539,Bachelor,Urban,321,Basic,Debit Card,11,973.81,88.53,20,1.03,2.1,9.7,1,68.5,13.0,3,5.5,28.0,0,378,0,Clothing,5,52.6,17.7,55.8,1
+CUST0902,34,Female,29756,Master,Suburban,48,Basic,Credit Card,9,1052.16,116.91,1,5.62,2.4,6.2,6,70.3,62.9,2,5.8,-10.0,1,483,1,Home & Garden,2,70.3,23.6,81.2,1
+CUST0903,40,Female,74102,PhD,Urban,53,Basic,Debit Card,0,0.0,0.0,164,0.0,6.6,4.0,7,29.3,50.4,3,5.9,20.0,0,977,0,Beauty,3,38.3,3.2,38.3,0
+CUST0904,59,Male,98727,High School,Suburban,301,Basic,Debit Card,12,745.98,62.17,0,1.2,13.2,5.3,8,52.9,43.8,3,3.4,-43.0,1,0,0,Home & Garden,1,63.1,1.0,35.1,0
+CUST0905,42,Other,50660,Master,Suburban,125,Premium,Credit Card,4,384.46,96.12,132,0.96,13.9,2.5,5,67.2,55.2,0,6.5,59.0,1,0,0,Electronics,2,59.2,18.8,35.8,0
+CUST0906,40,Male,59089,Master,Urban,30,Basic,Credit Card,0,0.0,0.0,20,0.0,8.8,6.2,8,51.3,41.3,3,4.2,-20.0,0,0,0,Clothing,2,29.4,6.2,56.1,1
+CUST0907,19,Male,24150,High School,Urban,513,Basic,Debit Card,13,2225.22,171.17,0,0.76,15.5,14.7,5,38.4,20.5,0,5.7,24.0,1,553,2,Clothing,3,23.9,34.3,52.5,1
+CUST0908,51,Male,77123,Bachelor,Rural,30,Premium,Debit Card,0,0.0,0.0,52,0.0,25.0,17.9,6,62.8,24.2,2,5.6,27.0,1,0,0,Sports,4,36.9,3.6,51.1,1
+CUST0909,49,Female,81348,Bachelor,Urban,361,Basic,Credit Card,25,667.5,26.7,177,2.08,5.4,12.0,14,59.2,57.0,4,5.6,6.0,0,512,1,Sports,2,16.9,34.0,48.0,0
+CUST0910,72,Female,125181,PhD,Urban,309,Premium,Debit Card,24,1564.64,65.19,151,2.33,2.0,5.9,5,58.1,54.3,1,5.1,16.0,0,0,0,Clothing,4,13.7,42.1,73.4,1
+CUST0911,35,Male,70727,High School,Urban,1387,Premium,Debit Card,97,15994.11,164.89,7,2.1,6.0,1.4,4,30.7,27.8,3,6.9,53.0,1,2462,0,Home & Garden,2,34.9,5.9,59.7,1
+CUST0912,43,Female,47777,Master,Suburban,264,Basic,PayPal,11,292.4,26.58,8,1.25,3.6,5.1,12,85.2,49.5,0,7.3,59.0,2,0,0,Electronics,2,42.9,26.5,44.6,0
+CUST0913,43,Male,76791,Bachelor,Suburban,30,Premium,Credit Card,0,0.0,0.0,37,0.0,11.6,10.1,6,48.6,63.2,2,,26.0,0,511,2,Sports,2,38.3,5.8,47.6,0
+CUST0914,63,Female,114194,Bachelor,Urban,320,Basic,PayPal,12,653.29,54.44,45,1.12,2.8,9.4,8,36.2,37.6,3,5.3,-15.0,0,517,0,Electronics,4,29.0,34.8,46.2,1
+CUST0915,38,Female,65312,Bachelor,Urban,735,Premium,Debit Card,54,5256.26,97.34,60,2.2,7.7,4.7,7,93.0,53.0,3,7.1,74.0,2,788,0,Clothing,2,6.1,26.9,60.1,1
+CUST0916,44,Female,85355,Bachelor,Urban,2000,Basic,Credit Card,62,960.32,15.49,8,0.93,3.6,4.4,3,55.2,48.1,4,5.7,10.0,0,0,0,Home & Garden,4,51.5,17.0,41.7,1
+CUST0917,49,Male,106524,Master,Urban,225,Basic,Debit Card,12,1872.3,156.03,143,1.6,6.4,7.1,9,25.2,37.2,2,8.2,78.0,2,452,1,Electronics,1,30.7,22.4,39.5,0
+CUST0918,42,Other,81266,Master,Urban,154,Premium,Debit Card,13,1038.58,79.89,45,2.53,8.1,5.6,7,62.5,28.8,1,7.6,45.0,2,167,0,Beauty,5,16.5,12.7,64.2,1
+CUST0919,33,Female,54800,Master,Suburban,948,VIP,Bank Transfer,104,3980.42,38.27,84,3.29,12.9,5.1,7,59.1,25.1,6,5.1,33.0,3,0,0,Books,3,9.8,8.7,94.9,1
+CUST0920,42,Male,81586,High School,Urban,84,VIP,Credit Card,6,297.27,49.54,34,2.14,8.1,4.9,7,23.5,27.9,2,5.4,0.0,0,808,0,Clothing,6,47.3,13.8,65.4,1
+CUST0921,56,Female,87963,Bachelor,Urban,382,Premium,Debit Card,19,1887.41,99.34,24,1.49,5.0,13.1,8,41.3,26.0,2,7.0,41.0,0,15,0,Home & Garden,3,40.9,12.1,25.5,1
+CUST0922,24,Male,34949,High School,Urban,208,Basic,Credit Card,5,235.03,47.01,170,0.72,14.5,2.2,9,29.7,59.4,2,5.3,41.0,2,764,0,Clothing,1,61.6,14.0,58.2,1
+CUST0923,41,Female,59069,Bachelor,Rural,30,Basic,Bank Transfer,8,1597.5,199.69,39,8.0,8.5,4.2,8,36.0,55.3,2,3.3,-59.0,1,125,1,Clothing,1,40.8,22.1,96.4,1
+CUST0924,29,Male,67391,Bachelor,Rural,170,Basic,Credit Card,0,0.0,0.0,90,0.0,5.4,4.4,13,74.7,71.7,1,6.9,,3,491,1,Electronics,1,20.6,10.3,62.1,1
+CUST0925,57,Female,74784,Bachelor,Suburban,123,Basic,Bank Transfer,0,0.0,0.0,137,0.0,13.2,6.1,9,62.4,41.1,4,4.4,-12.0,0,0,1,Electronics,2,27.9,22.0,74.4,1
+CUST0926,18,Female,45696,Bachelor,Urban,463,Basic,Bank Transfer,15,1329.29,88.62,50,0.97,9.8,5.4,11,25.9,42.8,1,7.8,67.0,0,240,1,Books,3,39.9,25.2,24.8,0
+CUST0927,31,Male,55038,PhD,Urban,1188,VIP,Credit Card,116,13866.98,119.54,35,2.93,12.4,5.2,10,71.4,29.3,4,7.4,42.0,2,1458,0,Sports,1,50.5,35.7,75.8,1
+CUST0928,45,Male,49510,High School,Urban,124,Basic,PayPal,4,461.74,115.43,0,0.97,18.3,2.4,6,40.3,21.8,7,4.5,16.0,1,0,1,Books,2,54.2,16.2,57.4,1
+CUST0929,63,Male,99775,Bachelor,Urban,667,Basic,Bank Transfer,26,1531.61,58.91,1,1.17,3.0,5.4,4,86.7,55.9,3,9.8,84.0,2,0,1,Beauty,3,44.6,11.6,45.0,0
+CUST0930,39,Male,29640,Bachelor,Suburban,30,Basic,Credit Card,0,0.0,0.0,10,0.0,36.2,8.3,8,30.5,19.7,3,7.4,49.0,1,0,1,Home & Garden,2,56.1,2.9,37.9,1
+CUST0931,31,Male,56923,High School,Suburban,308,Premium,Debit Card,11,684.59,62.24,9,1.07,11.4,6.2,10,90.7,22.2,1,6.2,38.0,1,0,0,Home & Garden,2,55.0,15.9,29.4,0
+CUST0932,68,Female,112988,High School,Rural,30,Premium,Debit Card,12,296.58,24.72,13,12.0,2.8,2.2,4,39.6,45.8,3,6.4,15.0,0,379,0,Clothing,2,8.8,7.2,95.8,1
+CUST0933,18,Male,20000,Master,Suburban,1087,Premium,Credit Card,67,4707.91,70.27,16,1.85,19.9,5.8,11,25.1,18.2,4,6.5,32.0,1,0,0,Electronics,5,58.5,16.0,44.0,0
+CUST0934,18,Male,24563,Master,Urban,581,Basic,Credit Card,14,482.91,34.49,20,0.72,4.5,5.5,11,84.1,25.3,3,6.2,8.0,0,0,1,Clothing,1,31.8,14.7,52.2,1
+CUST0935,46,Female,101302,Master,Suburban,429,Premium,Credit Card,34,2069.55,60.87,24,2.38,25.3,4.1,6,36.1,35.7,1,4.8,-9.0,0,0,0,Sports,5,36.2,24.8,62.8,1
+CUST0936,32,Male,41724,PhD,Urban,694,Basic,Credit Card,21,1644.31,78.3,4,0.91,3.2,6.3,5,25.7,35.5,2,8.0,99.0,2,268,1,Clothing,2,60.0,2.9,38.1,0
+CUST0937,24,Female,20000,High School,Urban,417,VIP,Debit Card,41,1774.25,43.27,1,2.95,7.7,3.3,12,35.9,,3,2.9,-23.0,0,0,0,Beauty,2,52.4,3.0,86.4,1
+CUST0938,50,Female,99975,Bachelor,Suburban,1388,Premium,Credit Card,94,10397.38,110.61,50,2.03,14.7,8.6,8,69.7,41.8,2,7.9,67.0,0,1649,0,Home & Garden,4,65.9,7.9,55.7,1
+CUST0939,43,Female,96899,Bachelor,Urban,500,Basic,PayPal,22,1358.92,61.77,34,1.32,13.3,17.2,10,66.4,59.9,2,3.8,-18.0,0,503,1,Beauty,2,58.8,7.6,50.1,1
+CUST0940,31,Female,47595,Bachelor,Urban,1034,Basic,PayPal,32,1080.32,33.76,26,0.93,10.6,9.1,6,76.8,52.6,1,6.1,-2.0,0,208,2,Home & Garden,6,50.6,17.7,66.4,1
+CUST0941,20,Female,41922,Bachelor,Urban,291,Premium,Credit Card,26,1137.49,43.75,45,2.68,16.8,2.8,6,52.1,27.1,1,7.3,44.0,5,265,1,Beauty,3,23.2,43.6,69.6,1
+CUST0942,53,Male,101982,Bachelor,Suburban,49,Basic,Debit Card,0,0.0,0.0,79,0.0,5.7,8.3,10,57.0,33.7,0,8.3,80.0,1,0,0,Books,2,27.8,8.7,19.9,0
+CUST0943,49,Male,65203,Bachelor,Suburban,300,VIP,Debit Card,33,2256.26,68.37,25,3.3,17.5,9.7,5,45.6,14.4,1,8.7,67.0,5,0,0,Beauty,5,46.7,13.5,74.2,1
+CUST0944,38,Male,52230,Bachelor,Urban,54,Basic,Bank Transfer,0,0.0,0.0,46,0.0,4.8,7.0,9,23.4,31.2,1,6.2,30.0,1,355,0,Clothing,2,17.5,16.5,23.0,0
+CUST0945,67,Female,117123,High School,Suburban,359,Basic,Credit Card,18,1543.66,85.76,138,1.5,23.5,7.5,10,40.9,54.5,4,,22.0,1,611,1,Electronics,5,30.2,31.4,67.6,1
+CUST0946,23,Male,57935,Bachelor,Urban,263,Basic,Credit Card,9,369.16,41.02,82,1.03,5.1,5.1,13,70.2,56.3,0,7.1,25.0,0,388,1,Sports,3,29.3,10.5,58.5,1
+CUST0947,18,Female,31153,Bachelor,Urban,389,Basic,Bank Transfer,9,482.33,53.59,24,0.69,2.4,1.9,4,44.4,24.0,0,6.1,56.0,0,0,0,Sports,4,19.3,22.5,28.5,0
+CUST0948,29,Other,30743,Bachelor,Suburban,30,Basic,Bank Transfer,4,520.59,130.15,46,4.0,13.5,4.8,6,70.0,16.6,0,7.6,85.0,2,0,0,Beauty,3,37.0,5.4,62.6,1
+CUST0949,39,Female,90946,High School,Suburban,86,Basic,PayPal,7,320.85,45.84,8,2.44,9.4,2.5,9,61.8,59.5,0,5.8,14.0,1,0,0,Electronics,3,34.8,9.9,49.0,0
+CUST0950,43,Female,59495,Bachelor,Rural,270,Premium,PayPal,21,3819.08,181.86,36,2.33,10.8,4.5,9,41.3,23.3,2,6.2,13.0,0,766,2,Sports,1,34.1,28.1,47.8,0
+CUST0951,36,Male,51163,High School,Urban,1202,Basic,Credit Card,34,974.21,28.65,179,0.85,6.3,3.5,9,33.4,34.5,3,5.5,-5.0,1,0,0,Beauty,1,29.6,8.3,60.4,1
+CUST0952,45,Female,75635,Bachelor,Suburban,193,VIP,Debit Card,16,2043.65,127.73,32,2.49,12.0,2.4,6,42.9,41.5,5,2.5,-44.0,0,0,0,Beauty,2,27.3,22.6,91.0,1
+CUST0953,21,Female,52052,Master,Suburban,220,Premium,Credit Card,14,1050.17,75.01,118,1.91,22.0,12.7,5,33.6,24.2,0,7.8,85.0,1,0,0,Electronics,2,32.1,15.9,51.2,1
+CUST0954,61,Male,104750,Bachelor,Rural,501,Premium,Credit Card,33,1359.59,41.2,23,1.98,10.4,5.4,10,75.5,23.2,0,7.9,47.0,3,0,1,Electronics,3,40.9,19.6,52.5,0
+CUST0955,38,Male,65733,High School,Urban,370,Basic,PayPal,16,1343.4,83.96,304,1.3,1.9,3.6,11,58.4,79.9,1,8.5,74.0,2,812,0,Books,3,48.6,7.4,68.5,1
+CUST0956,56,Female,92739,Bachelor,Suburban,142,Basic,Credit Card,0,0.0,0.0,38,0.0,8.3,1.2,9,41.0,20.4,0,4.2,-14.0,1,393,1,Beauty,3,45.3,8.6,34.4,0
+CUST0957,45,Female,71153,Bachelor,Suburban,211,Basic,Debit Card,8,446.91,55.86,1,1.14,11.5,9.4,10,75.8,38.2,1,5.6,37.0,4,0,1,Clothing,2,65.9,22.6,69.8,1
+CUST0958,46,Female,80362,Master,Urban,98,Premium,Bank Transfer,5,313.61,62.72,39,1.53,24.5,6.4,5,59.2,14.5,2,7.8,60.0,0,0,0,Home & Garden,3,24.6,11.1,43.7,0
+CUST0959,48,Female,36967,Bachelor,Suburban,1352,VIP,Credit Card,131,15983.61,122.01,14,2.91,14.0,18.8,8,29.1,60.8,0,10.0,79.0,2,2331,0,Home & Garden,3,41.3,1.2,62.7,1
+CUST0960,46,Female,67541,Bachelor,Urban,55,Basic,Bank Transfer,0,0.0,0.0,1,0.0,4.1,3.1,6,51.2,42.2,4,6.1,33.0,3,250,1,Beauty,4,21.5,8.4,46.6,0
+CUST0961,49,Female,79960,Bachelor,Suburban,185,Basic,Bank Transfer,5,459.0,91.8,77,0.81,8.0,12.1,9,14.4,31.8,2,8.3,68.0,4,1103,0,Clothing,4,24.5,22.8,55.8,0
+CUST0962,59,Male,72275,High School,Rural,30,VIP,Debit Card,0,0.0,0.0,14,0.0,14.5,4.8,11,54.1,49.7,1,5.4,-6.0,0,0,0,Sports,1,40.2,11.8,37.6,0
+CUST0963,42,Male,71705,High School,Suburban,100,Basic,Credit Card,0,0.0,0.0,71,0.0,12.2,2.6,5,52.9,61.6,1,5.2,20.0,0,0,1,Electronics,2,46.7,28.8,68.3,1
+CUST0964,50,Male,74683,Bachelor,Suburban,606,Premium,Credit Card,36,3606.06,100.17,15,1.78,12.7,3.9,11,71.4,54.1,4,7.0,35.0,2,0,0,Home & Garden,2,61.1,14.8,59.5,1
+CUST0965,38,Female,85842,Bachelor,Suburban,89,Premium,Debit Card,8,624.22,78.03,9,2.7,2.4,5.8,11,19.5,,5,,17.0,0,74,0,Books,4,55.8,4.2,53.8,1
+CUST0966,61,Female,115535,Bachelor,Urban,33,Premium,Credit Card,0,0.0,0.0,164,0.0,13.4,3.6,8,64.3,37.8,1,6.3,28.0,0,468,0,Sports,3,51.9,22.6,43.5,0
+CUST0967,29,Female,36953,High School,Urban,257,Basic,Credit Card,7,231.49,33.07,20,0.82,9.9,2.0,5,57.4,58.1,2,5.9,14.0,0,72,0,Books,2,55.8,41.7,58.0,1
+CUST0968,67,Male,96397,High School,Suburban,30,Basic,Bank Transfer,8,1382.33,172.79,41,8.0,13.8,2.5,10,28.6,51.5,1,5.2,-8.0,0,0,0,Home & Garden,3,15.5,30.4,77.2,0
+CUST0969,39,Female,60031,Bachelor,Urban,35,Premium,Credit Card,7,356.46,50.92,42,6.0,9.4,7.8,6,56.1,45.9,2,8.5,79.0,3,663,0,Clothing,1,46.8,16.1,85.1,1
+CUST0970,18,Female,20000,High School,Urban,659,VIP,PayPal,70,5282.91,75.47,36,3.19,7.4,2.3,7,72.5,19.7,1,10.0,82.0,2,792,2,Clothing,3,47.4,8.9,64.3,1
+CUST0971,41,Female,67265,Bachelor,Suburban,590,Basic,Credit Card,17,325.19,19.13,110,0.86,17.8,3.2,5,56.2,32.1,1,8.5,84.0,1,0,1,Books,3,24.2,10.3,54.4,1
+CUST0972,29,Female,32566,High School,Urban,986,Basic,Debit Card,35,2016.58,57.62,50,1.06,11.7,2.3,7,28.4,51.3,2,7.7,41.0,2,0,1,Beauty,4,29.5,19.5,37.0,0
+CUST0973,52,Male,63551,Bachelor,Urban,771,Premium,Bank Transfer,50,4703.07,94.06,23,1.95,2.8,6.5,10,32.8,45.9,2,7.9,40.0,3,343,0,Sports,3,42.3,5.5,60.2,1
+CUST0974,30,Female,55091,Master,Suburban,459,VIP,Credit Card,44,8183.04,185.98,89,2.88,9.1,24.8,12,85.7,18.2,1,7.9,79.0,4,1054,0,Home & Garden,5,16.5,29.2,76.4,1
+CUST0975,33,Male,60503,High School,Urban,30,Premium,Credit Card,4,448.58,112.15,8,4.0,6.4,7.5,8,22.4,43.7,2,3.4,-30.0,1,0,0,Electronics,1,43.9,15.7,53.0,1
+CUST0976,18,Male,20000,Bachelor,Rural,610,VIP,Debit Card,58,3509.9,60.52,35,2.85,5.7,2.9,6,38.5,58.8,4,5.4,-20.0,0,0,1,Clothing,4,12.6,5.0,66.3,1
+CUST0977,33,Female,64490,High School,Rural,747,Basic,PayPal,32,860.98,26.91,135,1.29,12.0,6.5,10,70.7,34.7,3,7.4,47.0,1,0,0,Books,4,36.0,25.6,39.8,0
+CUST0978,18,Female,20000,Bachelor,Suburban,641,Basic,Debit Card,20,3234.12,161.71,44,0.94,9.5,3.1,5,66.2,47.0,0,6.1,32.0,1,298,2,Home & Garden,2,69.6,25.4,51.2,0
+CUST0979,18,Female,26507,Bachelor,Urban,284,Premium,Credit Card,22,1291.51,58.71,76,2.32,11.8,6.0,2,60.2,46.5,2,6.7,43.0,4,810,0,Sports,3,43.4,40.1,89.6,1
+CUST0980,51,Female,91445,Bachelor,Suburban,106,Premium,Credit Card,14,1314.7,93.91,47,3.96,16.0,13.8,5,36.0,18.5,0,9.0,69.0,3,0,1,Beauty,3,44.5,20.0,76.0,1
+CUST0981,51,Female,78636,Bachelor,Suburban,746,Basic,Bank Transfer,30,1818.63,60.62,82,1.21,7.8,5.2,5,31.6,35.5,2,8.4,58.0,2,295,1,Electronics,2,60.1,5.5,68.0,1
+CUST0982,46,Female,78811,Master,Suburban,519,Basic,Bank Transfer,10,1008.08,100.81,130,0.58,15.6,6.8,12,64.5,33.3,0,,75.0,2,0,0,Electronics,3,46.4,13.7,35.9,0
+CUST0983,25,Female,28754,High School,Urban,1580,Premium,Debit Card,107,16867.29,157.64,14,2.03,5.0,5.3,15,77.0,38.1,2,,87.0,0,1572,1,Beauty,5,23.0,17.9,56.9,0
+CUST0984,39,Male,58193,High School,Suburban,67,Basic,PayPal,6,727.04,121.17,8,2.69,18.4,9.9,9,22.5,37.6,4,6.3,7.0,0,842,1,Clothing,2,63.3,24.0,54.7,1
+CUST0985,39,Male,58052,Master,Suburban,102,Basic,Debit Card,7,473.1,67.59,29,2.06,5.4,8.4,7,50.5,23.2,3,5.3,-13.0,0,87,1,Electronics,6,51.8,9.9,32.9,0
+CUST0986,22,Male,20000,Bachelor,Suburban,95,Premium,Debit Card,0,0.0,0.0,54,0.0,3.3,4.1,9,70.2,43.1,3,8.1,82.0,1,0,0,Home & Garden,2,50.5,9.5,37.5,0
+CUST0987,62,Male,90458,Master,Suburban,629,Premium,Credit Card,38,7941.32,208.98,11,1.81,10.9,8.4,11,66.8,29.7,1,4.9,16.0,0,1238,1,Clothing,1,42.9,2.5,53.9,1
+CUST0988,53,Male,58631,Bachelor,Suburban,82,Premium,Debit Card,10,1390.11,139.01,0,3.66,8.1,6.1,6,59.8,40.5,2,6.3,12.0,2,546,2,Clothing,1,45.1,15.5,66.0,1
+CUST0989,36,Male,48823,Master,Suburban,30,Basic,Debit Card,0,0.0,0.0,18,0.0,8.8,3.8,7,41.1,21.9,3,4.8,-10.0,0,0,1,Clothing,2,49.4,25.6,35.7,0
+CUST0990,40,Male,58477,Bachelor,Urban,2000,Premium,Credit Card,131,16752.62,127.88,156,1.96,2.9,3.9,5,37.8,17.6,5,8.1,94.0,0,1078,0,Beauty,2,31.3,9.0,45.8,0
+CUST0991,43,Other,63617,Bachelor,Suburban,30,Premium,Debit Card,9,1243.82,138.2,53,9.0,3.0,6.0,11,61.9,40.0,0,6.7,47.0,1,329,1,Home & Garden,3,53.9,11.6,92.5,1
+CUST0992,18,Male,20000,Master,Urban,721,Premium,PayPal,47,3213.96,68.38,23,1.96,6.3,6.7,5,18.1,41.2,1,10.0,99.0,2,304,0,Books,1,36.4,17.8,22.0,0
+CUST0993,36,Female,55264,Bachelor,Urban,181,Premium,Debit Card,8,1671.73,208.97,9,1.33,13.7,4.7,7,55.1,38.1,1,8.0,78.0,6,0,0,Electronics,3,36.9,2.5,47.7,0
+CUST0994,29,Male,51132,High School,Urban,737,Basic,Debit Card,20,3072.91,153.65,19,0.81,6.5,6.8,9,41.1,47.7,2,4.9,-9.0,0,835,0,Electronics,3,51.5,6.7,23.9,0
+CUST0995,24,Female,47708,High School,Suburban,323,Basic,Bank Transfer,12,846.79,70.57,8,1.11,3.1,2.9,7,67.3,37.2,2,2.2,,0,0,1,Books,2,41.8,14.2,65.2,1
+CUST0996,35,Male,44754,High School,Urban,927,Basic,Credit Card,24,1482.4,61.77,5,0.78,18.5,2.2,6,38.6,43.5,2,4.8,-9.0,0,359,0,Clothing,1,40.3,7.6,56.7,1
+CUST0997,66,Male,79542,High School,Suburban,1042,Basic,Debit Card,33,4501.58,136.41,106,0.95,3.0,1.4,10,58.9,30.4,4,6.5,,1,1037,0,Sports,2,29.9,5.9,47.3,0
+CUST0998,49,Female,60709,Bachelor,Suburban,30,Premium,PayPal,3,721.6,240.53,272,3.0,9.0,7.7,1,24.0,69.4,0,6.7,44.0,0,0,1,Home & Garden,2,27.0,10.0,63.3,1
+CUST0999,31,Male,40232,Bachelor,Urban,31,Premium,Debit Card,8,277.97,34.75,8,7.74,13.8,1.3,10,30.0,57.4,1,5.8,19.0,0,0,0,Clothing,3,40.8,9.5,79.8,1
+CUST1000,48,Male,69631,Bachelor,Urban,115,Premium,Credit Card,11,1140.17,103.65,2,2.87,5.9,6.8,8,68.1,39.8,0,6.1,30.0,4,0,1,Clothing,2,32.6,26.3,61.7,1
